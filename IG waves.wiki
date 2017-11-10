@@ -1,0 +1,12 @@
+= Navigation =
+
+== General concept ==
+Modulations in shear stress gradients, forced by variations in short wave heights (wind waves or swell waves) in wave groups, cause time varying set-up/set-down oscillations. These oscillations are the IG waves or long waves in the surfzone.
+
+== Notes ==
+* It has turned out the breaker point variation (ie the initiating point in the surfzone for large gradients in radiation stress) and wave height variation are a much stronger forcing on IG waves than nonlinear interaction of shorter waves.
+
+=== Generation ===
+* There appears to be two differing theories about the forcing.
+	1. The surfzone is saturated and long wave forcing is proportional to $γhₓ$, where $γ$ is the depth-induced breaker index and $hₓ$ is the cross-shore slope. In this case the time-varying cross-shore location of breaking (break-point), which oscillates with the wave group, is responsible for generating sufficient forcing for long waves, because before the onset of breaking there is little gradient in radiation stress.
+	2. Gradients in radiation stress are caused by groupiness and persist into the surfzone.

@@ -1,0 +1,10 @@
+= General =
+
+== Notes ==
+* Assumes wave action is stationary, since the travel-time of short-waves in coastal areas is small compared to the time scales of the wind and current fields
+* Parameterizes the wave action balance equation.
+	- Treating the source terms is computationally prohibitive (at that time, 1989) and the source terms in the presence of currents are not well understood
+	- Parameterize in terms of directional wave functions.
+		1. $A₀(θ)$ is zero-moment of the directional wave action spectrum
+		2. $ω(θ)$ is mean frequency as function of direction which is computed from the first-moment divided by the zero-moment of the spectrum
+* The steady wave action balance equation (i.e. no time-derivative term or frequency shifting term) is recast into two separate equations which express the stationary transport of the zero and first-moment of the wave action spectrum.

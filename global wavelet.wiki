@@ -1,0 +1,1 @@
+The average of the [[wavelet|continuous wavelet transformation]] for a given scale. The continous wavelet transformation is a convolution of a signal with a normalized and scaled mother wavelet function.

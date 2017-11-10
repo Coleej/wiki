@@ -1,0 +1,29 @@
+= Synopsis =
+
+
+= Conclusion =
+
+
+= Notes =
+* The authors speculate that [[XBeach]] is artificially producing a flatter surfzone than exists in nature. Thus, the swash dynamics are not being captured by the wetting/drying scheme as they usually do for milder sloping dune/beaches.
+* Reproducing the same Monte Carlo probability model as was used for the analytic (< 1 hr) and SBeach (40 days) erosion function was estimated to take 4 and ½ millennia to complete.
+
+== Model setup ==
+=== Grid ===
+* 1D model
+* $Δx = 2m$ in the surfzone and $17m$ further offshore
+
+=== Parameters ===
+* Chézy's coefficient = $65m½/s$
+* set a d50 and a d95
+* calibration:
+	* critical slopes = 0.6 (dry) and 0.3 (wet
+	* breaking formulation = [[Roelvink (1993)]]
+	* include/exclude rollers = include
+	* hmin = 0.05m
+	* hswitchx = 0.1m
+	* facAs = 0.25
+
+=== Physics ===
+* used Soulsby-Van Rijn equation for sediment transport 
+* Used PM spectrum to force short-wave BC

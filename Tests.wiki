@@ -1,0 +1,17 @@
+= Navigation =
+== Tests ==
+* [[XBeach test01]]
+* [[XBeach test03]]
+
+== Notes ==
+* Three initial bathymetric inputs for tests near Caminada.
+	1. 2010 1-D transects
+		- Multiple transects
+		- Compare with 2011 post-Lee data
+		- Average over each transect
+	2. Interpolated 2-D surface from 2010 survey transects
+		- Compare with 2011 surveys
+	3. 2-D run with DEM input
+		- CoNED
+		- BICM bathymetry
+		- Compare these two

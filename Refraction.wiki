@@ -1,0 +1,11 @@
+= General concept =
+Change in wave direction due to spatially varying phase speed. The variability in phase speed is due to spatially variable depth (which controls phase speed through the dispersion relationship) and currents (which bodily transports the wave in its direction). These are known as depth-induce and current-induced refraction, respectfully.
+
+== Speed in directional domain ==
+The turning of the wave is represented by a direction speed which is the sum of depth-induced and current-induced refraction.
+
+The expression for directional speed is cast in m,n space (Holthuijsen 2007) where the m-direction is an iso-phase line (can be the crest) the n-direction is normal to the wave (wave ray). The refraction speed is then given by:
+
+$c_θ = - (c_g/c)*(∂c/∂m) - (∂Uₙ/∂m)$
+
+where $c_g$ is the group speed, $c$ is the phase speed, and $Uₙ$ is the component of the current in the direction of the wave normal.

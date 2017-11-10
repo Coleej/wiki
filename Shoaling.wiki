@@ -1,0 +1,7 @@
+= General concept =
+As waves enter shallow water, they begin to "feel" the bottom. Based on the dispersion relationship, their phase speed accordingly slows down. However, since their energy per unit crest length must be conserved this decrease in phase speed is compensated by an increase in amplitude, thus conserving the wave energy.
+
+
+== Notes ==
+* For [[Random waves]], the lower frequency components are affected to a greater extent by shoaling than the higher frequency components. Thus, the [[Wave spectrum]] is enhanced in the low frequency band.
+	- This follows from the dispersion relationship.

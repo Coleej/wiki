@@ -1,0 +1,13 @@
+= Files =
+[[file:~/Documents/05_meetings/10_research_group/2017-06-09/report.odp|report]]
+[[file:~/Documents/05_meetings/10_research_group/2017-06-09/report.pdf|pres]]
+
+
+= TODO =
+1. [X] Read Kennedy and Chen (2010)
+2. [X] Write up time-series of wave data and water level data
+	- Make all plots of all HOBOs
+	- Make plots of wave data
+	- Look for an event and pull out spectra
+3. [X] Contact SonTek about ADV data
+	- Make sure to talk to a technical person

@@ -1,0 +1,9 @@
+= Synopsis =
+"The objective of this paper is to describe the magnitude and scale of errors associated with both sampling and utilization of typical nearshore bathymetric data sets. (p. 74)"
+
+
+= Conclusions =
+
+
+
+= Notes =

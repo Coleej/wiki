@@ -1,0 +1,6 @@
+= Checklist =
+1. [ ] Turn in Graduate Degree Program form (G101)
+	* [[file:~/Documents/LSU/forms/PhD/G101.odt|G101]]
+	* [[file:~/Documents/LSU/forms/PhD/course_work_petition.docx|petition]]
+3. [ ] General Exam
+	1. [ ] Dissertation Proposal (G103)

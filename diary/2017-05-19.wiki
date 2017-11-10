@@ -1,0 +1,10 @@
+= Files =
+[[file:~/Documents/Meetings/Research Group/2017-05-19/report_CJ_20170519.odp|report]]
+[[file:~/Documents/Meetings/Research Group/2017-05-19/report_CJ_20170519.pdf|pres]]
+= Notes =
+* Email Jiaze about the ADV data
+
+= TODO =
+* [X] Tasks
+	1. [X] Email Jiaze about ADV data
+	2. [X] Email manufacturer about ADV data

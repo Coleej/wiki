@@ -1,0 +1,17 @@
+= Group Meeting =
+== Files ==
+[[file:~/Documents/Meetings/Research Group/03-31-2017/update.odp|pres]]
+[[file:~/Documents/Meetings/Research Group/03-31-2017/report_2017_03_31.pdf|report]]
+
+== Notes ==
+* Potential field trip to the northern Atlantic coast in end of July.
+* Dr. Brandt's HPC camp is at the end of June for Dr. Brandts.
+
+== TODO ==
+1. [X] Look into IG waves 
+	1. [X] Look into generation of IG waves
+	2. [X] Look at implications of IG waves in the surfzone
+		- Skewness of waves are import for net sediment fluxes	
+	3. [X] How many forms of IG waves are there?
+5. [X] Start thinking about sediment transport
+6. [X] Look up Visit for HDF5

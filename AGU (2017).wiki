@@ -1,0 +1,26 @@
+= Info =
+abstract due: 2017-08-02
+abstract submission fee (student): $35 (USD)
+conference dates: 11-15 December 2017
+location: New Orleans, LA
+
+= Files =
+[[file:~/Documents/04_conferences/Fall_AGU_2017/abstract_draft.docx|abstract draft]]
+[[file:~/Documents/04_conferences/Fall_AGU_2017/AGU_fall_abstract_draft.pdf|abstract draft (pdf)]]
+[[file:~/Documents/04_conferences/Fall_AGU_2017/AGU_fall_abstract.pdf|abstract]]
+
+= Links =
+[[http://fallmeeting.agu.org/2017/abstract-submissions/|abstract submission portal]]
+[[https://eos.org/agu-news/a-guide-to-writing-an-agu-abstract|How to write an AGU abstract]]
+[[http://meetings.agu.org/abstract_db/|abstract database]]
+
+= Abstract format =
+title = 300 characters
+text = 2000 characters (exclude space, include punctuation)
+plain language summary = 200 words
+LaTex is supported
+
+= Sessions =
+NH016 - Investigation, Monitoring, Projection, and Mitigation of Environmental Changes Related to Climate Change Impact
+OS007 - General Oceanography
+OS021 - Sea Level Rise and Coastal Flooding

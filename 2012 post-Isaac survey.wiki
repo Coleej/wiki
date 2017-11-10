@@ -1,0 +1,28 @@
+= Summary =
+ Survey conducted by EMC, Inc. at Caminada using the [[2010 design survey]] (Picciola) baseline. The extent of this survey covers [[BA-45]] or increment I of the Caminada Restoration Project.
+
+* [[file:~/QGIS/Data/Caminada surveys/2012 design survey, post isaac/EMC 12-126 CAM-1 SER.pdf|report]]
+
+= Notes =
+* dates: *2012-10-24 to 2012-11-21*
+* Original format U.S. survey feet for LA south (1702) zone with NAD83.
+* Continuous lines of vegetation were surveyed and are indicated by point type code in the data.
+* The reported accuracy for the Trimble GPS unit (R8 base station + R6 rover)(sub-aerial points):
+	- Base station
+		* horz. ± 10 mm
+		* vert. ± 20 mm
+	- Rover
+		* horz. ± 8 mm
+		* vert. ± 15 mm
+* Depths were collected with an Odum Hydrotrac with the following reported accuracy:
+	- vert. ± 10mm + 0.1% of depth
+	- horz. (related to DGPS) unreported
+
+== Point type code ==
+| Code | Description               |
+|------|---------------------------|
+| EOM  | edge of marsh/toe of dune |
+| SLP  | slope of dune             |
+| WE   | water's edge              |
+| MSH  | shots in marsh            |
+	* See report for more

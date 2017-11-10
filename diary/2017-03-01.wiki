@@ -1,0 +1,39 @@
+= Navigation =
+== TODO ==
+* [X] find out who is coming from Dr. J's lab
+	- Kelin and Ling will come on Sunday
+* [X] ask Dr. Chen about sediment traps near the HOBOs
+	- Yes, put these near instrument transects and interior HOBOs
+	- Put these by the PBC pipes.
+	- Sediment traps to get the suspended sediment near the instrumentation. They have to be able to capture the sediment near.
+* [X] Find out about RTK Trimble and its operator
+	- [X] Email C4G
+* [X] Email personnel list to Dr. Xu and make sure Dr. Hagen is copied
+
+== Notes ==
+* Account number = 127-15-6101
+* How to synchronize the work-flow?
+* Wind direction determines the trip dates
+	- Probably leave Saturday and stay at LUMCON Saturday night and return Sunday night.
+	- Meet at the field support garage at 7am on Saturday.
+* Bring your own food
+* Total of 7 people
+	- Dr. Xu
+	- Annabeth
+	- Andre
+	- Cody
+	- Brendan
+	- Bill
+	- Patrick
+	- Ling Zhu
+	- Kelin Hu
+
+* See Dr. Chen's drawing for configuration of sensors at M1.
+* Use base plates for HOBOs
+* Measure vegetation properties at three cross shore locations
+	- See Dr. C's scheme for the locations
+	- Stem diameter, density, and height
+		- See diagram for the definitions of these parameters
+	- Use the 0.5x0.5m quadrant count the stem density and cut a representative amount of stems (15 per plot) for measurement in the lab.
+	- Set up vegetation sampling kits for Ling and Kelin
+* See what Giancarlo's plan with surveying is.

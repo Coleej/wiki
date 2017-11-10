@@ -1,0 +1,13 @@
+= Files =
+[[file:~/Documents/05_meetings/10_research_group/2017-07-21/draft.odp|draft]]
+[[file:~/Documents/05_meetings/10_research_group/2017-07-21/report_20170721.pdf|report]]
+
+
+= Notes =
+* Go with what I have for back-barrier for now
+* Make sure to separate the different effects from their different causes when considering the combined effect of SLR, vegetation, etc.
+
+= TODO =
+1. [X] Get real Gustav hurricane peak frequency to compute group velocity parameter to determine offshore boundary depth
+2. [X] Look up JupyterHub
+	- We have a hub on simdata 

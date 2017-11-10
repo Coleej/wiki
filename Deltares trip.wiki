@@ -1,0 +1,6 @@
+= Important items =
+
+= Files =
+[[file:~/Phd/30_deltares/project_description_qchen_ea.pdf|project description]]
+[[file:~/Phd/30_deltares/work_plan.odt|work plan]]
+[[file:~/Phd/30_deltares/work_plan_20170713.pdf|work plan pdf]]

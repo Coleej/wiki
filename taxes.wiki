@@ -1,0 +1,31 @@
+== Files ==
+[[https://www.irs.gov/pub/irs-pdf/p970.pdf|p970]]
+[[https://www.irs.gov/pub/irs-pdf/f8917.pdf|f8917]]
+[[https://www.irs.gov/pub/irs-pdf/f8863.pdf|f8863]]
+[[file:~/Documents/Taxes/2016/f1040.pdf|f1040]]
+[[https://www.irs.gov/pub/irs-pdf/i1040gi.pdf|1040gi]]
+[[file:~/Documents/Taxes/2016]]
+
+== Tax Credits ==
+	1. Tuition and Fees deduction
+		- pub 970
+		- form 8917
+	2. American opportunity credit
+		- Maximum of $2500 w/ 40% available for a refund
+		- only available for first 4 years of post-secondary education.
+			- Doesn't work for me.
+	4. lifetime learning credit
+		- Maximum $2000 tax credit and is non-refundable
+			- Fees are included in qualified expenses
+		- Figuring the credit must come from the taxable portion of fellowship
+		- Use only fees and expenses from semesters which were paid for in 2016
+			- summer 2016, fall 2016, and spring 2017 semesters
+
+== Qualified expenses ==
+	1. Tuition and fees
+	2. course-related expenses
+
+=== Fees and misc expenses ===
+	* The 1098-T didn't report all the fees + tuition which I calculated for 2016.
+		- The difference is $573.3
+	* Miscellaneous expenses for 2016 is approximately $1105

@@ -1,0 +1,16 @@
+= DeltaSEES meeting =
+== Files ==
+[[file:~/Documents/05_meetings/20_deltaSEES/2017-08-08/pres.odp|pres]]
+[[file:~/Documents/05_meetings/20_deltaSEES/2017-08-08/data_analysis_report_20170808.pdf|report]]
+
+== Notes ==
+* Ben Hartman may have historical channel bathymetry
+* Hampton has 1930's canals funded by Gene Turner
+
+=== Discussing the tasks laid out in August 2016 ===
+* Get the annual report in 3-4 weeks
+* No-cost extensions
+* Analyze data first, then plan next field deployment
+	* First pass at analysis in 60 days (~beginning of November)
+
+== TODO ==

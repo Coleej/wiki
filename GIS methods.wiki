@@ -1,0 +1,43 @@
+= Lidar =
+	* [[lidar_classification|classification]]
+	* [[lidar_proc_and_analysis|proccessing and analysis]]
+
+== Specific data sets ==
+	* [[2008_pre_Gustav_lidar#Processing|2008 USGS pre-Gustav lidar]]
+	* [[2010_USACE_lidar#Processing|2010 USACE lidar]]
+
+= Rasters =
+== GRASS ==
+* _nearest neighbor resampling_: Calculates the center of the *region*'s cell and takes the value of the raster cell into which is falls
+
+= Vectors =
+== GRASS ==
+* A topological GIS
+	* topological data is referred to as level 2 data
+	* [[spaghetti_GIS_data|spaghetti data]] is referred to as level 1 data
+* Layers allow for thematically distinct but topologically related data to be worked on (e.g time-series data for a location which didn't change)
+	
+=== Miscellaneous ===
+* Many operations (extraction, query,...) will only function on features assigned a category number
+	- It seems that *categories* in [[GRASS]] are similar to *attributes* in [[QGIS]] but are part of the geometry file (can also be part of the attribute table)
+* Many operations require a topology (i.e. the vector data is level 2)
+
+= Workflows =
+== Compare elevation by point ==
+1. Get hub distance between 2 surveys in time
+2. Extract points where hub distances is less than 2 m
+3. Join surveys based on the point IDs of the points resulting from #2
+4. Field calculate the difference between elevations in the attribute table of #3
+
+== Compare elevation by raster ==
+=== Beginning with point data ===
+1. Compute concave hull of point vector shape
+2. Set mask with the hull shape from #1
+3. Interpolate point data to raster
+	* v.surf.idw doesn't allow setting a mask
+	* v.surf.rst allows a mask
+		- Using the 2013 design survey of Caminada with default params ($Δx = 2m$) the RMSD ≈ 0.35m
+		- Should try to consider the anisotropy of beach data
+
+== Determining shorelines ==
+* It seems that the most common technique is to assume a shoreline datum and remove all the points seaward of this ([[Stockdon et al. (2012)]])

@@ -1,0 +1,26 @@
+= General Notes =
+* Flexible mesh for sediment transport might not be working
+* Defining the domain to resolve relevant sediment transport processes in Four League Bay is not easy
+   - Just Four League?
+   - Include Wax Lake and Atchafalaya river sources?
+* Develop Jupyter visualizations for Cactus
+* Check out Annual Review of Hydromechanics
+
+= Qualifying Exam =
+* 20 min presentation
+   - Highlights complete knowledge base
+   - More detailed literature review
+* Need a research plan
+   - Outlines goals
+   - Work Plan
+* Go beyond the LoI
+   - Identify the problems which the research addresses
+   - Set the dissertation research apart from what has been done
+   - Show what has been done on this so far
+   - Refine hypotheses
+
+= Action Items =
+1. [x] Present on qualifying exam presentation which should be the main focus
+2. [x] Check out Annual Review of Hydromechanics
+3. [x] Compile Thomas' data on TE
+4. [x] Look at distribution of Su

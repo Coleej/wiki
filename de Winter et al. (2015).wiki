@@ -1,0 +1,44 @@
+= Synopsis =
+XBeach's hydrodynamics are calibrated with a cross-shore array of pressure transducers and the default values are found to produce the optimum combination of short and [[IG waves|IG wave]] heights. XBeach is used to hindcast dune erosion/slumping due to a strong storm in the coast of the Netherlands in 2012.
+
+Numerical experiments are designed to test whether the variability in the sub-aerial dune topography ($z > 1.5m$ MSL) or the intertidal and nearshore bathymetry ($z < 1.5m$ MSL) is more important for producing the observed variability in alongshore erosion. The results suggest that spatial variability in dune topography, rather than hydrodynamics or nearshore bathymetry, is more likely responsible for alongshore variations in erosion.
+
+= Conclusions =
+Default values for hydrodynamics were found to be optimum for XBeach. The _dune scaling_ parameter (_DS_) was calibrated for morphology and it was found the a value of 0.67 was optimum (the default _DS_ = 0.17). For the study site, the dune morphology was more important for producing alongshore variability in erosion. However, the nearshore bathymetry was significant during certain parts of the storm (the early portion).
+
+= Notes =
+* XBeach's hydrodynamics are calibrated separately, but they field data they use us from 3 months prior to the dune erosion storm event.
+	* Choose interval around high-tide for calibration because it had approximately stationary wave heights and waver levels during that time period.
+* Simulations with the calibrated XBeach model indicate the variation in $V$, alongshore erosion density ($m³/m$), is due to initial dune topography (primarily steepness) and variability in beach/nearshore bathymetry was less important.
+
+== Hydrodynamic calibration ==
+* The RMSE depends largely on $γ$ (the breaker index), but small values of $n$ underpredict the [[IG waves|IG wave]] height.
+	- They ended up using $γ = 0.55$ and $n = 10$.
+		- These correspond to the default values which are recommended if no hydrodynamic calibration is performed.
+* The RMSE for short-wave and [[IG waves|IG wave]] height was $0.086m$ and $0.043m$, respectfully.
+
+== Morphodynamic calibration ==
+A dimensionless parameter called the _depth scale_, $DS$, is used by XBeach to simultaneously control [[threshold depth]] (_eps_), threshold water depth for undertow (_hmin_), maximum dune erosion rate (_dzmax_), and the water depth at which the critical slope switch from wet to dry and vice versa (_hswitch_). 
+	* Four simulations where run with _DS_ = 0.17, 0.5, 0.67, and 1.
+	* The results with _DS_ = 0.5, 0.67, and 1 show similar r² values (~0.5), but _DS_ = 0.5 misses some erosional patterns and _DS_ = 1.0 overestimates some erosion.
+		- The default value of _DS_ determined from field cases is 0.17.
+		- The best results were found with _DS_ = 0.67.
+		- _DS_ = 0.67 still misses alongshore variability in erosion.
+
+== XBeach model setup ==
+=== Domain ===
+* cross x alongshore dimensions = 1764m x 1120m
+	* Alongshore uniform extension of the domain 1.5km on each side.
+* min resolution: $Δx = 1m$ and $Δy = 5m$
+* max resolution: $Δx = 7.6m$ and $Δy = 20m$
+=== BCs ===
+* prescribed time varying wave and water level forcing.
+* $γ=0.55$ based on calibration.
+=== Other ===
+* spin-up = 30mins
+* bed-level writes every 12.5 hrs after each high tide
+
+== Observations ==
+* *High dune system*
+* Post-storm dune an abrupt change in slope (2.6 - 2.8 m above MSL) that indicates the new transition from beach to dune face.
+

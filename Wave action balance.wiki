@@ -1,0 +1,7 @@
+= General concept =
+Wave action density is equal to the wave energy density divided by the relative frequency. The wave action balance is thus the same conservative equation as the [[Wave energy balance]] but in terms of wave action density.
+
+Wave action density is conserved in the presence of an ambient current, whereas wave energy is not. Cast the equation in action density thus simplifies the model and removes the need to include terms expressing the effect of waves on currents and vice-versa
+
+== Notes ==
+* see Mei (1989) for complete derivation

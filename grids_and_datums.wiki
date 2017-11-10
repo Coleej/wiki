@@ -1,0 +1,88 @@
+= Definitions =
+*geoid* is the true shape of the earth defined as _that equipotential surface which most closely corresponds to MSL_
+*equipotential surface* is a surface which is everywhere perpendicular to the direction of gravity
+*geocentric coordinate system* are defined with the origin as the center of the earth
+*topocentric coordinate system* are defined with the origin at the surface of the earth (only good for areas < 1km)
+*coordinate reference system* (CRS) is a coordinate system that has been referenced to an object through a datum
+*compound coordinate reference system* is a CRS that combines a horizontal and vertical datum
+*geodetic datum* is the mechanism through which an ellipsoidal model of the earth is related to the geoid
+*datum realization* is the accurate measurements of the position of survey monuments within a coordinate reference system
+*orthometric height* is the height from current position to the geoid along a line normal to the gravitational potential level surfaces (ie a plumb line)
+*geoid height* is the distance along a perpendicular from the ellipsoid of reference to the geoid
+*ellipsoid height* is the distance along a perpendicular from the ellipsoid of reference (eg NAD83) to a point on the Earth's surface
+*composite geoid models* use gravity data as well as back-calculations from GNSS observations at well known benchmarks to approximate a geoid
+
+*Nation Spatial Reference System* is a consistent Nation Coordinate System which brings together a multitude of geodetic information
+*International Terrestrial Reference System* is a geocentric Cartesian coordinate system with its origin at the center of mass of the geoid and uses the prime meridian
+
+*equidistant projection* is a projection in which a single dimension is projected undistorted
+*equal area projection* is a projection which attempts to preserve the area of the surface being projected
+*conformal projection* is a projection which preserves the shape of the projection, ie the distortion in each dimension are equal
+*Mercator projection* is a conformal cylindrical projection
+*Transverse Mercator projection* is a Mercator projection which makes the line of contact between the Earth and developed cylinder a particular meridian
+
+= Ellipsoids =
+* The accepted values form an ellipsoid model of the earth is the Geodetic Reference System of 1980 (GRS 1980)
+* The World Geodetic System of 1984 only differs from the GRS 1980 by a small amount of _flattening_ ($= 16 x 10^{-12}$)
+	- The most WGS 84 differs from a recent geoid model is ±100m
+	- Used in GPS
+	- Positions referenced to WGS 84 can be different from GRS 1980 due to the geodetic datum (location of origin and orientation of axes)
+
+= Mean sea level =
+* Taken to be the closest thing to an equipotential surface, though it diverges due to currents.
+	- World-wide, MSL has a 1m difference from the geoid and varies over 10s of kilometers
+
+= Coordinate systems =
+* Space based positioning (GPS, GNSS, etc.) are not ellipsoidal coordinate systems (latitude, longitude) but rather geocentric coordinate systems (x,y,z)
+	- Locally important coordinate systems (UTC, WGS, etc.) must be derived from the satellite triangulated space based positions
+
+= Datums =
+* Datums are used to attach a coordinate system to an object
+	- The historical procedure was to fit an ellipsoid to the local geoid and make the origin the place of closest approximation between the two surfaces
+
+== Horizontal datums ==
+=== Specific examples ===
+* The North American Datum of 1927 (NAD27) was defined by having a origin at a survey monument in Kansas and using the Clarke ellipsoid
+* The North American Datum of 1983 (NAD83) was defined with a origin at the earth's geocenter
+
+== Vertical datums ==
+=== Tidal datums ===
+* Tidal datums only apply to locations with a few miles of the coast and are local to the location of the tidal gauge
+
+=== Geodetic datums ===
+* The National Vertical Datum of 1988 (NAVD88) approximates _The Geoid_ or average mean sea level is the surface which defines vertical datum realized at a series of benchmarks and zeroed at Father's Point in the mouth of the St. Lawrence Waterway
+* GEOID12A/GEOID12B, used as zero levels for NAVD88, are identical except for in Puerto Rico
+
+==== Determining orthometric height ====
+* GNSS observation yield ellipsoidal heights which need to be referenced to the local geoid surface in order to represent heights in NAVD88. These heights are denoted by $h$
+* Different geoid models are used to know the local separation of the ellipsoid of reference from the geoid. This separation is typically denoted by $N$
+* In order to compute the orthometric height, $H$, one must know the ellipsoidal height and the separation and apply the following relationship (illustrated [[file:images/orthometric_H.png|here]]):
+
+$H = h - N$
+
+==== Uncertainties in elevation====
+* At the 95% confidence interval geoid heights have uncertainties of 1-5cm based on current geoid models
+	- The NGS publishes geoid heights to the nearest millimeter but this is not there uncertainty
+	- Specific local uncertainties can be obtained from the NGS website (typically, to the 95% confidence interval, its between 2 and 4cm)
+* Ellipsoid heights dependent on GNSS technology have uncertainties of 1-5cm
+* Orthometric heights are then a combination of uncertainties in the geoid height and the ellipsoid height
+
+= Projections =
+* Cylindrical projections are good for equatorial regions
+* Conic projections are for mid-latitude regions with a large extent in longitude
+* Usually transverse Mercator projections are only considered for ±3° to the central meridian
+	* Since they are used for surveying purposes, it is necessary to minimize distortion at the expense of coverage
+	* In this case the scale factor ranges for 1 to 1.0014 from the central meridian to the edge of the projection
+
+== Specific types ==
+=== Universal Transverse Mercator (UTM) ===
+* This a transverse Mercator projection extended to the entire Earth which has been divided into 60 projections of 6° longitude which are bisected with central meridians
+	* See image of zones [[file:images/UTM_Zones.jpg|US]] and [[file:images/utm_zones_LA.png]]
+* The projections are split into north and south zones so that false northings can be added to the south zones in order to have positive grid values
+* The scale scale factor is 0.9996 at the central meridian and 1.0010 at 3° along the equator
+	- The relative error will therefore be bound by: [-0.004, 0.001]
+
+
+= Miscellaneous =
+* The international foot is defined as _exactly_ $0.3048 * 1m$, while the US survey foot is $12/39.37 * 1m$ (=0.3048006096)
+* GEOID12A and GEOID12B are identical except in Puerto Rico

@@ -1,0 +1,8 @@
+= Files =
+[[file:~/Documents/Meetings/Research Group/2017-06-02/report_20170602.otp|report]]
+[[file:~/Documents/Meetings/Research Group/2017-06-02/report_20170602.pdf|report]]
+
+= Notes =
+* Adding in estimated SLR to the boundary water level conditions may cause artifical oscillations in the computation domain. 
+
+= TODO =

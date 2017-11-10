@@ -1,0 +1,33 @@
+= Synopsis =
+"[The work] addresses the hypothesis that medium- and large-scale spatial patterns, O(0.01 - 1 km), of coastal change may be explained by the combined effects of longshore variable storm-induced water levels and the existing beach morphology (p.2)". This is done by hindcasting hurricane water levels and comparing them to pre-storm morphology data. The relative water levels are used to classify reaches of the beach/dunes within the [[Sallenger (2000)]] [[Storm Impact Regime]] and predict the morphological response.
+
+= Conclusions =
+* The predicted impact regime was usually more severe that the actual regime, but was correctly predicted at 51.4% and 58.31% (avg. 55.4%)of the profiles for the simulated hurricanes.
+	- This is an improvement on random chance which would be correct 33.3% of the time
+* A positive correlation between shoreline erosion and beach slope was found for both hurricanes.
+	- This mean that more shoreline erosion is likely to occur where the wave runup height is greater (runup is positively correlated with beach slope)
+* In the data, the overwash regime produced volume changes 2 and 4 times greater than in the swash regime
+* Impact regime could explain slightly the recovery of the island when the next years beach volume was examined and compared with the locations of the previous' storm's impact regimes
+
+= Criticisms =
+* Identical pre-storm topography (1997) is used for both hurricanes (Bonnie (1998) and Floyd (1999)), although it is unlikely that the coast completely recovered to it pre-storm state after the first hurricanes impact
+	* It is argued that this is acceptable because there was only an average decrease of 8cm and 10cm across the entire survey area for Dhigh and Dlow, respectfully
+* The modeling didn't include the inundation regime (i.e. is only considered swash, collision and overwash) because of the method of analyzing the dune morphology.
+	- Only 1D profiles derived from lidar data were used to define dune elevations which makes determining if the entire island at one time was inundated difficult 
+* The coastal morphology change modeling doesn't include any time-dependency, so the dune elevation doesn't change with the forcing (XBeach hadn't been created yet)
+* The impact regime is figured at the point in time where runup + surge (Rhigh) is the maximum, but the regime could have been determined as a different time if the dune elevations evolved with the forcing
+
+= Notes =
+== Topography ==
+* The shoreline position is defined by interpolating the cross-shore elevation and finding its intersection with MHW in the area (p.5)
+* "Comparisons between lidar-derived and ground-measured shorelines in North Carolina revealed a rms difference of 2.9 m (p.5)"
+* The beach slope between the dune crest or berm and the MHW shoreline was used in the calculation of the wave runup (p.9) which is different from the usual situation that uses the foreshore beach slope
+* Dune morphology was averaged with a 40m sliding window (i.e. three consecutive cross-shore profiles) in order to smooth out noise and allow for easier discrimination as to which impact regime actually occurred in nature (p.12)
+* The object determination of impact regime (defined by assumed values of cross-shore elevation change) was visually compared with pre- and post-storm profiles
+
+== Wave model ==
+* The SWAN model was tested with and without imposed wave energy BCs (derived from WaveWatch III) and a mean difference of ~15cm was found. This indicates that local wind-wave generation was the dominate forcing (p.8)
+* The significant wave was extracted at the 10m isobath every 30 mins and this was taken as the local wave conditions (p.9)
+* The RMSE for the waves was 1.29m and 2.7m (p.9)
+* During both storms the spatial variability in wave runup + surge ($≈ 41cm$) was 4 times higher that significant wave height or surge [$O(10cm)$] (p.10-11)
+	- This was due to the change is slope across the islands and its influence on the calculation of wave runup (p.11)

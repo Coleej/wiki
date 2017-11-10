@@ -1,0 +1,39 @@
+= General =
+== Links and files ==
+* [[https://pubs.usgs.gov/ds/0839/|2012 post-storm Lidar]]
+* [[file:~/QGIS/10_data/20_lidar/2012 USGS/rasters/metadata.txt|raster metadata]]
+* [[file:~/QGIS/10_data/20_lidar/2012 USGS/las/las_metadata.txt|las metadata]]
+
+= Metadata =
+== Raw data ==
+=== Acquisition ===
+* date: 2012-09-05 to 2012-10-11
+* acquired Optech 3100 Serial 05SEN175 and Leica ALS70 SN716
+
+=== QAQC ===
+* The USGS ground truthed the aerial lidar data with ground surveys in a small area of the Chandeleur Islands. They also give the report of the contractors, but it is unclear how they relate to each other. They report this accuracy:
+	- Reported by the USGS
+		* RMSE of elevation = 0.072m
+		* offset of elevation = 0.007m
+	- Reported by Aero-Metric (lidar contractors hired by the USGS)
+		- FVA = 0.245m
+		- CVA = 0.363m
+		- SVA = 0.363m
+* A survey was also conducted on Dauphin Isle
+	- RMSEz = 0.32m with an offset of 0.27m using 2
+* The lidar data _are_ shifted by some unspecified amount using a program which searches the lidar points locations and finds the difference between that and the ground truthing control point.
+	- Probably the offset for that area
+
+=== Las points ===
+==== CRS ====
+NAD83
+UTM 15n
+GEOID12
+NAVD88
+	- altimetric resolution = 0.01m
+
+== Data ==
+* Δx = 1m
+* projection: utm15 or utm16
+
+= Notes =

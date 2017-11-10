@@ -1,0 +1,17 @@
+= Navigation =
+== Notes ==
+	* Delay the deployment
+	* Deploy ADV in upward looking orientation.
+		- Bury it in the ground
+	* Use model to get flux on the marsh surface
+	* Deploy sediment traps during cold front to calibrate sediment transport
+	* One of Dr. Chen's wave gauge's has 13% error, the rest are already committed
+	* One of KX's wave gauges is valid up to 30m, but the error for this device might be greater than the waves
+
+== TODO ==
+	1. [ ] Look at HOBOs
+	2. [ ] Look at the broken wave gauge
+		- Contact Tom to figure out the atmospheric pressure background
+	3. [ ] Check out the Sontek
+	4. [ ] Pull out baseplate and work with Jiaza
+	5. [ ] Pull out one staff gauge

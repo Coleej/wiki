@@ -1,0 +1,19 @@
+= Notes =
+== General ==
+=== Future scenarios for 50 year change ===
+| scenario | SLR (m) | subsidence   | storm freq. chng | storm intense. chng |
+|----------|---------|--------------|------------------|---------------------|
+| low      | 0.43    | 20% of range | -28%             | +10.0%              |
+| medium   | 0.63    | 20% of range | -14%             | +12.5%              |
+| high     | 0.83    | 50% of range | 0%               | +15.0%              |
+
+==== Figures ====
+* [[file:images/CMP_landloss_projections.png|projected landloss]]
+* [[file:images/landloss_maps.png|landloss maps]]
+
+=== Caminada Headlands ===
+
+== Barrier island modeling ==
+* CERC equation is used for alongshore transport
+* SBEACH is used for crossshore transport
+* Silt loss is considered

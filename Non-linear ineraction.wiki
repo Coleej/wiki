@@ -1,0 +1,30 @@
+= 4-wave interactions =
+== Concept ==
+In deep water, it is possible for four individual waves to satisfy the certain resonance conditions, $k₁ + k₂ = k₃ + k₄$ and $f₁ + f₂ = f₃ + f₄$, which transfers energy from some components of the wave energy spectrum to others. Energy is only transferred within the spectrum and, thus, changes its shape. For the Jonswap spectrum, the most energy is transferred from the wind-wave frequencies to lower frequencies and some to higher frequencies. As a result, the peak frequency is shifted to the lower frequencies.
+
+== Notes ==
+* 4-wave interaction is universal and will affect any waves satisfying the resonance conditions above.
+* The 4-wave interaction is stronger in finite-depth than in deep-water.
+* Constitutes a source term (for a single frequency component) in the [[Energy balance]] equation.
+	- Explicit calculation of this source term (i.e. considering every wave component) is the discriminating factor between third-generation wave models on one-hand and second- and first-generation models on the other.
+* The 4-wave interactions have the capacity to stabilize steep waves, e.g. those generated within a storm. Steep waves in a storm have a high $H/L$ because the wind is transferring a large amount of energy to the sea in a short time over a short fetch. In this case, the tail of the spectrum may deviate from the $f⁻⁴$-tail, reflecting the high $H/L$ (the high frequencies correspond to short wave lengths through the dispersion relationship). The 4-wave interactions will transfer this energy to a lower frequency and push the spectrum's shape towards the [[Jonswap spectrum]].
+	- This stabilizing factor for storms and wind-wave generation is the reason why the [[Jonswap spectrum]] is accepted for engineering design purposes.
+
+
+
+= Triad wave-wave interactions =
+== Concept ==
+Energy is transferred from two freely propagating waves to a third propagating wave. The waves must satisfy the resonance conditions that $k₁ + k₂ = k₃$ and $f₁ + f₂ = f₃$.
+
+== Notes ==
+* The 3-wave resonance cannot be satisfied in deep-water because such a combination of waves cannot be created with the linear dispersion relationship.
+* The 3-wave resonance condition can only be complied with in extremely shallow water where the waves are non-dispersive.
+	- In slightly deeper water _near-resonance_ and _phase-coupling_ may occur and the magnitude or the energy transfer depends on the phase difference of the components calculated with the _biphase_.
+	- The _biphase_ evolves with the wave energy and thus is complicated to model in shallow water.
+	- When random waves, with a unimodal spectrum, approach the surfzone the 3-wave interactions force a secondary peak at twice the peak frequency. This peak typically only lasts for a few wave length into the surfzone.
+* 3-wave interactions may produce [[IG waves]] when $f₁ - f₂ = f₃$ and $f₁ - f₂$ are both near the peak frequency. The resulting wave direction, $k₁ + k₂ = k₃$, is at a large angle to the incident waves.
+* 3-wave interactions also produce a higher harmonic when $f₁ ≈ f₂$, and both are near the peak frequency, which is bound to the peak frequency.
+* In operational models of the [[Wave energy balance]] and [[Wave action balance]] a source term is derived which transfers energy from one wave component to its next higher harmonic.
+	- Termed the lumped-triad approximation (LTA).
+	- 3rd and 4th harmonics are usually outside the frequency range of these models.
+

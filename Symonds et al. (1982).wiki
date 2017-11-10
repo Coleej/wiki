@@ -1,0 +1,8 @@
+= General =
+Attempts to explain the consistently observed higher energy levels of cross-shore velocities ([[Huntlet et al (1981)]]) at the [[IG waves|IG wave]] frequencies than what is predicted by [[Edge waves|edge wave]] theory.
+
+The hypothesis is that time variation in the cross-shore location of the breakpoint and breaker height, due to groupiness, can produce the [[IG waves|long-wave]] motions.
+
+= Notes =
+* The time-dependent, parameterized surfzone forcing of the [[IG waves]] leads to free waves radiating in the on/off-shore direction and a standing wave shoreward of the breaker line in the wave group frequency band.
+	- Certain ranges of the incident amplitude modulation and the beach geometry may eliminate these forms of waves.

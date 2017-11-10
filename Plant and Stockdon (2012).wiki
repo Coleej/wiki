@@ -1,0 +1,14 @@
+= Synopsis =
+Sought to predict dune crest elevation change with a Bayesian network.
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+* Defined dune crest change as the different in elevation of the dune and the location of the pre-storm dune crest instead of migrating to the position of the post-storm dune crest
+	* See [[file:images/plant_2012_dune_scheme.png]]
+		* Where η98 is the extreme run-up (Rhigh in [[Sallenger (2000)]])
+		* η50 is the storm induced mean water level (Rlow in [[Sallenger (2000)]])

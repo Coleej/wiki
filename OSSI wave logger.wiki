@@ -1,0 +1,9 @@
+= Navigation =
+
+== Configuration ==
+$fₛ = 10 Hz$ sampling frequency
+$Tburst = 20 min$ burst duration
+$Tint = 30 min$ burst interval
+
+== Notes ==
+* For start time/date, configure the staff to begin one minute before the actual time/date which is desired for the start time/date.

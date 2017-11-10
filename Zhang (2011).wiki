@@ -1,0 +1,15 @@
+= Synopsis = 
+
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+== Methods ==
+=== Lidar DEM production ===
+* DEMs interpolated with progressive morphological filtering [[Zhang et al. (2003)]]
+* RMSE between the lidar DEMs and 30,000 GC points was 0.15m
+* Merged Lidar, airborne height finder (AHF), and USGS 30x30m DEMs

@@ -1,0 +1,47 @@
+= Files =
+[[file:~/QGIS/10_data/20_lidar/Mar-2008_pre_gustav_USGS/EasternLA2008_EAARLA_BE_n88g03_mosaic_metadata.txt|BE metadata]]
+
+= Metadata =
+== Raw data ==
+=== Acquisition ===
+survey date: 2008-03-09
+acquired with the EAARL
+
+=== QA/QC ===
+δx = ±1m
+vertical accuracy = not specified
+lidar vertical resolution = 3cm
+
+=== CRS ===
+GRS80
+NAD83
+GEOID03
+NAVD88
+	- altitude resolution = 0.2m
+
+== Transformed Data ==
+=== CRS ===
+GRS80
+NAD83
+GEOID12b
+NAVD88
+	- altitude resolution = 0.2m
+UTM 15n
+
+== QA/QC ==
+* The reported vertical uncertainty after changing from GEOID03 to GEOID12b is 10.198cm
+
+= Analysis =
+== Rasters ==
+=== Morphology change between 2008 - 2010 ===
+==== Import ====
+1. Downloaded raster files from USGS
+2. projected to utm15n with a resolution of 2m and using lanczos_f interpolation
+
+==== Extract dune area ====
+* This removes water surfaces and small areas
+	1. remove all cells with elevation less than 0.297m (GI MHW NAVD88)
+	2. remove all areas except the 5 major continous areas that constitute the coastline dune/beach areas
+
+= Notes =
+* The bare-earth data contains more points than the first-surface. This seems wrong

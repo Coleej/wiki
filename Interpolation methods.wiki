@@ -1,0 +1,28 @@
+= Regularized spline with tension (rst) =
+* A very general interpolation method
+	* Can be tuned to weight the influence of distance between points similar to _kriging_ and _inverse distance weighting_
+
+== Tension parameter ==
+* The tension parameter determines the influence of distance between points
+	* High tension shortens the range of influence of each point
+		* The surface goes rapidly to trend (ie the line between two points)
+		* Stretches the interpolated surface over every point like a rubber sheet
+	* Low tension increases range of influence
+		* Smoother surfaces
+		* Introduces the possibility of overshoots
+			* To reduce over shoots combine low tension interpolation with *smoothing* parameters
+* If creating a surface from contours, high tension will introduce waves where the contours form crests
+
+== Smoothing parameter ==
+* *Smoothing* relaxes how close the interpolation must be to a given point
+	* This is introduced to correct low tension interpolations which still have to intersect a given data point and as a result cannot curve fast enough. Therefor large over shoot errors are introduced
+	* High smoothing allows the surface to be farther from a given data point
+* It is possible to set spatially varying smoothing parameters
+	* Set low smoothing in areas of accurate data and higher smoothing where the accuracy is lower
+
+== Anisotropic data ==
+* This should be applied to most linear features
+* Often applied to geological data which have been formed by wind or water
+	* The anisotropy has to do with the relationship the direction has on the relationship between points, no the overall footprint of your data
+		* For an alongshore uniform beach, the more import direction is cross-shore, not alongshore. 
+* Allows from different tension parameters based on direction

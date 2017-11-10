@@ -1,0 +1,45 @@
+= DeltaSEES =
+== Summary ==
+KX wanted QC to know about the instrument deployment data, Feb. 25th, in case QC wanted to include any instruments. Ideas were pressure transducers, wave gauges, and ADVs. Hobos on the land surface to get an idea about inundation and wave gauges on the sub-aqueous perimeter of the "crab claw" for water level boundary condition.
+
+The plans for field work were discussed. The dates for building a platform are Feb. 17-19 and initial deployment on Feb. 25. The idea is now to model the "crab claw" because RT and DE think that an integrated carbon budget over the entire island is necessary to publish and KX can't logistically accomplish this with data collection.
+
+For field work, there needs to be pressure transducers on the marsh surface to measure water level and the ISCO/ADV to measure carbon flux. RT and KX have the details on this.
+
+== General notes ==
+=== RT ===
+* In order to get a good paper out of the field work, we needs spatially integrated carbon flux budget.
+
+=== DE ===
+* Thinks that in order to have an defensible sediment transport budget (as RT proposes) that we will have to model transport calibrated by point measurements in the field as proposed by KX.
+* Model the crab claw for overland fluxes of carbon.
+* Look up RDI (River pro) for mobile ADV surveys across the "crab claw" opening.
+
+=== KX ===
+* Collecting data at many points is not logistically feasible.
+* Build platform on Feb. 17-19
+* Set up Tripod Feb. 25 that will stay in for a month
+* Between Feb. 25 and late March, we decide when to do our rapid response to a cold front/large spring tide and deploy the ISCO.
+  
+=== HP ===
+* 2014 South TE lidar is a work in progress, but HP will send it out for use internally until the product is finished.
+
+=== SH ===
+* Deploy pressure transducers on the marsh surface to calibrate the wetting/drying algorithms.
+* Spatially varying water level at the boundary of the "claw" will drive hydro, and this needs to be considered in any modeling.
+
+== TODO ==
+1. [X] Get new RTK data to SH's group.
+2. [X] Send AGU poster on TCM v ADV measurements.
+3. [X] Propose pressure transducers for perimeter of "crab claw".
+4. [X] Fill Dr. Chen in on deployment schedule.
+5. [X] Prepare for to build platform on Feb. 17-18
+6. [X] Prepare for deployment of KX's instruments on Feb. 25th
+
+
+= Group Meeting =
+== General notes ==
+Get the coastline file from USGS
+== TODO ==
+1. [X] Contact Giancarlo about bathymetry observations from Four League Bay.
+2. [X] Compare survey data points with lidar and DEMs.

@@ -1,0 +1,14 @@
+= General =
+MSc thesis at TU Delft from 2015. Looks at the impact of Superstorm Sandy (2012) on Camp Osborne, Brick, NJ. Specifically, it uses XBeach to investigate the influence of a condominium (hard structure) on patterns of erosion.
+
+== Notes ==
+=== XBeach ===
+* Erosion is often over-estimated for simulations of the overwash regime. Setting the sheet flow limiter can improve this, but will have unanticipated side-effects.
+	- The sheet flow limiter problem may be solved in the Kingsday version of XBeach.
+	- The Soulsby-Van Rijn equation used for sediment transport is not strictly valid for sheet flow conditions and hence the application of the sheet flow limiter.
+
+=== Nearshore wave dynamics ===
+* IG waves are forced by oscillating gradients in radiation stess caused by the wave group variations in short wave wave height.
+	- IG wave Tp is usually 20-30s up to 3-5 minutes
+	- IG waves or long-waves are bound by the short wave groups but are released and reflect off the coastline within the surfzone as the short waves break and no longer force the IG waves.
+	- Dominate the hydromechanics (velocity and surface level) in very shallow water (run-up and run-down and wash zone).

@@ -1,0 +1,20 @@
+= Synopsis = 
+Proposes a method to correct for systemic biases in multiple lidar surveys taken of the same area through time. Often these data sets have additional difference between them that aren't corrected for in the usual post-processing.
+
+= Conclusions =
+The technique proposed bellow may be used to correct for systematic bias in lidar surveys. The method will not absolutely correct the data, but will improve elevation change studies where systematic bias on the order of 10s cm will obscure the change in elevation which is also often of this order.
+
+= Criticisms =
+
+
+= Notes =
+== Method ==
+1. Select reference locations which should remain relatively stable through time (roads, parking lots, etc.) in order to determine a baseline elevation
+	- Calculate mean lidar-derived elevation in 3m radius at each reference point
+2. Calculate the mean baseline elevation of each reference point by averaging through time (each different survey)
+3. Compute the offset of each reference point by calculating the difference of the reference point's elevation from the baseline elevation at that reference's point's location
+4. Compute mean offset for each survey by averaging all the reference point offsets for the survey
+5. Add the mean offset to all lidar points in the survey to account for the bias
+== General ==
+* The author suggests that a spatially variable offset would be possible to derive if there were enough reference points distributed within the survey extent
+* Mean offset ranged between -42 and +39 cm for the 9 surveys analyzed

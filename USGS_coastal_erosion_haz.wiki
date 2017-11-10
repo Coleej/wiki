@@ -1,0 +1,12 @@
+= Files =
+
+
+= Synopsis =
+
+
+= Notes =
+== Shore definitions ==
+* See diagram [[file:images/stockdon_shore_defs.png|here]]
+* Shoreline position ($x_{sl}$) is determined by the intersection of MHW (for the area) and the lidar data
+	- MHW = 0.37m NAVD88 for Caminada at this time
+	- A probabilistic method which accounts for the RMSE of the interpolation is considered during this process

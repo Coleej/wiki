@@ -1,0 +1,11 @@
+= File = 
+[[file:~/Documents/05_meetings/10_research_group/2017-10-06/draft.odp]]
+[[file:~/Documents/05_meetings/10_research_group/2017-10-06/report.pdf]]
+
+= Notes =
+* 
+
+= TODO =
+1. [X] Ask Bilsky about lidar
+2. [X] Contact Hongquing about lidar
+3. [X] Contact USGS St. Pete office about lidar as well

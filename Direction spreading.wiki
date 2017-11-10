@@ -1,0 +1,4 @@
+= General concept =
+Defined as the one-sided width of a 2D wave spectrum's directional distribution as a function of frequency (where the peak frequency is a special case).
+
+It is related to the standard deviation of the directional distribution and is usually represented by $σ_θ$ in reference to this.

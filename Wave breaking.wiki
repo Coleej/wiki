@@ -1,0 +1,41 @@
+= Navigation =
+
+== General concept ==
+Wave breaking in the surfzone is too complex and its relevant physics occurs at too fine a scale (i.e. turbulence) to be modeled from first-principles for the most part. Instead, the macroscopic behavior of waves in the surfzone is parametrically modeled. 
+	* These parametric models are typically formulated as sink terms in the [[Energy balance]] equation.
+	* The models typically treat the breaking wave as a propagating bore in terms of a hydraulic jump.
+
+== Specific models ==
+=== Battjes and Janssen (1978) ===
+* One of the first to use the breaker-bore analogy and incorporate the model as a term in the [[Energy balance]] equation.
+* Described the wave height distribution in the surfzone as a Rayleigh distribution, truncated at some maximum wave height $H_b$.
+* Formulation resulted in a transcendental equation for the fraction of broken waves, $Q$.
+* On steep beach, the model predicts insufficient dissipation to counter-act shoaling.
+	- Consequently, the assumed a saturated surfzone in shallow water on steeper beaches.
+
+=== Thornton and Guza (1983) ===
+* Proposed a (weighted) Rayleigh distribution for breaking waves in the surfzone based on observation.
+	- Allowed for breaking waves heights which are larger and smaller than the depth-limited $H_b$.
+		* Born out by there observations.
+	- Fit a smoothly weighted distribution to their observations.
+* This has two advantages:
+	1. Allows for an explicit express for the dissipation rate,$〈ε〉$.
+	2. Allows potentially higher breaking waves in the surf zone, which enhances dissipation rates in shallow water.
+
+=== Baldock et al. (1998) ===
+* Replaced the weighted Rayleigh distribution with a full Rayleigh distribution which is turned on with a Heavyside function for waves which exceed $H_b$.
+	- Somewhat crude compared with the observations of TH83.
+	- Does away with the need for empirical fitting.
+	- Provides an explicit dissipation rate.
+	- Estimates enhanced dissipation in shallow water because breaking wave heights can exceed depth-induced breaking.
+
+=== Janssen and Battjes (2007) ===
+* Modify B98 by removing an assumption which they use to derive an explicit expression for the dissipation rate.
+	- Still use a Rayleigh distribution for wave heights in the surfzone
+	- B98 replace $H³/h$ with $H²$ in the expression arguing that they approximate each other.
+		* The $H³/h$ controls the dissipation of wave energy.
+		* They do not approximate each other over the entire interval of integration of the Rayleigh distribution for wave height used to compute the dissipation rate.
+	- JB07 retain $H³/h$ in the integral.
+		* Explicit expression for $〈ε〉$
+		* Wave height decays with $√h$ and vanishes at the shoreline.
+			- B98 resulted in Green's shoaling and a dominance of shoaling over dissipation and a singularity at the shoreline.

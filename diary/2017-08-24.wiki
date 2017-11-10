@@ -1,0 +1,12 @@
+= Items =
+
+= Notes =
+* Coriolis effect contributes significantly to surge
+* There is a tidal potential term for large domains which models tides internal to the domain
+* Light weight mesh for the continent has 53k computational nodes
+* The north Gulf of Mexico (NGOM) model has 5.5 million nodes with 5 million acres of flood plain
+	- Extends for east LA to the Big Bend
+* ADCIRC turns off wind based on the canopy height
+* Also, directional wind dampening
+* ADCIRC Surge Guidance System (ASGS)
+	- github.com/jasonfleming/asgs

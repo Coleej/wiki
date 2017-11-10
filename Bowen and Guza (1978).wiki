@@ -1,0 +1,13 @@
+= General =
+Addresses a conflict between the theory of _Longuet-Higgins and Stewart_ (1964) and observations of surf beats made earlier. The observations suggest correlation between groups of incoming high waves and low-frequency troughs, while the theory suggested the low-frequency motions would be released in the surfzone, reflect off the shore, and propagate back out to see. If the latter was the case, which makes sense theoretically, then one wouldn't find the correlations in the observations.
+
+They conduct experiments to show that resonant generation of edge waves are possible even if the waves are breaking. Two waves with identical offshore incidence, but different frequencies will generate edge waves. These are generated if the difference frequency and angle of incidence satisfy the edge wave dispersion relationship given by Eckart's solution for free edge waves.
+
+The experiments show evidence for the existence of a $n=1$ mode edge wave which is resonantly reinforced in the down-wave direction (i.e. amplitude growth alongshore in the wave direction). They suggest that this accounts for energy in the IG wave frequency band which is often seen nearshore.
+
+= Definitions =
+_*beats*_: Low frequency motion associated with "surf beat", i.e. the superposition of wave heights which periodically produce a large wave.
+_*groups*_: Amplitude modulation associated with wave groupiness.
+
+= Notes =
+* Their analysis of Eckart's solution for edge waves shows that more edge wave modes are possible on milder sloping beaches for a given wave spectrum.

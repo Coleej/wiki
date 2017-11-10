@@ -1,0 +1,24 @@
+= General =
+The nearshore is schematically represented in a similar fashion as [[Symonds et. al (1982)]], i.e. a constant depth region (III), a sloped region (II), and the part of sloped region where breaking is occurring (I). The breakpoint (transition from II to I) is fixed unlike [[Symonds et. al (1982)]]. 
+
+Radiation stress is assumed a driver of the depth-integrated, wave-averaged momentum equation ([[NLSW equations]]), while bottom shear stress and other sources are neglected. 
+
+Assumption on the form of motion (quasisteady, regular part and a small perturbation, i.e. the amplitude modulation) allows the [[NLSW equations]] to be reformulated into the wave equation with the contribution to [[radiation stress]] gradients due to wave height modulation as the forcing.
+
+This equation is solved following [[Mei and Benmoussa (1984)]]. Various parameters are available to experiment with using numerical solutions.
+
+= Conclusions =
+A wave bound to the incoming progressive wave train is released after the wave train is completely destroyed by the surfzone. The free wave reflects off the seashore and reacts as seaward propagating free wave with the incoming bound wave. 
+
+Surf beat is primarily generated in the surfzone, even though there is multiple low frequency motions present within and without the surfzone.
+	* This conclusion (or supported conjecture) is arrived at by turning off the [[radiation stress]] gradient within the surfzone (zone I) and observing that the reflection coefficient (reflected long waves over incoming surf beat) is reduced, in comparison to where the [[radiation stress]] gradient source term is turned off in zone II and III.
+
+= Notes =
+* As the shoaling short waves approach the breakpoint, their group velocity approaches the set-down wave.
+	- This will induce a state of almost resonance.
+	- This effect of energy transfer from the short waves to the [[IG waves]] is neglected in the evolution of the short waves.
+
+* The assumption is made that the breaker point is fixed, resulting in a time-varying breaker height at this location.
+	1. As a result, there remains groupiness within the surfzone as the highest wave in the wave train will remain the highest throughout the surfzone.
+	2. Consequently, the [[IG waves|IG wave]] generation process will remain after breaking.
+		- How much [[IG waves|IG wave]] generation will remain depends on the wave height modulation which depends on shifting of the breakpoint. In this model the breakpoint is assumed fixed, so all wave height modulation will [[remain.]]

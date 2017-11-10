@@ -1,0 +1,4 @@
+# ignore temp and lock files recursively
+*~
+*.swp
+*.swo

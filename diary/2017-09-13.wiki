@@ -1,0 +1,46 @@
+= Files =
+[[file:~/Documents/05_meetings/00_individual/2017-09-13/work_plan.odp|draft]]
+[[file:~/Documents/05_meetings/00_individual/2017-09-13/work_plan.pdf|work plan]]
+[[file:~/Documents/05_meetings/00_individual/2017-09-13/minutes.odt|minutes]]
+[[file:~/Documents/05_meetings/00_individual/2017-09-13/work_schedule.odt|schedule]]
+
+= Notes =
+== Upcoming conferences ==
+* Don't worry about sticking to the exact abstract for AGU
+
+== Chapter topics ==
+=== original plan ===
+* Form 1st part of the 2nd chapter
+* Calibrate/validate XBeach model with Gustav
+	- Use March 2008 BE lidar for pre-storm
+	- Use 2010 USACE lidar for post-storm
+
+=== Survey data ===
+* This will form 1st chapter
+* Analyze the survey data as discussed with Dr. Chen. See work plan for figure
+	- rate of dune crest movement
+	- rate of volumetric erosion
+		* break up into sub-aqueous and sub-aerial
+		* run stats with the forcing to come up with qualitative understanding
+* Try to identify the different modes of forcing: hurricanes, cold fronts, ambient conditions
+
+=== Restored Caminada ===
+* 2nd part of 2nd chapter and part of the 3rd chapter
+* Model runs with numerical experiments
+
+=== Study breach formation ===
+* 3rd chapter
+* Look at the formation of breaches near old navigational channels
+* What is the status of these navigational channels after the renourishment?
+	- Do they still cause breaches?
+	- What if they were filled?
+
+== Deltares trip ==
+* Contact Ap, Robert McCall, and the Deltares US rep about the trip
+
+
+= TODO =
+1. [X] Write up meeting minutes in a better way
+2. [X] Come up with schedule to finish the three chapters in 15 months
+3. [X] Contact OSSI about wave gauges
+4. [X] Get 8 wave gauges w/ batteries ready for deployment

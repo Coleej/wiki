@@ -1,0 +1,16 @@
+= General =
+== References ==
+	* [[file:~/Documents/30_books/35_GIS/GIS_based_Analysis_of_coastal_lidar_time_series_Hardin_2014.pdf|coastal lidar book]]
+	* [[file:~/Documents/13_technical_reports/Mitasova_SpaceTimeBchMorphLidar.pdf]]
+
+= Method =
+== Removing water points ==
+1. remove all cells with elevation less than 0.297m (GI MHW NAVD88 2007 - 2011)
+2. remove all areas except the 5 major continous areas that constitute the coastline dune/beach areas
+
+== Correcting systematic errors ==
+1. Use stable locations (roads, buildings, etc) to compute the offset between two or more lidar data sets or the lidar data and high-accuracy altimetric data.
+2. Use the _median_ value of all the differences
+
+
+= Notes =

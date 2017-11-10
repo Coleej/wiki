@@ -1,0 +1,11 @@
+= Concept =
+A dimensionless [[shear stress]] defined as the ration between the fluid mechanical drag force and the sediment's submerged weight.
+
+{{$
+\tau_* = \theta = \frac{\tau_0}{(\gamma_s - \gamma_m)d_s}
+}}$
+
+* See the [[file:images/shields_curve.png|Shields curve]] which relates the threshold [[critical Shields parameter]] for the initiation of motion to [[Reynolds partical number]]
+	- It is easier to work with the [[file:images/modified_shields_diagram.png|modified Shields diagram]] as the [[shear_velocity|shear velocity]] has been eliminated and replaced with a dimensionless grain size
+	- The actual [[critical_shields_parameter|critical Shields parameter]] is hard to determine exactly because the measurement of the initiation of motion is subject, so there is a lot of scatter in the diagram, but it gives a good indication
+

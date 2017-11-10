@@ -1,0 +1,18 @@
+= List =
+== General ==
+1. [ ] Waders
+
+== Wave staffs ==
+1. [X] wire strippers
+2. [X] 4 10' C-channels
+3. [X] Box of bolts for L-brackets
+4. [X] Small socket set for L-brackets
+5. [X] 4" plastic spacer for rod and C-channel 
+
+== Wave gauge and HOBOs ==
+1. [ ] Four buoys
+2. [X] 12 bolts
+
+== ADV ==
+1. [X] +4" rubber joiner for testing ADV in flume
+2. [X] +3' 4x4

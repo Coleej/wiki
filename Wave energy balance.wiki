@@ -1,0 +1,47 @@
+= Navigation =
+* Steady waves
+* General equation
+* Wave action balance
+* Source terms
+
+== Energy balance for steady waves ==
+=== General concept ===
+In nearshore hydrodynamics total energy flux is usually spoken of as the energy which passes through a vertical plane in the direction of wave motion. This accounts for the mechanical and potential energy flux and the pressure exerted on the vertical plane, integrated from the bottom to the free surface. See Svendsen 4.2.4 for the exact equation.
+
+The rate of change of wave-current energy inside column of water is due to three contribution (see Svendsen 4.2.11):
+	1. Net inflow (negative of the gradient of energy flux)
+	2. Production of turbulent energy ($Prod$) from the organized mechanical (wave-current) energy.
+	3. Dissipation ($Đ_h$) or loss of wave-current (mechanical) energy to "heat".
+
+For steady waves (where the wave period is much small than the time scale at which they may change) than the energy equation simplifies to balancing the flux of energy with dissipation at a point (Svendsen 4.2.16).
+
+==== Notes ====
+* It is conceivable that during wave breaking $Đ_h << Prod$ (Svendsen p.212).
+* For many practical purposes it is acceptable to combine dissipation to "heat" and turbulence generation into a single term.
+	- $Đ = Đ_h + Prod$
+* An alternate form of 4.2.16 (Svendsen) is derived which expresses a cross-shore gradient of $H/h$ as an ODE in $H/h$. Analysis of the terms show the variation of wave height in the surf zone. Three sections of wave height variation are suggested.
+	1. Immediately after breaking the dissipation term dominates to reduces wave height.
+	2. A minimum in wave height is reached at some point in the surfzone.
+	3. Near the shore gradients in depth dominate to produce an increase in wave height.
+
+== General Energy balance (unsteady waves with currents) ==
+=== General concept ===
+The derivation of the general energy balance is carried out by scalar multiplication of the Reynolds momentum equations by $u_α$. This gives the time rate of change of kinetic energy produced by the work done per unit time of the forces in the momentum equation. The velocity term is decomposed (Reynolds decomposition) into current, wave, and turbulent flux components. Depth-integration and wave averaging yield the general 2DH equations.
+
+The wave energy can be separated from the current energy by subtracting the current velocity multiplied by the momentum equations. This result highlights the current-wave interaction terms for the general energy equation, of which there are three:
+	1. Current enhanced (decreased) energy flux in the waves.
+	2. Work done by radiation stress on the current.
+	3. Energy dissipation by bottom shear stress (taken from total energy).
+
+== [[Wave action balance]] equation ==
+=== General concept ===
+For linear waves, the wave part of the general energy equation can be simplified significantly. It is cast into the conservation of wave action ($E/w_r$ where $w_r$ is the relative frequency of the waves). See equation 4.5.2 (Svendsen) for the wave action equation with limited sink/source terms.
+
+== Source terms ==
+The complexity and number of source terms in the energy balance for coastal waters is greater than in oceanic waters. In coastal waters one must account for (in addition to those in the ocean): three-wave interactions, shoaling, diffraction, refraction, bottom friction, and depth-induced breaking. For the ocean, only [[Wave spectrum#White-capping|white-capping]], [[Wave spectrum#4-wave interactions|4-wave interactions]], and wind generation need be considered.
+
+=== Wave growth from wind ===
+==== Notes ====
+* $S_{in}$ represents the transfer of wind momentum into waves in the wave energy equation.
+* Wind forcing is usually cast into _friction velocity_ rather than the wind speed.
+	- _Friction velocity_ is given as $√[C_d] U_{10}$ or $√[1/ρ_{air} τ]$ and relates the wind speed to shear stress at the air-water boundary.

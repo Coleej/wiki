@@ -1,0 +1,9 @@
+= Navigation =
+
+== FLOW ==
+=== General notes ===
+* Delft3D-FLOW is a multi-dimensional (2D or 3D) hydrodynamic (and transport) simulation program which calculates non-steady flow and transport phenomena that result from tidal and meteorological forcing on a rectilinear or a curvilinear, boundary fitted grid.
+	- It (Delft3D-FLOW) aims to model flow phenomena of which the horizontal length and time scales are significantly larger than the vertical scales.
+	- The flow is forced by tide at the open boundaries, wind stress at the free surface, pressure gradients due to free surface gradients (barotropic) or density gradients (baroclinic).
+	- In the present implementation, the tangential velocity component is set to zero. It is assumed that the flow is normal to the open boundary. The data needed for the boundary conditions can be obtained from measurements, tide tables or from a larger model, which encloses the model at hand (nesting).
+* Delft3D-NESTHD is a program for offline generation of boundary conditions for nested grids. 

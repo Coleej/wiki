@@ -1,0 +1,12 @@
+= General =
+Introduces XBeach. Details on formulation of the first version and verification tests.
+
+= Notes =
+== General ==
+* Simulates a physical model experiment, which doesn't generate [[IG waves]] at the boundary (1st-order wave steering), both with and without [[IG waves|IG wave]] generation. Finds that with [[IG waves|IG wave]] generation (2nd-order wave steering) the simulation results are not as good.
+	- Stresses the importance of this for physical modelers. If they want to recreate realistic conditions they may need 2nd-order wave steering.
+* Simulates the shoaling of [[IG waves]]
+
+== Model setups ==
+=== ZWIN ===
+Δx = 0.5m - 50m

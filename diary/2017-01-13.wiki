@@ -1,0 +1,20 @@
+= Presentation =
+[[file:/home/cjohnson/Phd/Qualifying exam/qualifying_exam_pres.odp|pres]]
+
+= General Notes =
+* It is possible to combine curvilinear and unstructured meshes in D3D.
+	- Must be done manual ATM
+	- Time consuming
+* "Moving to flexible mesh" webinar (Deltares)
+* If there is a small gap between adjacent meshes, its not difficult to automatically generate a connecting triangular mesh.
+	- This depends on connecting cell geometry
+	- Triangles are easy, but quadrilateral with "T-junctions"
+	- D3D can use combined triangular and curvilinear meshes, but they prefer curvilinear grids for speed and accuracy.
+* Triangular mesh for Kelin's model of upper Breton sound is arguably necessary because of land form geometry.
+
+= TODO =
+* [x] Compile full list of data
+	- Hydro, morpho
+* [x] What does XBeach need from D3D
+	- Compile list
+	- Work out how this fit in with Kelin's work flow

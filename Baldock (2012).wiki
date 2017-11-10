@@ -1,0 +1,14 @@
+= Summary =
+The primary purpose of the paper is to discuss the concept of bound long-wave release as a result of short-wave breaking as it relates to a series of experiments which show strong dissipation of long-wave energy following short-wave breaking.
+
+= Conclusion =
+
+
+= Notes =
+* Triad interactions between swell and [[IG waves]] become close to resonant in shallow water and require distances on the order of a few wave lengths to transfer significant energy.
+
+* In the case with resonantly generated long waves with a narrow surfzone, a rapid dissipation of the forced harmonic occurs immediately following shortwave breaking, which occurs in water depths between 0.05m and 0.15m.
+	- This also occurs in the case of [[IG waves|IG wave]] generation by wave groupiness.
+
+* Comparison between cross-shore amplitude of the short-wave and its sub-harmonics show rapid dissipation of both components when the short waves begin to break.
+	- This is probably not due to the long wave breaking because at this depth the long waves have a breaker index of $γ = 0.1 - 0.3$ which is small for depth induced breaking. The higher frequency components have larger amplitude in this region. See Fig 2.

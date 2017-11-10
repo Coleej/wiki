@@ -1,0 +1,9 @@
+= Conferences =
+* [[YCSEC-A (2017)]] -- Young Coastal Scientists and Engineers Conference - America
+* [[AGU (2017)]] -- American Geophysical Union Conference
+* [[ICCE (2018)]] -- International Conference on Coastal Engineering
+* [[D3D Days (2017)]] -- Delft3D Software Days
+	- Complete conference: [[diary:2017-10-23|2017-10-23]] through [[diary:2017-11-03|2017-11-03]]
+	- XBeach X conference: [[diary:2017-10-30|2017-10-30]] through [[diary:2017-11-03|2017-11-03]]
+* [[TOS (2018)]] -- AGU's The Ocean Sciences Meeting
+	- Not attending

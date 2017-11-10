@@ -1,0 +1,8 @@
+= Concept =
+Turning of waves towards regions of lower wave amplitude. The effect is the lateral spreading of energy along a wave crest.
+
+== Notes ==
+* Diffraction effects are very much reduced in short-crested random seas (Holthuijsen 2007, p 266).
+	- Diffraction is usually not represented in operational [[Wave energy balance]] or [[Wave action balance]] models.
+		* Not included in [[XBeach]] unless the phase-resolving mode is implemented.
+		* [[SWAN]] implements diffraction by using a so-called [[phase-decoupled]] method, i.e. the amplitude in the diffraction-induced directional turning speed is replaced with $√[E(f)]$ where $E(F)$ is the energy density.

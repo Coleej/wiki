@@ -1,0 +1,15 @@
+= Synopsis = 
+Pre- and post-Ivan (2004) lidar surveys are compared to determine morphology changes at Santa Rosa Island, FL. The dunes here range from 2.5 to 8.0 m above MSL.
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+* Lidar is _first-return_ and therefore contains bare-earth and vegetation elevations
+	* While they could distinguish trees on the established dunes, they couldn't isolate the grasses found on the incipient dunes
+* Pre-storm lidar was +5 months before Ivan (which occurred in September) and the post-storm was 2 months after
+* Interpolation of raw lidar was done with TINs
+* A road was used as a GC point between lidar surveys

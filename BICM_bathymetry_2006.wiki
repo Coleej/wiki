@@ -1,0 +1,28 @@
+= General =
+* Acquired in late June, July, and August 2006
+* Acquired with System for Accurate Nearshore Depth Surveying (SANDS)
+	- Single-beam acoustic sonar
+	- 2km shore-normal transects every ~457m
+	- Every 3rd transect was extended to 7km
+	- Back barrier bay was surveyed to h ≈ 2.4m or 762m into the back bay
+* The gridded data is interpolated using a Kriging method with 100m spacing
+	- A digitized shoreline ($z = 0.5m$ NAVD88) was included in the interpolation to exclude interpolating over the islands
+* The final _vertical uncertainty_ = ± 0.09m
+	- For $(x,y,z)$ data of Racoon Point to Sandy point (includes Caminada)
+	- This is the _standard deviation_ of the difference between multiple sonar soundings at relatively the same location
+	- This is after the data has been corrected for _systematic errors_ by static shifts in certain surveys for different days and by different vessels
+
+= Error analysis =
+When two vessels crossed path, the surveyed elevation was compared and the difference was taken ($Dz$). Ideally, the elevations would be identical, but this was never the case. The difference between the two measurements estimate of the error. This quantity is analyzed to constrain and validate the data.
+
+== Method ==
+1. Data near a crossing of two vessels is interpolated to a common (x,y) position
+2. The mean in a 5m radius is taken for each survey
+3. $Dz$ is calculated as the difference in means
+4. Shifts to surveys complete by different vessels were performed to reduce mean $Dz$
+5. Shifts to individual days are performed so that $Dz → 0$ 
+
+== Results ==
+$Mean Dz = 0.012m$
+$Std Dz = 0.09m$ ← overall estimate of _uncertainty_
+

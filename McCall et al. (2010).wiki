@@ -1,0 +1,26 @@
+= Synopsis =
+
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+== Model setup ==
+=== Grid ===
+$Δx = 20m - 5m$
+	- Offshore to the dune area and then is transitions to $~20m$ in the back-barrier 
+$Δy = 60m - 40m$
+	- The mesh transforms from $60m$ in the uniform domain to $40m$ in the area of interest
+$n_x = 91$
+$n_y = 177$
+$n_{el} = 16107$
+
+=== Time stepping ===
+* average $Δt = 0.3s$
+
+== Comparison ==
+* The model results (generated with input bathymetry from May 2004) is compared to observed post-storm lidar data (Sept. 2005)
+	- The comparison is limited to the sub-aerial portion of the post-storm lidar data

@@ -1,0 +1,43 @@
+= Files =
+[[file:~/Documents/05_meetings/30_other/10_SPMCSC/draft.odp]]
+[[file:~/Documents/05_meetings/30_other/10_SPMCSC/pres.pdf]]
+
+= Notes =
+== General ==
+* Look at control point elevation in RTK survey data to see any regional movement (subsidence) through time
+
+== Seamless DEMs ==
+* When interpolating we not only need the interpolated data, we also need a measure of the error introduced by the interpolation process.
+* When making DEMs one thing is to consider _interpolation cascades_ where finer and finer resolution refinement is accompanied by higher quality data and specific use-cases for the higher resolution
+* See files from Dr. Plant for Matlab code
+
+== XBeach ==
+=== LU/LC ===
+* Use LU/LC to map different Manning's N values using published associations of friction values with different vegetation cover
+* Get LU/LC data from:
+	- Coastal Change Analysis Program (C-CAP) - https://coast.noaa.gov/digitalcoast/tools/lca
+	- Nation Land Cover Database (NLCD) - https://www.mrlc.gov/
+==== References ====
+- [[Dietrich et al. (2008)]]
+- [[Bunya et al. (2010)]]
+- [[Medeiros et al. (2012)]]
+
+=== Boundary Conditions ===
+* The water level boundary conditions need to be examined spatially because they may vary to highly over the boundary that interpolating the two corners could unrealistically increase the surge in the middle of the boundary 
+
+== Working with lidar ==
+* All [[USGS]] published lidar has already been edited, i.e. manually cleaned to some extent
+	- A technician has gone over the point data and threw out those which were clearly outliers
+* It is better (and customary) to use parking lots, instead of roads, for control points
+* Color infra-red (CIR) images can help discern vegetation from bare-ground. These were taken with some of the EAARL surveys
+* The laser scanning motion is different between the ATM and EAARL.
+	- They are still comparable, but this need to be mentioned
+* The USGS uses Delauney triangulation to interpolate DEMs
+* Get more lidar data at the Nation Map 3D Elevation Program (3DEP) - https://nationalmap.gov/3DEP/
+
+=== DEM creation ===
+* If classification or interpolation is done with tiles, then make sure there is enough over lap that no boundary points are used in the final DEM
+	- This mean that the tiles should overlap ≥ 51%
+* One set of classification parameters may *not* be used for each survey
+	* Point density will affect results and will differ between surveys (just make sure to check)
+	* Change in feature position may introduce some discrepancies 

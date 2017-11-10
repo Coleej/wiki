@@ -1,0 +1,59 @@
+= Summary =
+The dune and backshore elevation relative to surge elevation determines where and how a dune/beach will respond to storm. The alongshore length scales of dune height variability therefore controls, to some extent, how the dune field will respond. Other alongshore pattern of other processes/features (transverse nearshore sand bars) interact with the alongshore dune height length scale. This study proposes to investigate how dune height erosion is influenced by the alongshore dune height length scales (10s of meters to kilometers). 
+
+= Conclusions =
+1. Wavelet analysis suggests that there exists three dominate bands of dune crest elevation variability in space:
+	1. $L < 1700m$
+	2. $1700m ≤ L < 3200m$
+	3. $3200m ≤ L$ 
+2. Global wavelet analysis of modeled storm impacts on the original dunes suggest that high-frequency variations in dune crest elevation are impacted by the collision (Houser calls it scarping) and overwash regimes, but are largely unaffected by the inundation regime
+3. Storm impacts do not simply and linearly reduce dune heights. Rather it is an interaction between the storm and antecedent dune field history
+	- The non-uniform *real* dune morphology is stable for collision and overwash regimes (the currents are funneled through a few overwash channels), but becomes unstable for the inundation regime
+	- The uniform *filtered* dune morphologies are unstable for all storm impact scales
+	- It appears that there is some threshold where surge elevation and pre-storm dune height variability leads to enhanced erosion and dune height variability
+
+== Criticisms ==
+* Interpolating to the flexible mesh used by [[MIKE21]] introduced variations on the order of ± 0.05m and a frequency of 1/100m.
+	- The magnitude of this error does not seem negligible when it is considered that erosion of 0.20m is considered high
+	- This sheds doubt on the specific conclusion about the dune morphology change under different smoothing scenarios and storm impact regimes, but will still somewhat broadly allow for conclusion #3
+
+= Notes =
+== General ==
+* Houser (2013) suggests in the introduction that the spatial configuration of overwash and breaching is dependent on the pre-storm dune field and the interaction between the incident storm and the transverse nearshore sandbars.
+* Lidar needs to be gridded and interpolated, but is this also the case for survey points if they are supposed to co-located?
+* Low-pass filtering the duneline maintains the average dune crest height, but significantly reduces the maximum dune heights
+* It is intuitively obvious that variability in the dune crest line determines the percentage of duneline which is affect during different storm impact regimes
+* The *real* dune profile scenario produced larger overwash penetration distances in the collision and swash regimes due to the funneling of surge through the overwash conduits with commensurate reduction in the predicted velocities within the channels
+	- For the *real* profile, the maximum was 105m, whereas the most uniform profile, the maximum was 46m
+	- The washover terrace for the less variable profile was more uniform
+	- The opposite was the case for the inundation regime
+* It is suggested that overall dune height change due to storms may be the same for both a uniform and non-uniform coastline, shoreline position, overwash penetration, and duneline variability changes due exhibit significant differences between the two types of coastlines due to storm impact
+	* This suggests the alongshore variability in dune height is reinforced during storm impact by the antecedent dune height variability
+* A major loss of dune height in non-uniform (real) dunes is due to lateral erosion of overwash channels
+* Duneline retreat is less for the non-uniform (real) dunes, which suggests that the increase in dune gaps (overwash channel) limits scarping of the foredune due to enhanced flow through the gaps 
+
+== Methods ==
+=== Interpolation of elevation data ===
+1. NOAA Hydrographic Services bathymetry was gridded so that nodes of the mesh lined up with the lidar data
+2. The lidar and bathymetry data was interpolated to 1m cell size
+	- The interpolation method was inverse distance weighting with a 10m search radius
+	- The RMSE of the interpolation was 0.24m
+
+=== Analysis of elevation data ===
+* The dune crest was the maximum elevation landward of the dune toe
+* The dune toe was define as the point of maximum slope change
+* The dune toe was used in the absence of the dune crest when extracting these lines from the lidar data
+
+=== Wavelet analysis ===
+* Wavelet analysis is used to analyze the spatial scales of variation in the dune crest elevation.
+	- This is contrasted with Fourier analysis in that Fourier analysis assumes a stationary signal, while wavelet analysis does not need to assume stationarity.
+	- The [[global wavelet]] is used to determine the dominate spatial scale of variability.
+	- The dominate scales are used in high and low pass filters to highlight different scales of variation
+* The wavelet filtered data are interpolated the same at the lidar data
+	- The RMSE was 0.30m
+
+=== Hydrodynamic model ===
+* MIKE21 is used
+* The model is forced with observation of Hurricane Ike (2008) [[Kennedy et al. (2011)]]
+	- The peak Hₛ ≈ 3m and surge ≈ 1.25m
+	- These values are scaled with simple multiplication to simulate different storm conditions

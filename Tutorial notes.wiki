@@ -1,0 +1,50 @@
+= Navigation =
+== Files ==
+[[file:~/Documents/20_manuals/xbeach_grid_tutorial.pdf|grid tutorial]]
+
+== Matlab toolbox ==
+=== Useful functions ===
+	* [[http://xbeach.readthedocs.io/en/latest/matlab_toolbox.html|full documentation]]
+	* xbi = xb_generate_model
+		- returns structure (xbi) containing model parameters.
+	* xb_write_input(xbi)
+		- writes input of xbi to 'params.txt' in the cwd.
+	* xb_read_netcdf("netcdf")
+		- Reads xbeach output netcdf file and returns matlab structure.
+	* xs_peel(xbo)
+		- Converts xbeach output structure (by convention xbo) into a regular matrix with dimensions (t,x,y).
+	* xb_get_hydro(xbo)
+		- L and H abbreviations typical stand for "low" and "high" frequencies, respectfully.
+		- xb_plot_hydro and xb_plot_hydro2 visualize the returned values.
+	* xb_get_sedtrans(xbo)
+		- format sediment transport output
+	* xb_get_morpho(xbo)
+
+
+== Grid generation ==
+=== Keyword files ===
+	* _xfile_ and _yfile_ are (m x n) matrices with the x and y-coordinates corresponding to the bed level info in _depfile_.
+		- The dimension (m x n) are one more than specified in in _nx_ and _ny_ because the model requires a layer of 'dummy' cells.
+			* $nx = n - 1$
+			* $ny = m - 1$
+		- Left most column represents offshore boundary ($x_{11} ... x_{m1}$)
+		- Lateral boundaries ($x_{11} ... x_{1n}$) and the other, assume Neumann type BCs in velocity and water level. This works best if there is no alongshore gradient in bed level.
+			* *MUST ROTATE DOMAIN* to be perpendicular to shore for this to close to the case.
+			* See _xb_grid_finalize.m_ which add a few identical bed level cells to lateral boundaries
+			* 
+	* _depfile_ 
+
+
+== Hurricane Sandy ==
+=== Five ingredients for XBeach model ===
+	1. bathymetry (lidar and crm)
+	2. boundary conditions (wave spectra and water levels)
+		- derive from observations or nest in larger model
+	3. Generate model (initially with default values)
+	4. Calibrate and validate (see van Rijn, 2003)
+	5. Visualize and analyze results
+
+=== Notes ===
+	* The domain was ~800m x 1000m
+	* The offshore boundary is no more ~km offshore.
+	* Recommends interpolating to 2m resolution to preserve geometry of dune face.

@@ -1,0 +1,52 @@
+= First Day =
+== Notes ==
+=== General ===
+* Modern machine learning is primarily innovations of neural networks.
+* Image classification is now considered a solved problem.
+	* In 2014 Google and Microsoft developed DNN with +100 hidden layers which achieved superhuman accuracy in image classification at ImgNet.
+* The layers of a DNN do have meaning analogous to some building up of high level images in the case of facial recognition.
+	* The lower layers may simply be the building blocks of facial features, e.g. transitions in color.
+
+==== Difference between standard linear algebra and Machine learning ====
+	* When dealing with basic regression, we have countable DOFs, but when talking about DNN the parameter space has billions of dimensions.
+		* DNN still has to _effectively_ invert matrices.
+
+=== Data sets ===
+* Its difficult to create network, its much better to select a similar network and use it or modify it.
+	* The borrowed network should do a similar task.
+	* Instructor called creating a network a _dark art_.
+* Need to breakup data sets
+	* This is a critical step in order to avoid overfitting.
+	* Rule of Thumb
+		1. Training data = 0.6
+		2. Validation = 0.2
+		3. Testing = 0.2
+
+=== Success Metrics ===
+* *Precision* = how often are you right when you claimed to be right?
+* *Recall* = What percentage of true things did you find?
+* *Accuracy* =
+
+== Lab ==
+* Not from 1st principles
+
+=== Second Lab -- Object Detection with DIGITS ===
+==== Notes ====
+* R-CNN = Regional convolutional neural network
+* Sliding window
+	* You begin with a large image. The window roams the image and detects whether or not a whale exists in the image.
+* For object detection the instructor recommended fully-convolutional networks (FCN).
+
+
+= Second Day =
+* _Recurrent neural networks_ (RNN) keep track of the previous data points and uses them in computing the next layer.
+	* They are therefore then good for time-series data.
+	* Continuously feed them new data as they become avialable
+* _Long short-term memory_ (LSTM) is a kind of RNN.
+* Use _Keras_ as a wrapper to _TensorFlow_ and _Theanos_.
+
+== Generative models ==
+* Tries to generate input data _ad nihilo_ from a trained model.
+* _Generative Adversarial Model_ (GAN) includes a component called a Discriminator Model.
+	* The discriminator model tries to determine if the output of the generator is fake or not.
+	* The discriminator is used to force the generator to a certain point.

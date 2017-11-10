@@ -1,0 +1,10 @@
+= Definitions =
+$\sigma_{xy}$ : The _covariance_ of two jointly-distributed variables $x$ and $y$
+	- It is defined as: $\sigma_{xy} = \dfrac{1}{N} \sum^{N}_{i=1} (x_i - \overline{x})(y_i - \overline{y})$
+
+
+= Concepts =
+* If the greater values of one variable occurs with greater values of the other variable, and likewise, but vice-versa, with the smaller values, then the _covariance_ is positive and the variables are said to be _correlated_
+	* If the opposite is the case (i.e. large $x$ with small $y$ and vice-versa), then the _covariance_ is negative and $x$ and $y$ are _anti-correlated_
+
+= Notes =

@@ -1,0 +1,10 @@
+= Navigation =
+
+== Files ==
+* [[file:~/Field Work/20_deltaSEES_terrebonne_deployment/10_instrument_deployment/wave_logger_calibration.odt|calibration]]
+
+== Notes ==
+* tested on Feb. 22nd 2017 with water depth = 20.5mm
+* Atmospheric pressure read by sub-aerial HOBO = (101.14 - 100.94) kPa
+
+* accidentally set the start time to 11:00 GMT and it should be 17:00 GMT

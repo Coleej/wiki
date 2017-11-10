@@ -1,0 +1,3 @@
+= General =
+* Combination of lidar and other bathymetric data sources
+* The NOAA Data Access Viewer claims that the vertical accuracy is $~0.23m$ and is spatially variable

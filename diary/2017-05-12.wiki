@@ -1,0 +1,12 @@
+= File =
+[[file:~/Documents/Meetings/Research Group/2017-05-12/report_CJ_20170512.odp|report]]
+[[file:~/Documents/Meetings/Research Group/2017-05-12/report_CJ_20170512.pdf|pres]]
+
+= Notes =
+
+
+= TODO =
+* [X] Tasks
+	1. [X] Check the lateral sediment transport boundary conditions.
+	2. [X] Email Jiancarlo about survey data.
+

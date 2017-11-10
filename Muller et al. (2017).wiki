@@ -1,0 +1,87 @@
+= Synopsis =
+An 2D XBeach model nested in other large scale hydrodynamic models is used to study breaching at a large dune system in France. The dune system is a high dune, macro-tidal environment. The study storm has a ~5m surge + tide with ~2.5m Hₛ. Lidar data is used to construct the pre- and post-topobathymetric maps. The temporal dynamics and spatial variability of dune breaching is studied. The importance of water level and dune height/width for erosion is analyzed. Sensitivity tests on input bathymetry and [[IG waves]]
+
+= Conclusion =
+The XBeach model accurately reproduced the location of the dune breaches, but their post-storm configuration was a loose estimation. The bed-level changes show positive correlation to maximum water level and a less pronounced anti-correlation with pre-storm dune height and width. It was shown that some breaches are induced during the overtopping/inundation regime and reinforced during the ebb or return flow phase. Other places only experienced wave-induced erosion, though the entire barrier was inundated. The particular topobathymetric configuration rendered the influence of [[IG waves]] somewhat less important. The model didn't show high sensitivity to errors in pre-storm topobathymetric input.
+
+= Criticisms =
+* Older version was used which still relied on the sheet flow limiter.
+* The breaches were estimated by a post-storm survey only, the researcher didn't know the pre-storm configuration.
+	* The post-storm breach dimensions were measured with a lidar survey.
+* The post-storm lidar was used to construct the pre-storm bathymetry by incorporating restorations, etc.
+
+= Notes =
+* Uses elevation contours to delineate the dune dimension.
+* Extreme water level comparison to characteristic dune dimensions
+* Analyzes the spatial (nearshore, beach-face, back-barrier marsh, etc.) and temporal change in current fields associated with different events, e.g. initiation of breaching.
+
+== Abstract ==
+* The results show that the dune behavior during the storm was strongly related to the submersion height of the dune crest and anticorrelated with its prestorm geometry (i.e. dune height and width).
+* The governing parameters for the poststorm dune state are, in terms of alongshore-averaged erosion and in order of relative contribution: Submersion height over the dune crest, prestorm dune width, and prestorm dune crest height.
+* Finally, additional simulations showed the limited effects of infragravity waves and the initial bathymetry used in the simulations
+
+== Results ==
+* The model results show that the locations of the vulnerable areas in the dune system, where the water flowed during the storm, are consistent with the reported breaches.
+* It is shown that the dune crest elevation change is most sensitive to maximum water height above the dune. They use a _contribution to sample mean_ figure, which plots the cumulative density function of a hydro-morphic parameter (surge height, etc) against the cdf of the mean elevation change. A straight line indicates equal contribution to the sample mean along the entire range of the variable, while sharp gradients indicate intervals where the variable is sensitive.
+	* See the figure [[file:~/.vimwiki/images/CSM_Muller2017.png|here]]
+* The bathymetry of the study area, i.e. a narrow channel, reduces the significance of [[IG waves]] through diffraction and refraction.
+	* Numerical experiments show the [[IG waves]] still are importance from dune erosion, especially where the dunes are highest.
+	* However, the [[IG waves]] do not have as much influence over the locations of the breaching.
+* It is suggested that XBeach is *not* able to accurately model wind-driven setup, compared to other models.
+* A sensitivity test, which smooths the topography in front of the dune that exhibited mounds and depression prior, suggests that the breach location is not that sensitive to these features.
+	* The input bathymetry was constructed from post-storm topographic surveys. These exhibited depressions and mounds in front of the dune crest which may have been from post-storm earthworks or a direct result of the storm.
+		* These topographic features may have influenced the simulated breach locations.
+
+=== Morphodynamics ===
+* >15m dune retreat at some coastal locations
+* 6 barrier island breaching
+	* Most breaches occurred during the _ebb current_
+* The morphological effect was dune lowering and dune widening
+* Rapid lowering of dune height occurred during the transition from the [[Overtopping Regime|overtopping]] to the [[Inundation Regime|inundation]] regime.
+	* See model result snapshot 3 and 4 [[file:~/.vimwiki/images/morphodyn_Muller2017.png|here]]
+* There is some erosion during the flood phase at all locations (possibly due to overtopping). There is significant erosion during the ebb phase or return flow, but this only occurs where breaches had been initialized during the flood phase.
+* For a successful breach, the maximum erosion rate occurred during the flood time as did the maximum discharge.
+
+=== Sediment transport ===
+* "With the overflow, the dune eroded on the landside, and the sand was deposited on the marsh side. (p.267)"
+* "During ebb tide, the dune kept eroding, where sand was transported from the dune crest to the nearshore area. (p.267)"
+ 
+== Methods ==
+=== Analysis of results ===
+* Presentation of dune width and dune crest from data
+* Comparison of pre- and post-storm modeled and observed dune crest elevations and dune widths with the alongshore as the abscissa
+* spatial maps of current velocities with the location of the observed and modeled dune breaches
+* Time-series of modeled dune crest elevations along with map of current fields and the water level evolution
+* Detailed analysis of a successful and unsuccessful breaching event
+
+=== Study storm ===
+* Xynthia (2010)
+* macrotidal coast = +5.1 m spring tide
+* storm surge = 1.6 m
+* high water elevation = +4.5m IGN69
+	* 100-yr high water = +4.26m IGN69
+* offshore significant waves = 7m and 8s
+* nearshore significant wave = 2.5m and 5 - 6 sec
+
+=== Model setup ===
+* The XBeach model was nested in a [[SWAN]]+[[WW3]] for waves that was coupled with a hydrodynamic model for flow (Mars 2D).
+	* See system [[file:~/.vimwiki/images/Muller_et_al_2017_model_sys.png|here]]
+	* The wind and pressure fields were provided by the [[Global Forecast System]] (GFS) developed by [[NOAA]] and another French model.
+	* Tide model, which give the BCs for the Mars 2D domains, is the [[Finite Element Solution]] (FES) and a French model.
+
+==== XBeach ====
+===== Grid =====
+* Δx = 3 - 11m
+* Δy = 2 - 15m
+
+===== BCs =====
+* [[SWAN]] output was used by XBeach internally to generate short-wave energy and [[IG waves|IG wave]] time-series forcing.
+	* Hₛ error overestimated by 4%, 7%, and 17%
+* [[SWAN]] calculated setup and Mars 2D output was summed to provide water levels.
+
+===== Params =====
+* Default settings (*Groundhog Day Release*) was used except for morphological factor which was set to 1.
+* The sheet flow limited (=1) was applied.
+	* This method was justified by appealing to similarities between their case and [[McCall et al (2010)]]
+
+

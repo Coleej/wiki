@@ -1,0 +1,9 @@
+= File = 
+[[file:~/Documents/05_meetings/10_research_group/2017-09-29/draft.odp]]
+[[file:~/Documents/05_meetings/10_research_group/2017-09-29/report.pdf]]
+
+= Notes =
+* Contact Shelly Mung with Geography about lidar
+
+= TODO =
+1. [ ] Try to develop a surface for the sub-aqueous portion of the 2010 lidar surface which is eroded from the 2008 data

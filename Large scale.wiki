@@ -1,0 +1,8 @@
+= Navigation =
+
+= Domain =
+== Notes ==
+==== Examples ====
+===== Grids =====
+* $Δx = 0.5m - 50m$ [[Roevlink et al. (2009)]]
+* [[Harter and Figlus (2017)]] have approximately 30km by 5km domain with offshore elevations around 9m NAVD88

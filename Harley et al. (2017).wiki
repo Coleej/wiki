@@ -1,0 +1,20 @@
+= Synopsis = 
+
+
+= Conclusions =
+Shoreline orientation relative to an anomalous storm event (irregular main wave angle) determined the coastal response. This is supported by an ANOVA analysis of volumetric erosion against bins of coastline orientation.
+
+= Criticisms =
+
+
+= Notes =
+== Methods ==
+=== Lidar quality ===
+* point density = 1 pt per 1.6 m²
+* δz = 0.2m
+* δx = 0.6m
+
+=== Data analysis ===
+* change is integrated over cross-shore profile between MSL and the _dune crest_, i.e. the dune point where no significant change has been observed.
+* wave energy is calculated at 1km alongshore intervals using [[WAVEWATCH III]] results
+	* Wave energy flux is time integrated over the duration of the event to quantify _storm exposure_

@@ -1,0 +1,4 @@
+= Setups =
+1. [[RetroPie]]
+2. [[lakka]]
+3. [[RetroPlayer]]

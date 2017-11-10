@@ -1,0 +1,50 @@
+= General =
+== Files ==
+	* [[file:~/Phd/10_data/10_raw_data/raw_data_inventory.odt|data inventory]]
+	* [[file:~/Phd/10_data/10_raw_data/raw_data_summary.odt|summary statement]]
+	* [[file:~/Phd/10_data/99_miscellaneous/target_event_geomorph.ods|catalog by event]]
+
+= Coastal geomorphology =
+== Storm impact reports ==
+	* [[https://coastal.er.usgs.gov/hurricanes/gustav/|Gustav impact]]
+	* [[https://coastal.er.usgs.gov/hurricanes/isaac/|Isaac impact]]
+		* [[https://pubs.usgs.gov/ds/0839/|2012 post-storm Lidar URL]]
+		* [[https://pubs.usgs.gov/ds/0988/index.html|2012 post-storm photogrpahy URL]]
+
+== Lidar ==
+	* [[1998_ALACE_lidar|1998 NOAA/USGS/NASA ALACE lidar]]
+	* [[2001_USGS_lidar|2001 USGS lidar]]
+	* [[2002_ALACE_lidar|2002 NOAA/USGS/NASA ALACE lidar]]
+	* [[2006_BICM_lidar|2006 BICM lidar]]
+	* [[2008_pre_Gustav_lidar|March 2008 USGS pre-Gustav lidar]]
+	* [[2008_post_Gustav_lidar|September 2008 USGS post-Gustav lidar]]
+	* [[2010_USACE_lidar|2010 USACE lidar]]
+	* [[2012_post_isaac_lidar|2012 USGS post-Isaac lidar]]
+	* [[2013_lidar|2013 lidar]]
+
+== CPRA surveys ==
+	* [[2010 design survey]]
+	* [[2011 post-Lee survey]]
+	* [[2012 post-Isaac survey]]
+	* [[2013 pre-construction survey]]
+	* [[2013 pre-construction survey post-Karen]]
+	* [[2015 phase II pre-con survey]]
+	* [[2016 phase II post-construction survey]]
+
+== Dune morphology ==
+	* [[2010_dune_morpho|2010 USACE lidar derived dune morphology]]
+
+== Other ==
+	* [[BICM_bathymetry_2006|2006 BICM bathymetry]]
+	* [[CoNED_2014|2014 CoNED]]
+
+
+= Hydrodynamics =
+== Hurricanes ==
+	* [[Gustav|Gustav (2008)]]
+	* [[Isaac|Isaac (2012)]]
+
+== WAVCIS ==
+
+== CRMS ==
+	* There are at least some sites which contain surge data from Isaac (2012)

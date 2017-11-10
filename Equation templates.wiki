@@ -1,0 +1,5 @@
+= XBeach =
+== Wave action balance ==
+\frac{\partial A}{\partial t} + \frac{\partial c_{gx}A}{\partial x}  + \frac{\partial c_{gy}A}{\partial y} +   \frac{\partial c_{g\theta}A}{\partial \theta}= -S
+== Wave action balance discretization ==
+\frac{A^{i,j,n+1} - A^{i,j,n}}{\Delta t} + \frac{F_u^{i,j,n} - F_u^{i-1,j,n} + F_v^{i,j,n} - F_v^{i,j-1,n}} {\Delta A^{i,j}_z} + \left( \frac{\partial c_\theta A}{\partial \theta} \right)^{i,j,n}= -S^{i,j,n}

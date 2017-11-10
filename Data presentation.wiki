@@ -1,0 +1,42 @@
+= Definitions =
+$δx$ : This is the _uncertainty_, _error_, or _margin of error_ in the measurement $x$
+_discrepancy_ : the difference between the _best estimate_ of two reported values
+_rank-based_ : rank-based values are derived from ordering the data in a sequence, i.e. the cdf
+_data reduction_ : the model used to derive a required quantity from the experimental data
+_median_ : the value at which 50% of the rest of the data set is equal to or less than
+	- Quartiles refer to other percentages of the data
+
+
+= Notes =
+== General ==
+* *mean*, *variance*, and *standard deviation* are reserved from [[Probability distributions|probability distributions]]
+* Do not round intermediate results as this will introduce additional error. Only round the final result to the significant digits and report the accuracy
+* If no indication about what sort of inaccuracy someone is citing, it is assumed to be the standard deviation or root-mean-square error
+* Report variables and scalar quantities in _italics_
+* Report units in Roman script
+
+== Uncertainties ==
+* Values with %10 _relative error_ should be considered rough
+* Values with %1 _relative error_ should be reasonable
+
+== Reporting values ==
+=== Rules from Taylor (1982 )===
+1. The correct way to report a value is _best estimate_ ± _probable range_
+	- In general: $(measured value of x) = x_best ± δx$ 
+	- It is often the case, and it is natural, that the _best estimate_ is the midpoint in the _probable range_
+2. In scientific work _uncertainties_ should almost always be rounded to one significant figure
+	- In some precision work, _uncertainty_ is reported to two significant figures
+	- If the _uncertainty_'s leading digit is a 1 or 2 it may be appropriate to retain two sig-figs
+3. The last sig-fig of the reported _best estimate_ should be of the same order of magnitude as the _uncertainty_
+	- This only applies to the reported value, not intermediate calculations
+	- If the _uncertainty_ is small (1 or 2) then it may be appropriate to retain an additional sig-fig in the _best estimate_
+4. It is appropriate to include both the _best estimate_ and the _uncertainty_ in the significand
+5. When dealing with _random_ and _systematic_ components of _uncertainty_, they can be reported separately (indicating which is which) or combined
+
+
+=== Publishing results ===
+1. Make a table of the values which includes the _uncertainty_ in the header rows
+	- Include a column which displays the functional relation between any of the reported values [e.g (x1 - x2) ± (δx1 + δx2)]
+2. Plot _best estimates_ with error bars and include the _accepted_ or _true value_
+3. When graphing a trend or relationship plot the _error bars_ and show that the best fit line falls within the _margin of error_ of the measurements
+	- It is acceptable to transform one of the axis in order to show a linear best fit line between non-linearly related quantities

@@ -1,0 +1,18 @@
+= Dates =
+abstract due: 2017-09-06
+registration deadline: 2018-01-03
+conference date: 11-16 February 2018
+location: Portland, OR
+
+= Fees =
+abstract submission (student): $45 (USD)
+registration (student): $415 (USD)
+
+= Links =
+[[http://osm.agu.org/2018/abstract-submissions/|abstract submissions]]
+
+= Abstract format =
+title = 300 characters
+text = 2000 characters (exclude space, include punctuation)
+plain language summary = 200 words
+LaTex is supported

@@ -1,0 +1,26 @@
+= Synopsis = 
+Part of a large joint project (USGS, USACE, NPS) which, among other objects, aims to "investigate the behavior of the subaerial beach system with respect to influences of the inner continental shelf/shoreface morphology and sediment distribution (p. 527)". The authors argue for the hypothesis that the positive sediment transport gradient between the east and west end of Fire Island, NY (~200,000 m³/yr) is accounted for by onshore directed sediment transport from the inner continental shelf.
+
+= Conclusions =
+The authors conclude that the observed spit progradation west of Fire Island, along with the presence of shore-attached sand ridges and offshore reworked Holocene sand deposits, is maintained by offshore, inner-shelf cross-shore sediment transport through the sand ridges of the reworked Holocene sands. This, they conclude, is necessary because the other source of sediment input (shoreline erosion, beach renourishment, and ebb-tidal delta erosion) are not large enough to account from the progradation. They however admit that the physical mechanisms necessary to drive the inner-shelf cross-shore sediment transport remain unknown.
+
+= Criticisms =
+
+
+= Notes =
+== Methods ==
+* The shoreline change analysis is performed from a variety of sources: historical maps, aerial photography, field surveys, and airborne lidar.
+	- The error of surveys' shoreline position: ± 2.3m to 11.7m
+	- the assumption of the shoreline analysis is that unaccounted for  uncertainty (seasonal differences in shoreline position, etc) is reflected in the scatter of the data (time vs position) to which a regression line is fit to determine the shoreline migration rate
+	- It is recommended to use the longest range of shoreline surveys with the highest sampling frequency in order to determine shoreline change quantitatively
+* They estimate that renourishment adds 100,000 m³/yr to the entire island, but indicate that deriving sediment transport rates from shoreline change analysis is difficult because it is unknown when and how much nourishment is taking place over long periods (p.537)
+* Simple geometric arguments are used to make their point. These are used to rule out certain claims because they are too tiny to be measured or are not necessary to support their conclusion (p.539)
+ 
+
+=== Figures ===
+* A nice figure on p.536 showing alongshore variability in erosion rate. It is a map which is extended to show erosion rate as a function of alongshore distance
+	- Note that the study area is ~50km in the alongshore
+
+== Shoreline change analysis ==
+* Very stable shorelines compared to Caminada. The erosional portion only has -0.72 ± 0.18 m/yr change from 1933 to 2011
+* The presence of a Pleistocene Headland, of material more resistant to erosion, has been inferred to resist erosion and stabilize the shoreline in comparison to the eastern part of the island which has undergone island breaching and landward migration

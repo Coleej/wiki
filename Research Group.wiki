@@ -1,0 +1,82 @@
+= Dates =
+[[diary:2017-01-06]]
+	- First meeting after the break
+	- Some information on sediment transport BCs
+[[diary:2017-01-13]]
+	- Information on joining structured and unstructured meshes in D3D
+[[diary:2017-01-20]]
+	- Dr. Chen didn't hold the meeting but asked for an update via email
+[[diary:2017-01-27]]
+	- Dr. Chen didn't hold the meeting but asked for an update via email
+	- Submitted a draft of my qualifying exam presentation as an update
+[[diary:2017-02-03]]
+	- Tasks on starting to visualize survey data
+	- Start running XBeach
+[[diary:2017-02-10]]
+	- Contact geology department about Four League Bay data
+[[diary:2017-03-10]]
+	- Next steps for developing XBeach model. Go back to basics
+[[diary:2017-03-17]]
+	- Presentation on simple runs of offshore shore-wave BC
+	- Run more tests and verify the wave action balance equation
+[[diary:2017-03-24]]
+	- Short discussion of NARR winds
+	- Method of adding in sub-tidal signal to boundary based on difference between observations and model output
+[[diary:2017-03-31]]
+	- June: Dr. Brandt's HPC camp
+	- July: Dr. Chen's field trip
+[[diary:2017-04-06]]
+	- New modeling tasks
+[[diary:2017-04-21]]
+	- Look into _Anthropocene_ journal.
+[[diary:2017-04-28]]
+	- Tasks to wrap up hydrodynamic literature review.
+[[diary:2017-05-05]]
+	- Add extra column to lit review table about the answers to science Q's.
+[[diary:2017-05-12]]
+	- A few TODOs
+[[diary:2017-05-19]]
+	- Not much. Sort out ADV data problem
+[[diary:2017-05-26]]
+	- Not much.
+[[diary:2017-06-02]]
+	- Nothing much.
+[[diary:2017-06-09]]
+	- Not much.
+[[diary:2017-06-16]]
+	- Nothing
+[[diary:2017-06-23]]
+	- Nothing.
+[[diary:2017-07-14]]
+	- Dr. C out of town. No meeting
+[[diary:2017-07-21]]
+	- Not much
+[[diary:2017-08-04]]
+	- First look at Cam [[XBeach]] model
+[[diary:2017-08-11]]
+	- First testing of a real data Cam [[XBeach]] model
+	- Some initial issues with using the lidar data
+[[diary:2017-08-18]]
+	- Dr. C canceled meeting
+	- report on scaling analysis
+[[diary:2017-08-25]]
+	- Dr. C canceled meeting
+	- short update on future work and YCSEC-A
+[[diary:2017-09-01]]
+	- Not much
+[[diary:2017-09-08]]
+	- Guidance on future paper
+[[diary:2017-09-15]]
+	- Not much
+[[diary:2017-09-22]]
+	- nothing
+[[diary:2017-09-29]]
+	- Show new work with lidar
+[[diary:2017-10-06]]
+	- not much. Show first us of LAStools
+[[diary:2017-10-13]]
+	- slides on lidar classification and correction
+[[diary:2017-10-27]]
+	- update on Irma deployment retrieval
+[[diary:2017-11-03]]
+	- procedure to analyze wave gauge

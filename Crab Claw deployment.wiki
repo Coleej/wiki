@@ -1,0 +1,62 @@
+= Navigation =
+[[Shopping list]]
+[[file:~/Field Work/20_deltaSEES_terrebone_deployment/10_instrument_deployment/00_field_report/DeltaSEES_crab_claw_field_report.pdf|field report]]
+
+== Notes ==
+* Start date/time = 2017-3-4 17:00:00
+	- For OSSI devices use 16:59:00 for an effective start of 17:00:00
+* Tides during deployment
+	- Low 0.021 m (MLLW) @ March 4th 00:36 CST
+	- High 0.286 m (MLLW) @ March 4th 13:54 CST
+	- Low -0.005 m (MLLW) @ March 5th 01:42 CST
+	- High 0.393 m (MLLW) @ March 5th 14:54 CST
+
+== Instruments ==
+	* [[file:~/Field Work/20_deltaSEES_terrebone_deployment/10_instrument_deployment/instrument_test_sheet.ods|Instrument test sheet]]
+	* [[Triton ADV]]
+	* [[OSSI wave gauge]]
+	* [[OSSI wave logger]]
+	* [[HOBO water level logger]]
+
+== Checklist ==
+	1. [X] Field gear
+		1. [X] Supplies
+			- [X] water + food
+			- [X] compass
+			- [X] sunscreen/bug spray
+			- [X] boots
+			- [X] rain gear
+			- [X] gloves
+		2. [X] Tools
+			- [X] knife
+			- [X] socket set
+			- [X] wrenches
+			- [X] screw driver
+		3. [X] Equipment
+			- [X] Camera
+			- [X] Field book
+	2. [X] Instrument
+		1. [X] ADV
+			- [X] PBC casing
+				- [X] hose clamps (4)
+				- [X] gasket + hose clamp
+				- [X] retrieval ropes
+			- [X] Metal pipe soil excavator
+			- [X] Pusher 2x4
+				- [X] Marking to indicate depth of ADV probe
+			- [X] Stabilizer 2x4s
+			- [X] Mallet
+		3. [X] Wave logger
+			- [X] C-Channels
+			- [X] hardware
+			- [X] spacer between staff and C-channel
+		4. [X] Wave gauge
+			- [X] Base plate
+			- [X] hardware to bolt base plate
+		5. [X] HOBOs
+			- [X] casing
+		6. [X] Vegetation Surveying
+			- [X] zip ties
+			- [X] scissors/cutter
+			- [X] labels
+			- [X] camera

@@ -1,0 +1,36 @@
+= Navigation =
+
+== Instrument specs ==
+Serial number: R355
+
+== Setup instructions ==
+* Minimum voltage for deployment = 9v
+* Use SonUtils4 to interface with board
+	- Com 3
+	- 9600 baud
+	- Older cable
+* Calibrate compass
+* Clean o-ring of grease and coat with the krylon silicon grease before sub-aqueous deployment.
+	- Do the same to the dummy plug
+
+=== Previous deployment parameters ===
+* Karimpour et al (2016)
+* deployed 1 meter inland
+	- 0.1m x 0.1m square of veg removed from area
+	- Two 1.5m 2-by-4s were inserted into marsh to support the ADV
+* f_s = 4 Hz
+* 1024s burst
+* 1 burst every 30 minutes
+
+== Miscellaneous ==
+* The Triton was discontinued after the Argonaut was developed.
+* Contacted Sontek (14-2-2017) for software/firmware/manual information.
+
+=== Flume test ===
+* Feb. 23rd 2017
+* Readings at 15:45 and 16:00
+	- surface velocity measured with a floater 
+		- $ u = 0.0344 $m/s
+	- water depth was 27 cm and the reading was ~5cm from the bottom
+* Reading at 16:15 and 16:30
+	- $ u = 0.794 $m/s

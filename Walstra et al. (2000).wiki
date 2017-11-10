@@ -1,0 +1,19 @@
+= General =
+The _Generalize Lagrangian Mean_ (GLM) method is applied to the 2DH equations of motion in [[Delft3d]]. This is an attempt to improve the flow equations for wave-current interaction by incorporating some of the vertically varying properties that are essential here. These are undertow and wave-induced mass flux, which are necessary for a mass balance.
+
+This paper does not deal with short-wave forcing in the NLSW equations. It deals with casting the 3D flow equations of Delft3D in the GLM framework and including the wave-induced and turbulent stresses into the source terms.
+
+= Conclusions =
+
+
+= Notes =
+== The GLM method ==
+	- This method seeks to perform a Lagrangian time-average (i.e. a simple average of the particle's velocity over the interval) over the short-wave induced velocity oscillations.
+		* This however cannot be applied in an exact sense to a location in space (Eularian representation) because the particles will in general range widely.
+	- In an ensemble-averaged setting (i.e. no turbulence),the actual trajectory of a particle ($ξ$), relative to its mean position, is determined by the short-wave motion.
+		- This motion is averaged over a time period.
+		- This transforms the dependency of $u$ on some particle label, to just $(x,t)$.
+	- The average Eularian velocity is the difference between the GLM and Stokes drift.  
+		* $uₑ = uₗ - uₛ$
+		* This compensate for vertically non-uniform currents in a 2DH depth-integrated model.
+			* At some location where the Stokes drift is larger than the GLM, then the flow will return. However, the equations of motion are cast in the GLM framework. 

@@ -1,0 +1,18 @@
+= Synopsis = 
+Uses terrestrial based lidar to take daily surveys of beach/dune system after the passage of typhoon Rammasun. Statistical analysis is performed on DEMs derived from the lidar and accretion/erosion maps determined from successive days.
+
+= Conclusions =
+Short-term beach recovery is partitioned into three stages which are demarcated by *extreme* accretional events which are far outside the average behavior. Landward migration is shown to be important for beach recovery. Dune and backshore recovery are not revealed because the time-span of the study is too short to capture these phenomena.
+
+= Criticisms =
+
+
+= Notes =
+* Points out that most methods of beach/dune surveying result in large scale (1 - 1000m) geomorphic analysis
+
+== Methods ==
+=== Analysis ===
+* distributions of beach/dune elevation data through time and uses [[grey_relational_analysis|grey relational analysis]]
+* distributions of daily accretion/erosion were also computed
+	- Might work for my study, but probably cannot use the entire data set. Rather dune crest elevation, etc. averaged over 100m alongshore stretches
+* Aspect and grade of the surveys were computed with ArcGIS

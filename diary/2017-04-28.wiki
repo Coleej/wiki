@@ -1,0 +1,15 @@
+= Files =
+* [[file:~/Documents/Meetings/Research Group/2017-04-28/update.odp|update]]
+* [[file:~/Documents/05_meetings/Research Group/2017-04-28/report.pdf|report]]
+
+= TODO =
+1. [X] Go back to Roelvink to see about IG wave generation.
+	- Explain the short wave envelope BC generation mechanism.
+	- Whats the implication of differing wave spectrum on the forcing of the IG waves?
+	- Look at wave steepness.
+
+2. [X] Add another column to list about the object of the model runs.
+	* What are the questions for Caminada from this list?
+		- Importance of cold fronts vs. hurricanes.
+	* What are the new questions?
+		- The role of the back barrier marsh?

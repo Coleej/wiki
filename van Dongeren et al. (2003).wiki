@@ -1,0 +1,9 @@
+= General =
+== Synopsis ==
+The SHORECIRC model is extended to simulate infragravity waves observed in experiments at Duck, NC. This is done by solving the energy equation for short waves which drives the long wave equation. Contains the algorithm to synthesize a directional offshore wavefield from measured data (JONSWAP BC in XBeach). A direct predecessor of the hydrodynamic model in XBeach.
+
+== Conclusion ==
+* Alongshore wavenumber spectra show that the IG wave energy is dominated by edge waves.
+* The directional spreading in the offshore wavefield is critical for predicting nearshore IG wave conditions.
+* Non-linear terms are relatively unimportant for predicting IG wave climate.
+* Cross-shore gradient of onshore-directed radiation stress is the most important forcing term.

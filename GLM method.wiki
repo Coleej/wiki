@@ -1,0 +1,16 @@
+= References =
+* [[Andrews and McIntyre (1978)]]
+* [[Walstra et al. (2000)]]
+
+= General concept =
+A hybrid Eulerian-Lagrangian approach which allows for a vertically non-uniform mass flux distribution. In most (Delft3D-FLOW pre-2000ish) shallow water equation implementation vertically non-uniform mass fluxes, e.g. short-wave-induced mass flux, streaming near the bottom and wave-induced turbulence, are not accounted for which reduces the fidelity of the model.
+
+= Notes =
+* Particle displacement ($ξ$) is a function of $x$ and $t$ like all Eulerian descriptions (and also GLM descriptions), unlike the case in purely Lagrangian descriptions where is is simply a function of the particle label and time.
+* After describing the particle displacement field ($ξ(x,t)$), the exact GLM operator corresponding to the Eulerian mean operator, is given as the mean of the Eulerian velocity ($u$) at the disturbed particle position, i.e. $u(x + ξ(x,t), t)$.
+* Time-averaging the Lagrangian particle associates two different trajectories with each particle:
+	1. The rapidly varying, actual particle position ($ξ$).
+		- In an ensemble-averaged setting (turbulence is averaged out), ($ξ$) is fully determined by the wave motion.
+	2. The slowly varying, mean particle position ($x$).
+* The actual or general Lagrangian velocity is evaluated at the actual particle position, but is assigned to the mean position.
+	* $u(x,t)^ξ = u(x + ξ(x,t), t)$

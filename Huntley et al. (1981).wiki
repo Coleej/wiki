@@ -1,0 +1,12 @@
+= General =
+An extensive alongshore (and cross-shore) array of sensors was deployed in the surfzone. The data is analyzed to confirm the presence of wave energy in the wave number-frequency bands of progressive longshore edge waves as they are given by Ursell's solution (see [[Bowen and Guza (1978)]]).
+
+= Conclusions =
+The authors find significant energy bunched to longshore edge wave frequency-wave number ridges for edge waves of mode $n = 0$ and $n = 1$.
+	- They estimate that at any given frequency a minimum of $30% ± 15%$ energy will found at the wave number corresponding to that given by the alongshore edge wave dispersion relationship.
+		- They speculate the uncertainty is due to poor measurement technique.
+		- The remaining energy will be spread out over the wave number spectrum.
+
+The on/offshore currents do not show they same structure.
+	* The authors attribute this to reflective surfaces in the vicinity.
+	* The authors also say this may be due to forced waves bound to the incident wave train.

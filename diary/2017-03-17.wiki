@@ -1,0 +1,13 @@
+= Files =
+[[file:/home/cjohnson/Documents/Meetings/Research Group/03-17-2017/update.odp|pres]]
+[[file:/home/cjohnson/Documents/Meetings/Research Group/03-17-2017/update.pdf|update]]
+
+= General notes =
+
+= TODO =
+* [X] Weekly tasks
+	1. [X] Ask Karim to focus on the ADV site
+	2. [X] Put obs stations at offshore and cross-shore to the shore
+	3. [X] Do analytical verification of conservation of energy equation and breaking terms
+	4. [X] Explain HISWA and the offshore BC
+		- Look into lateral and landward wave BC

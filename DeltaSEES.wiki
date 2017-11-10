@@ -1,0 +1,20 @@
+= Navigation =
+== Meetings ==
+[[1-6-2016]]
+[[diary:2017-02-10]]
+	- Details about instrument deployment and how this relates to getting a paper out.
+[[diary:2017-03-01]]
+	- Logistic details with Bill Gibson and Dr. Xu.
+[[diary:2017-03-10]]
+	- Presented reported on "Crab claw" deployment.
+	- Discussion on potential for marsh to be flooded.
+[[diary:2017-04-21]]
+[[diary:2017-08-08]]
+	- Presentation on "Crab claw" field work update
+
+== Field work ==
+[[Crab Claw deployment|"Crab claw" deployment]]
+[[Crab claw retrieval|"Crab claw" retrieval]]
+
+=== Data ===
+[[2017-03-04 deployment data analysis|data analysis]]

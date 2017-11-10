@@ -1,0 +1,9 @@
+= Files =
+[[file:~/Documents/05_meetings/10_research_group/2017-09-15/draft.odp|draft]]
+[[file:~/Documents/05_meetings/10_research_group/2017-09-15/report.pdf|report]]
+
+= Notes =
+
+
+= TODO =
+* [X] Get map of deployment locations

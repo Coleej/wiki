@@ -1,0 +1,4 @@
+= General concept =
+
+= Spectral growth =
+Due to a balance between wind-induced energy transfer, 4-wave interactions, and white-capping energy is transferred to the lower frequency past the initial peak frequency. Interestingly, spectral growth, and the peak frequency, of a wave energy spectrum is therefore not the direct result of wind input, but the indirect transfer of energy from wind to the wind-wave frequency band and from there to lower frequencies by the 4-wave interactions.

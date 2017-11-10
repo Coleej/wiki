@@ -1,0 +1,17 @@
+= Synopsis =
+
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+== Model ==
+=== Grid ===
+$Δx, Δy = 50m to 2m$
+	- The range is made in both the longshore and cross shore directions
+	- The refinement is near the sea-wall and buildings
+
+=== Topobathymetry ===

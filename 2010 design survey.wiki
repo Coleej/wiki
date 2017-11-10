@@ -1,0 +1,16 @@
+= Summary =
+Survey conducted by Picciola & Associates, Inc. for Taylor Engineering, Inc. The work was finished in 2010 and stretched from West Belle Pass to Caminada just east of Grand Isle.
+
+* [[file:~/QGIS/Data/Caminada surveys/2010 design survey/10 09 22 Final Survey Report.pdf|report]]
+
+= Notes =
+* A gap of 150 to 200 ft between the terrestrial and hydrographic survey exists between stations 360+00 to 620+00.
+	* Primarily on the Caminada side.
+* The error isn't specified in the report
+* The reported accuracy for the Trimble GPS units (sub-aerial points):
+	* horz. ± 1 cm
+	* vert. ± 2 cm
+* Depths were collected with an Odum Hydrotrac with the following reported accuracy:
+	- vert. ± 10mm + 0.1% of depth
+	- horz. (related to DGPS) unreported
+

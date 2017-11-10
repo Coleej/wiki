@@ -1,0 +1,30 @@
+= Navigation =
+== Files ==
+	* [[file:~/Phd/Committee/Research outlook.odt|Research Outlook]]
+	* [[Outline]]
+	* [[file:~/Phd/50_committee/10_qualifying_exam/qualifying_exam_pres.odp|Presentation]]
+
+== Notes from exam ==
+* Where was the dune elevation and shoreline position defined as in the NOAA post-Isaac assessment report (Guy et al. 2013).
+	- It could have been longshore drift which produced the western end erosion and eastern end accretion.
+* What is the exact reasoning behind the poor results of Lindener et al. (2010) application of XBeach to Katrina's impact on the Chandeleur islands?
+	- Did they miss the return flow?
+* How will calibration/validation work?
+	- Isaac and Gustav
+	- Two or more sections of Caminada for a single storm?
+* Can field data analysis produce a publication?
+* What are the numerical experiments going to be?
+
+=== TODO ===
+1. [ ] Get a better understanding of SBeach
+	- Why is it important to use XBeach instead of SBeach?
+	- Why does data analysis not suffice for this study.
+2. [X] Compile more detailed specific information from USGS's post-Isaac assessment.
+3. [.] Get specific information on lidar data set error and accuracy
+	* [X] Guy et al. (2013) -- 2012 lidar data set
+	* [ ] Info for 2010 lidar data set
+	* [ ] Info for 2006 lidar set
+5. [o] Ground truth lidar data sets by comparing between elevations of some structure between data sets and compare with other data sources
+	* [X] Initial QA/QC
+	* [ ] Rigorous testing
+7. [ ] Get wave/water level observations for Gustav and Isaac

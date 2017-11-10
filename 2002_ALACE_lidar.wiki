@@ -1,0 +1,25 @@
+= Files =
+
+
+= Metadata =
+== Acquisition ==
+* collected on October 12th 2002 -- 20121012
+* acquired with the ATM
+
+== Raw lidar ==
+=== QA/QC ===
+* raw vertical uncertainty = ±15cm - interpolation, gridding, and projection introduce additional errors
+* Comparison with GC points (small area) indicate δz = ± 15 - 20cm
+* raw horizontal uncertainty = ±80cm
+
+== Las points ==
+=== CRS ===
+* UTM 15n
+* NAD83
+* GRS80
+* NAVD88 (GEOID12B)
+	* 0.01m altitude resolution
+
+= Notes =
+* Produced as part of the USGS/NASA Airborne Lidar Assessment of Coastal Erosion (ALACE) Project
+* No processing has been done. Vegetation and water surface returns are present in the data

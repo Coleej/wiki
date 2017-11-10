@@ -1,0 +1,9 @@
+= Dates =
+[[diary:2017-02-02]]
+	- Meeting with Jacques Boudreaux and Mark Leadon
+[[diary:2017-05-04]]
+	- Meeting with Dr. Chen about upcoming field work and the trip to Deltares.
+[[diary:2017-09-13]]
+	- Meeting with Dr. Chen about future work towards PhD
+[[diary:2017-10-11]]
+	- potential individual meeting about lidar error correction going forward

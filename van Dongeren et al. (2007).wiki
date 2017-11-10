@@ -1,0 +1,12 @@
+= General =
+Looks at the transformation processes (shoaling and dissipation) of [[IG waves]] for different regimes of beach slopes, the "mild-slope regime" and "steep-slope regime".
+
+The regimes are discriminated based on the _normalized bed slope parameter_:
+
+$βₛ = (hₓ/ω)√(g/h_b)$
+
+= Notes =
+* $βₛ < 0.1$ is the "mild-slope regime" and $βₛ > 0.45$ is the "steep-slope regime.
+	- Amplitude growth (shoaling) of [[IG waves]] in the "mild-slope regime" is large, whereas in the "steep-slope regime" it is smaller.
+
+

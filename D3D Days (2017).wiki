@@ -1,0 +1,22 @@
+= Courses =
+* D3D Flexible Mesh
+	- 2017-10-23 and 2017-10-24
+	- $1280 registration fee
+* SWASH modeling
+	- 2017-10-23 and 2017-10-24
+	- $1280 registration fee
+* XBeach Basic Course
+	- 2017-10-30
+	- $650
+* XBeach Vegetation and Gravel Modules
+	- 2017-10-31
+	- $650
+
+= Colloquia =
+* User Days (Hydro)
+	- 2017-10-30
+* User Days (Morph and sed-trans)
+	- 2017-10-31
+* XBeach X Conference
+	- 2017-11-01 through 2017-11-03
+	- free

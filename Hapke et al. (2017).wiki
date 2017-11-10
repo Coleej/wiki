@@ -1,0 +1,37 @@
+= Synopsis = 
+EAARL-B, RTK, and aerial photographs are used to study the breach dynamics of a storm cut in Fire Island, NY from 2012-2015.
+
+= Conclusions =
+* Breach reached a quasi-equilibrium in width after 3 years
+* High wave energy during spring seemed to accrete sediment in the breach and shrink its width
+
+= Criticisms =
+
+
+= Notes =
+== Methods ==
+=== Bathymetric change ===
+* Bathymetric dynamics was analyzed with 4 surveys (2012,2013,2014, and 2015) which had resolutions of 1m, 1m, 25m (and a 50m survey), and 25m, respectfully.
+	* No volumetric change analysis was done, instead rate of change of cross-channel bathymetry was analyzed
+
+=== Morphologic change ===
+* shoreline migration, beach width, spit length, and orientation of primary discharge channel were analyzed from the remotely sensed data
+* Uncertainty in shoreline discrimination forced a broad trend description rather than a quantitative analysis
+==== Breach dynamics ====
+* shore-parallel transects were drawn with 5m intervals over the breach. Intersections of these transects with the lidar/aerial-photographic/GPS derived shorelines allowed for time-dependent assessment of the breach metrics.
+	- Breach width is defined as the average of every width determined by the shore-parallel transects
+	- orientation is the slope of the line fit through the individual width lines' midpoints
+	- _This seems like an interesting methodology and could be applied to Caminada_
+
+=== Waves ===
+* WAVEWATCH III was used for a 3 year periods (Oct. 2012 to Oct. 2015)
+* $H_{m0}$ were interpolated to a 20m depth contour adjacent the breach
+* Data is analyzed in terms of seasons and presented as a table of wave-roses
+	- Jan. to Mar.  : winter
+	- Apr. to June  : spring
+	- July to Sept. : summer
+	- Oct. to Dec.  : autumn
+
+== Results ==
+* Widening of the breach primarily occurred through migration of one breach channel shoreline (the western one)
+	* after 2 years this shows a more seasonal oscillation, eventually reaching some quasi-equilibrium

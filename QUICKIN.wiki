@@ -1,0 +1,26 @@
+= Manual =
+[[file:~/Documents/20_manuals/QUICKIN_User_Manual.pdf|QUICKIN user manual]]
+
+= Controls =
+<Tab> - In depth mode this allows you to walk through the depth values
+<+> and <-> typically work to increase and decrease the property being edited
+
+
+= Operations =
+== Depth ==
+=== Grid cell averaging ===
+* The grid cell averaging, at a grid node, searches for samples in an area defined by the surrounding cells' centers and the mid-point of these cells' interfaces
+	* See the [[file:images/grid_cell_avg_search_area.png|layout]]
+	* This area is relative and can be adjusted in the settings
+	* A minimum number of samples must be in the search area (default = 4)
+
+=== Triangular interpolation ===
+* Depends quadratically on the number of samples, so its best to limit an area to a polygon and work in patches
+	- The boarders between the patches need special care
+	- Delete the boarder area and re-interpolate with a larger polygon
+
+= Notes =
+* Make sure the _aspect ratio_, _orthogonality_, and _smoothness_ are within the requirements set by [[Delft3D]]
+* If there are more points than cells, average the values over the cells before interpolating the more sparsely sampled areas
+* The manual suggests first using _depth linear_ interpolation to construct a framework, then applying _internal diffusion_ to smooth out the areas in between
+* Observational points are defined at the cell centers

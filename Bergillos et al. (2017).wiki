@@ -1,0 +1,11 @@
+= Synopsis = 
+On certain coasts, the presence of alongshore sediment transport (LST) gradients make modeling storm induced beach change more difficult. This work (offline, p.96) couples XBeach-G with a LST formulation to simulate beach volume changes due to varying storm climatology. The LST formulation is designed to capture cross-shore variations in LST which are import for the mixed sand-gravel study site.
+
+= Conclusions =
+The conclusions seem to indicate that XBeach doesn't perform well for alongshore variable transport situations. Also, the typical over-estimation of erosion and lack of proper prediction of accretion in XBeach is evident. However, for erosional profile changes (~20cm erosion, but some with +1m erosion), XBeach-G seems to perform ok.
+
+= Criticisms =
+
+
+= Notes =
+* "All statistics were computed using data interpolated to a regularly-space grid and including only points where the measured or modeled bed level changes were greater than the maximum between the estimated instrument error and $3*D_{50}$, according to [[McCall et al. (2015)]] (p.97)"

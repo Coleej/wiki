@@ -1,0 +1,118 @@
+= Outline =
+== Title ==
+Geomorphodynamic Response of a Low-Dune Barrier Island System due to Hurricane Forcing and the Assessment of Possible Restoration Strategies
+
+== Orientation ==
+1. Introduction
+2. Overall Strategy
+3. Literature Survey and Course Work
+4. Site Characterization
+5. Model Methodology
+6. Theses
+7. Work Plan/Schedule
+8. Questions
+
+== Introduction ==
+* Committee members
+* Introduce the Caminada Headlands with some images
+* Reference economic importance of Port Fourchon
+* Take a quick look at the devastation due to hurricanes
+* Outline details of the Caminada Headlands Restoration Project
+	- Reference Coastal Master Plan
+* Conclude with brief statement on the available data and opportunity for gaining knowledge
+
+== Overall Strategy ==
+* Develop 3 nested model domains
+	1. Gulf of Mexico
+	2. Regional
+	3. Nearshore/Dune system
+* Calibrate/validate Nearshore/Dune model with pre- and post-Hurricane topography data
+	- Issac (2012)
+	- Gustav (2008)
+* Employ model for engineering and/or science question
+	- Evaluate current design profile performance
+		a) Design storms developed from recurrence intervals
+		b) Projected storms with projected evolution of placement and nearshore conditions
+	- Evaluate potential barrier island designs
+		a) Configuration of hard structures (breakwaters/jetties)
+		b) Geometry of back-barrier marsh restoration component
+		c) Design profile geometry
+	- Regional sediment budget during/after hurricanes
+		a) Accretion, overwash, offshore, and alongshore mass balance
+		b) Role of back-barrier marsh in retaining/redistributing sediment
+
+== Literature Survey and Course Work ==
+* List (and describe?) course work with grades/semester
+	- Mention no necessary course work left
+	- Courses work
+		a) Coastal Engineering (Fall 2014)   - A
+		b) Sediment Transport  (Spring 2015) - A
+		c) Nearshore Hydromechanics (Spring 2015) - A
+		d) Geomorphodynamics (Spring 2014) - A
+		e) Numerical Ocean Current Modeling (Spring 2016) - A
+		f) Introduction to HPC (Fall 2016) - A
+* General geomorphodynamics of barrier island systems
+* Nearshore hydrodynamics and sediment transport of extreme storms
+	- Theory
+	- Data
+* Recent work on the topic
+	- Use tables to exhaust prior work
+	- For recent, more relevant work give full details
+	- Surveys and field work
+	- Modeling
+		a) XBeach
+		b) Others
+
+== Site characterization ==
+	- Draw picture of the Caminada Headlands
+		a) Satellite images
+		b) Topography maps
+		c) Cross-shore profiles
+		d) Hydrodynamics
+		e) Storm tracks
+			- Issac (2012)
+			- Gustav (2008)
+	- List available data resources
+		a) Reanalyzed winds
+		b) Bathymetry
+		c) CO-OPs/NDBC bouys
+		d) Lidar surveys
+		e) TE-45 design report
+ 
+== Model development ==
+	- Governing equations
+	- Domain and sub-domains
+		* Use GIS
+			a) Gulf of Mexico
+			b) Regional
+			c) Nearshore
+	- Boundary conditions
+		a) Bathymetry for sub-domains
+		b) Topography for nearshore/dune model
+		c) Gulf of Mexico model forcing
+		d) Offshore boundary conditions for regional model
+		e) Forcing for regional model
+		f) Offshore boundary conditions for nearshore/dune
+			- How to get sediment transport?
+			- Is it possible to do sensitivity tests?
+	- Calibration
+		a) Issac
+		b) Gustav
+	- Production runs
+		* Use design profile to set bathymetry/topographic of nearshore/dune model
+		* Force with regional and GoM model during a design storm
+
+== Theses ==
+1. Is there a minimum elevation for beach, dune, and back-barrier features (sand bar, berm, dune crest, and back-barrier marsh platform), or combination thereof, which promotes sediment retention? How does this minimum configuration vary with storm impact regime? What is our capacity to optimize a “minimum” design beach/dune profile for sediment retention?
+2. How does the width, elevation, and biophysical characteristics (vegetation type, density, spatial configuration) of the back-barrier, relative to the back-barrier estuarine/lagoon surge levels, affect sediment retention during extreme storms?
+3. What is the fate of newly-placed sediment (due to the restoration activity) after a storm impact? In other words, for a storm with given characteristics (trajectory, intensity, timing), is the relative proportion of sediment lost to the back-bay, alongshore sinks, and offshore approximately constant or does it vary with barrier island features that are within the capacity of engineering to alter?
+4. Is the historical rate of placed sediments on Louisiana’s barrier islands sufficient to withstand erosion due to forecasted hurricanes, assuming that the hurricane return period remains constant but taking into account relative sea-level rise in the region.
+
+== Work Plan/Schedule ==
+* 1st-quarter-2017 ----- Specify hypothesis for first chapter from literature review
+* Mid-2017         ----- Identify 4th committee member
+* End-of-2017      ----- Propose hypotheses for second and third chapters
+* End-of-2017      ----- Finish writing dissertation’s introduction and literature review
+* End-of-2017      ----- Submit first chapter for review
+
+== Questions? ==

@@ -1,0 +1,47 @@
+= Summary =
+
+
+= Conclusions =
+
+
+= Notes =
+== Methods ==
+=== Lidar data ===
+* pre-storm lidar predates post-lidar by 2 years
+* Any post-storm lidar data which showed a gain > 2m with the pre-storm lidar was eliminated as unrealistic accretion
+
+=== Analysis ===
+* Analyzed subaerial accretion/erosion patterns
+	- Created a table with 5 columns where the rows are different times based on the Storm Impact Scale.
+		* The erosion/accretion patterns were determined by taking the difference between the initial topography and that at the end of the time period. Positive changes were ID's as accretion, etc.
+		* Column values
+			- accretion volume (m³)
+			- accretion rate (m³/hr)
+			- volume eroded (m³)
+			- erosion rate (m³/hr)
+			- net volume change (m³)
+		* Also analyzed individual profiles in the same way
+* Visually compared post-simulation elevations to pre- and post-storm photography
+* Computed the [[file:images/img01_harter.png|skill and bias]] of the model
+	- This was only calculated where sub-aerial lidar data was available for both the pre- and post-storm
+	- Any post-storm lidar data which showed a gain > 2m with the pre-storm lidar was eliminated as unrealistic accretion
+
+== Model setup ==
+=== Grid ===
+* Rectilinear grid
+* $Δx = 20m - 5m$
+	- $20m$ in the offshore transitions to $5m$ near the dune to $20m$ in the back bay
+* CFL = 0.7
+
+=== Domain ===
+alongshore ≈ 30 km
+cross-shore ≈ 6 km
+
+=== Bathymetry ===
+* Dune line is approximately centered within the domain
+* Back-barrier is complex and has elevation ≈ 0.5 m or less with a max of ≈ 1 m
+* offshore depth ≈ -9 m NAVD88
+
+== Results ==
+skill = 0.35
+bias = -0.06

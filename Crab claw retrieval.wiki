@@ -1,0 +1,9 @@
+= Files =
+[[file:~/Field Work/DeltaSEES_Terrebone_deployment/instrument_retrieval/RTK_connection.docx]]
+	- Document for instruction to connect the RTK to a mobile hotspot.
+[[file:~/Field Work/DeltaSEES_Terrebone_deployment/instrument_retrieval/field_report/DeltaSEES_crab_claw_field_report_2017_05_15.pdf]]
+	- Field report
+[[file:~/Field Work/DeltaSEES_Terrebone_deployment/instrument_retrieval/veg_measurements_2017_05_15.pptx]]
+	- Report put together by Kelin showing vegetation survey quadrats
+[[file:~/Field Work/DeltaSEES_Terrebone_deployment/instrument_retrieval/veg_measurements.xlsx]]
+	- Vegetation survey data

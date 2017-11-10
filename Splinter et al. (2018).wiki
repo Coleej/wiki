@@ -1,0 +1,18 @@
+= Synopsis = 
+5 lidar surveys were flown over a embayed beach over the course of a large multi-day storm. Erosional statistics were calculated and related to the hydrodynamic forcing. It was observed that elevation of the dune toe relative to the max total water level (water level + 2% runup) is an important metric related to dune erosion.
+
+= Conclusions =
+The results confirmed the Sallenger Storm Scale for swash and collision. Simple models of erosion are proposed for managers to explain alongshore variability in erosion. 
+
+= Criticisms =
+* No details on the lidar surveys are presented.
+
+= Notes =
+* Points out that calibrating a model with post-storm data which lags the actual storm by a significant amount (4mo, 12mo, etc.) implicitly brings in the intervening geomorphic changes via the free-tuning parameters (p.32)
+* The analysis shows that a dominate factor in erosion in the elevation of the total water level ($\zeta + R_{2%}$)
+	- This is a typical finding
+* The elevation of the dune toe relative to the water level appears to be important for the _swash_ and _collision_ regimes
+	* Further, referencing [[Plant and Stockdon (2012)]], it is seen that other features are import for other regimes, ie dune crest elevation is important for the overwash and inundation regimes
+
+== Methods ==
+* Erosion is calculated as the volume change landward of the pre-storm due toe (where the dune toe is calculated following [[Stockdon et al. (2007)]])

@@ -1,0 +1,13 @@
+= Files =
+* [[http://www.ndbc.noaa.gov/hurricanes/2008/gustav/|Gustav (NDBC report)]]
+* [[files:~/Documents/13_technical_reports/Beven_Gustav_Report_NOAA_2009.pdf|Tropical Cyclone Report (NOAA)]]
+* [[file:~/Documents/13_technical_reports/Doran_CstChng_Gustav_USGS_2009.pdf|Coastal Change Report (USGS)]]
+
+= Summary =
+* Category 4
+* 253 fatalities
+* $6.6 billion (USD) in damage
+* landfall
+	- Cocodrie, LA
+	- 14:30 UTC (9:30 AM CDT) August 31st
+* max surge at Grand Isle, LA = 1.64 m NAVD88

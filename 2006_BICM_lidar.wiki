@@ -1,0 +1,28 @@
+= Files =
+
+= Metadata =
+== Acquisition ==
+* The USGS contracted the USACE's JALBTCX
+* Acquired in December 3rd to 6th 2006 -- 20061203 to 20061206
+* Acquired with a Leica ALS50-II system
+
+= Raw data =
+== xyz ==
+=== CRS ===
+NAVD88
+Geoid03
+UTM 15n
+NAD83
+GRS80
+
+=== QA/QC of xzy points ===
+* The RMSE < 15cm which equation to a _vertical uncertainty_ = ± 30cm at 95% confidence interval
+* The lidar system produces data with a horizontal _uncertainty_ of $7 - 64cm$ and a vertical _uncertainty_ of $8 - 24cm$
+
+==== Cleaned data ====
+* The cleaned data has no-data assigned to cells with an average elevation < 0.37m NAVD88 (MHW)
+* area < 500 m² were set to no-data
+* Edited lidar data doesn't include any points which fell above the ground surface (vegetation, buildings, and other obstructions)
+	- I imagine this means the last return data, but this is how its describe in the documents
+* Filtered and edited lidar data are compared with ground control points (GCP) by sampling all lidar data within 1m of the GCP
+	- If a tree was present at the GCP, then a 3m radius was selected

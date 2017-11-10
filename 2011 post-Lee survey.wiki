@@ -1,0 +1,17 @@
+= Summary =
+Survey performed by EMC, Inc. Cross-shore profiles of Caminada using the [[2010 design survey]] (Picciola) baseline following tropical storm Lee.
+
+* [[file:~/QGIS/Data/Caminada surveys/2011 landowner survey, post lee/11-101_Caminada_SER.pdf|report]]
+
+= Notes =
+* date: 2011-09-13 to 2011-09-16
+* Contact: Mr. Mattox (t:662-226-5166)
+* Original format U.S. survey feet for LA south (1702) zone with NAD83.
+* The error is not specified.
+* The reported accuracy for the Trimble GPS unit (R8 base station + R6 rover)(sub-aerial points):
+	- Base station
+		* horz. ± 10 mm
+		* vert. ± 20 mm
+	- Rover
+		* horz. ± 8 mm
+		* vert. ± 15 mm

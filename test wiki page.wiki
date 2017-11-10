@@ -1,0 +1,4 @@
+A heading
+A mathjax equation
+
+$ e^{i\pi} + 1 = 0 $

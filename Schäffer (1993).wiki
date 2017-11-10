@@ -1,0 +1,13 @@
+= Synopsis =
+A continuation of [[Symonds et al. (1982)]] and [[Schäffer and Svendsen (1988)]]. The linearized, depth-integrated, short-wave averaged equations for conservation of mass and momentum are combined to yield a 2nd-order wave equation with a radiation stress source term. This is solved on one-dimensional topography in the cross-shore direction.
+
+= Conclusions =
+
+
+= Notes =
+* The model takes into account the time-varying position of the breakpoint as well as (partial) transmission of groupiness into the surfzone.
+	- The former produces dynamic set-up.
+	- The latter is similar to bound short-wave forcing which occurs outside the surfzone.
+* Run-up due to [[IG waves]] can be comparable to run-up caused by short-waves [[Guza and Thornton (1982)]], [[Guza and Thornton (1985)]].
+* Schäffer assumes that one of the waves in the wave group has a small amplitude compared to the others, i.e. $a₂ = δa₁$ where $δ << 1$ and $a₁$,$a₂$ are the amplitudes of the waves.
+	* This implies a small, but not negligible variation in the break-point.

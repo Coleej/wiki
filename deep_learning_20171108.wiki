@@ -1,0 +1,22 @@
+= Files =
+
+= Definitions =
+*supervised learning* uses labeled data
+*unsupervised learning* uses unlabeled data and the goal is categorization
+*reinforcement learning* uses unlabeled data and the system receives feedback for its actions
+*overfitting* occurs when the model fits well on the training data but poorly on test data
+*batch* is a subset of the training data
+*epoch* is one full training cycle on the training set. Going though all *batches* once is an *epoch*
+*feature* is the data in N dimension
+*activation function* is used to output the hypothesis given the weights and feature data
+*deep neural network* has more than 1 hidden layer
+
+= Notes =
+* Deep learning is a subset of machine learning
+* Convolutional neural networks (CNN) are part of deep learning neural networks (DNN)
+* Cost function, $J(w), C, L$, is the machine learning (ML) term for the error function in statistical regression
+	- Weights and biases $(w,b)$ correspond to parameters in regression
+	- Minimizing the cost function may not lead to a _unique_ solution
+* For the basic network the data is composed of a linear combination of the feature vector scaled by a weight vector and an threshold
+* The data is passed to the activation function to output a hypothesis
+* The type of function used as the activation function classifies the neurons in a network

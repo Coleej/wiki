@@ -1,0 +1,10 @@
+= Notepads =
+
+== Python ==
+
+== Others ==
+[[Delft visit budget]]
+[[Agave tutorial]]
+
+== Vim ==
+[[test wiki page]]

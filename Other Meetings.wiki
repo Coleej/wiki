@@ -1,0 +1,9 @@
+= Dates =
+[[diary:2017-02-13|2017-2-13]]
+	- Field work planning meeting with Dr. Chen and Dr. Xu
+[[diary:2017-10-19|2017-10-19]]
+	- Meeting with SPMCSC
+	- Write up of notes on:
+		* Interpolating seamless DEMs (Dr. Plant)
+		* Mapping Manning's N to LU/LC in XBeach (Divina)
+		* Working with lidar (Xan Fredricks and Kara Doran)

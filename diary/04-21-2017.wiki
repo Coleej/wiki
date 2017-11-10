@@ -1,0 +1,47 @@
+= DeltaSEES =
+	
+	== Field Work Update ==
+		=== Giancarlo ===
+		* Attempted to take 10 20' cores at TE
+		=== Karim ===
+		* Gathered 170 RTK points at the "crab claw"
+		=== 26 hr survey ===
+		* 4-28-2017 for ISCO deployment
+		* The sensors will be collected at later date
+	
+	== Agenda ==
+	* There is a special session at Fall AGU on CoastalSEES for geomorphodynamics
+	
+	== Updates ==
+		=== Kelin Hu ===
+			==== Water level ====
+			* KX says that the tripod was possibly moved that would explain the shifting of the water level upward.
+			* SH thought that it might be a subtidal signal, but that has already been corrected.
+			==== Currents ====
+			* The peaks are missed at T1
+			* The observation point ($z = h - 27$ cm) is interpolated from the [[Delft3D]] results which are in
+				- The data are the 20 min average
+				- Get the processed de-spiked
+				- In general, 4-league bay is well mixed when the $u > 5$ m/s
+			* What is the cause of the error at T2?
+				- KX: It could be very shallow water.
+				- JW uses T1 because the ADV is more reliable (ADV Ocean)
+			==== Sediments ====
+			* settling velocity 0.1 mm/s is ok preliminary value by KX's opinion
+			* The model-observed offset of 0.2 g/l is the concentration in the river (SB and KX), so this offset is due to not including river yet.
+			==== New Bathymetry ====
+			* Need to start working with the new data set.
+		=== Chris S. ===
+		* Developing tools to process model output for social analysis.
+		* Production system for storm runs.
+		=== Nina L. ===
+		* 1100 phone survey results ready to analyze
+		=== Doug E. ===
+		* Published the remote sensing analysis in GRL
+		* Trying to analyze the processes responsible for land loss (e.g. wind waves vs vegetation dye-off)
+
+
+= Research group =
+[[file:
+= TODO =
+	1. [ ] Look into _Anthropocene_ journal

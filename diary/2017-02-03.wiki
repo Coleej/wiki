@@ -1,0 +1,20 @@
+= Naviagtion =
+
+== Files ==
+* [[file:~/Documents/Meetings/Research Group/02-03-2017/pres.odp|pres]]
+* [[file:~/Documents/Meetings/Research Group/02-03-2017/pres.pdf|pdf]]
+
+== General notes ==
+* Start with (idealized?) Xbeach runs and develop requirements from Delft3D from the experienced gained in this.
+	- Use profiles from CPRA surveys
+* Don't worry about allocations.
+* Start to visualize survey data
+	- Use GIS
+	- Matlab figures
+
+== todo ==
+1. [X] Visualize survey data
+	1. [X] Matlab
+	2. [X] GIS
+2. [X] Compile XBeach
+3. [X] Compile Delft3D

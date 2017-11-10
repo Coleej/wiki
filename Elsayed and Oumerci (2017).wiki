@@ -1,0 +1,75 @@
+= Synopsis =
+The paper addresses the overestimation of erosion/overwash deposition of [[XBeach]] under very high rates of [[overtopping]]. Two improvements are made to [[XBeach]] which address two deficiencies in [[XBeach|XBeach's]]: (1) wave non-linearity's effect on sediment transport (time averaged flow which depends on the skewness and asymmetry of the short-waves); (2) the actual shear stress required to mobilize sediment which is in far in excess of that predicted by the [[Shields curve]]. (1) is addressed by including the effect of the shorerise slope on the calibration factor used to scale non-linear effects on sediment transport. (2) is addressed by including an additional calibration factor to scale the _critical sediment stirring velocity_
+
+= Conclusion =
+Previous modeling studies that calibrated the _facua_ parameter are used to develop a curve relating the calibrated _facua_ parameter to the model site's average beach slope. The idea is that _facua_ acts to scale the onshore sediment transport counteracting offshore transport occurring with rundown and return. Consequently, _facua_ should increase with offshore beach slope or the shorerise. They find a decent direct correlation between _facua_ and beach slope ($R^2 = 0.7736$, $N = 8$) with the power law:
+
+{{$
+\gamma_{ua} = 5.927(S_s)^{1.3462}
+}}$
+
+where $S_s$ is the beach slope which is measured perpendicular to the shoreline from the [[depth_of_closure|depth of closure]] to the maximum [[run-up]] point.
+
+[[Elsayed and Oumeraci (2017)]] implement another calibration factor ($\gamma_{pi}$), the *Particle Interaction effect* which scales the critical stirring velocity in the equilibrium sediment concentration calculations. This parameter requires a site specific calibration.
+
+These two enhancements do offer additional ways to calibrate an XBeach model, but they do not offer a more physically based solution to complex cases where an overestimation of erosion is simulated ([[McCall et al. (2010)]]). New advancements in [[XBeach]] allow for spatially varying sediment and vegetation fields which may be a better solution.
+= Criticisms =
+1. The author doesn't clearly explain that his improvements aren't really physics based, but rather additional calibrations
+2. His choice of tests do not seem that robust
+
+= Notes =
+== General ==
+* The overestimation of [[overwash]] and erosion in [[XBeach]] is due to the sediment transport component and not the hydrodynamics
+	- This is the case for large [[overtopping]] and high flow velocities, e.g. those present during hurricanes
+	- [[McCall et al. (2010)]] suggest artificial limiters on the [[stirring velocity]] in the sediment transport calculations for high flow velocities
+	- [[de Vet (2014)]] attempts to correct this by including the bed slope effect and dilatancy effect in the initiation of sediment motion
+		* The soil dilatancy effect acts to increase the critical Shields parameter for erosion and is based on soil properties
+		* Improved some results, but performed worse for others
+* Flow asymmetry induced by short wave asymmetry is important for cross-shore morphology changes in [[XBeach]]
+	- The skewness (higher onshore velocities) and asymmetry (larger positive phase accelerations) over a non-linear short wave period in the nearshore results in net onshore sediment transport
+	- [[XBeach]] attempts to incorporate this effect by introducing the [[stirring velocity]] into the sediment transport formulations which is a parameterization of wave skewness and asymmetry
+		* the formulation: $u_a = γ_ua*u_rms(S_k - A_k)$
+		* One of the most import parameters in [[XBeach]] as it dominates cross-shore sediment transport and many studies report that it need to be calibrated to reduce the overestimation of erosion
+			- Increasing _facua_ will reduce erosion by increasing onshore sediment transport, presumably, from farther offshore because the overestimated erosion is reported along with extreme [[overtopping]]
+			- Increasing _facua_ acts to counteract offshore sediment transport due to erosion ([[Elsayed and Oumeraci (2017)]])
+		* $γ_ua$ is a calibration factor and is set in [[XBeach]] as _facua_
+			- [[Vousdoukas et al. (2012)]] and [[Nederhoff (2014)]] both suggest that for steeper bed slopes, values of $\gamma_{ua}$ should be set higher than the default (0.1)
+* One aspect that may account for overestimated erosion is the underestimation of the critical Shields parameter for marine sand beds that natural have many stabilizing agents (e.g. biological, chemical, grain locking)
+	* [[Elsayed and Oumeraci (2017)]] implement another calibration factor ($\gamma_{pi}$), the *Particle Interaction effect* which scales the critical stirring velocity in the equilibrium sediment concentration calculations
+== Results ==
+* Using the unmodified XBeach, for two contrasting cases, one with high estimated [[overtopping]] and one with lower estimated [[overtopping]] ($qₒ = 423 l/s/m$ and $qₒ = 16.351 l/s/m$, respectfully) the lower [[overtopping]] shows better results as expected
+	- For a limited, active portion of the domain, the results are:
+		- lower [[overtopping]]: $BSS = 0.915$ (excellent fit) and $RMSE = 0.3m$
+		- higher [[overtopping]]: $BSS = 0.68$ (good fit) and $RMSE = 0.38m$
+
+* In general, for the unmodified XBeach, the crest recession (landward translation) is overestimated by $73%$, but for lower [[overtopping]] rates the overestimation vanishes
+
+=== Test cases ===
+1. In testing their new formulations for the GWK large-scale laboratory dune tests, they found that the best BSS score (0.983) was obtained when turning off the dilatancy and grain-stabilization effects and just applying their formula for _facua_ based on the mean beach slope
+2. Setting the *Particle Interaction effect* ($\gamma_{pi} = 1.3$) for the Zwin case increased the predictions of the final breach width
+3. [[McCall et al. (2010)]] is returned to with the new model formulations
+	- Using the *slope effect* and a calibrated *particle interaction effect* ($\gamma_{pi} = 7.1) improves on the original results
+	- The domain contains roads and a parking lot, which would affect erosion, and the authors claim that the *particle interaction effect* accounts for this
+		* Why not set erodible layers here?
+== Model setup ==
+* A laboratory experiment is modeled with the same dimensions
+* Uses version 4812
+
+=== Domain ===
+* $size = 310m * 5m$ (cross vs alongshore)
+* $Δx = 0.2m$
+* non-erodible zones (revetments) in the experiment are also modeled
+
+=== Parameters ===
+* $D50 = 160μm$ (computed based on grain size distribution used in experiment)
+* $D90 = 275μm$ (computed based on grain size distribution used in experiment)
+* $Cf = 0.00062$ (based on $D50$)
+* $morfac = 10$
+* Sediment transport calculated with [[Van Thiel-Van Rijn]]
+* front,back = absorbing-generating and weakly-reflective
+* sides = wall boundary
+* lateralwave = Neumann
+* instat = observed spectrum formatted as variance-density spectrum file
+* The rest are defaults
+
+

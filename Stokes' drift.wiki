@@ -1,0 +1,9 @@
+= General concept =
+Wave orbital paths (_wave excursions_) are only closed in [[LWT]]. When higher order theories are considered it is seen that integrating particle velocities over a wave period results in non-zero quantity, i.e. there is net movement in the particles. This is in the Lagrangian description of the particle velocities, in the Eulerian, even to the second order, the average below the wave trough is zero.
+
+= Notes =
+* To the second order, these net movements are a function of $z$, increase toward the top and at the bottom are equal to zero.
+* Determining the vertical average Stokes' velocity by averaging from the bottom to $z=0$, results in a quantity conveniently related to the wave energy.
+	* $uₗ = E/ρhc$
+	* This is implemented in [[XBeach]]
+

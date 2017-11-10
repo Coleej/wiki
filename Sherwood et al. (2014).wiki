@@ -1,0 +1,61 @@
+= Synopsis =
+Bay- and ocean-side observations of water levels during hurricane Isaac (2012) at the Chandeleur Islands, LA, allow for analysis of return flow sediment transport with XBeach. During Isaac, at the Chandeleurs, the flow was usually seaward. They found that by correctly specifying the back and front water level boundary conditions (i.e. a seaward gradient in water level) yields a better match with observations. 
+
+= Conclusions =
+Cross-shore mean flows are significant for geomorphic change and erosion does not monotonically increase with the level of barrier island inundation.
+
+= Notes =
+== General ==
+* The pre-storm lidar data used in the XBeach model was from February 2012 and only existed for the Chandeleurs [[Guy el al. (2013)]].
+* The berm crest was 1.4m NAVD88 with low spots of 0.9m.
+* The model produced large deposition in the nearshore based on the return flow during the inundation regime. This was the case despite large onshore directed waves.
+* Excessive smoothing in the model results resulted in an over-estimation of erosion.
+	* The authors blame this on uniformity in grain size and erodibility that neglected presence of vegetation and the spatial variation in vegetation which would lead to heterogeneous erodibility.
+* Numerical experiments (1) where the ocean side water elevation was artificially increased and (2) then where the water level at the ocean and bay boundaries was held constant were conducted.
+	1. Overwash fans were produced
+	2. Landward uniform erosion without overwash fans was produced.
+	* Cross-shore mean flow is important for geomophodynamics.
+* The authors believe the geomorphic configuration of the Chandeleurs makes it a natural laboratory for numerical models.
+	* However, Caminada is ideal for experimenting with engineering designs.
+* Onshore transport does not increase monotonically with inundation depth.
+	* This work suggests that storms which are just large enough to generate overwash may be the most effective in generating _rollover_.
+
+== Methods ==
+=== Lidar data ===
+==== pre-storm ====
+* predated the storm by 6-7 months
+* δz = 0.1m
+
+=== Analysis of results ===
+* When analyzing the post-storm accretion/erosion patterns, only data above the 0m contour are presented
+* Comparison with model scenarios are only visual
+
+== Model setup ==
+=== Domain ===
+* alongshore dimension = 1.5km
+* cross-shore dimension = 1km
+* offshore depth = 8m
+
+=== Grid ===
+* $Δx = 40m - 2.5m$
+* $Δy = 20m$
+
+=== Inputs ===
+==== Topography ====
+* NOAA DEM + 3 USGS hydrographic surveys (2006, 2010, 2011) and 2012 lidar survey.
+	* Scale-controlled interpolation method [[Plant et al. (2002)]] with most recent data given the largest weighting.
+	* Description of the usage of each specific data set in the model bathymetry was not given. 
+
+==== BCs ====
+===== Waves =====
+* [[JONSWAP]] spectra generated from [[SWAN]] output at the boundary on an hourly basis.
+	* The outer regional SWAN model was forced with a complex [[Wavewatch III]] setup.
+* Radiation conditions on the other three boundaries.
+
+===== Water levels =====
+* Bay and ocean boundaries were prescribed from data.
+	* This allowed for simulation of the bay to ocean surface gradient.
+	* Wave induced setup had to be removed from the observed data used for BC, because XBeach calculated this.
+		* Reduced water elevations by 15-25% over the storm.
+		* Not removed from bay side (not much waves there).
+* Neumann conditions on the lateral boundaries.

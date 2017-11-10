@@ -1,0 +1,5 @@
+= LSU =
+	* [[Nvidia Deep Learning Workshop]]
+
+== HPC training ==
+	* [[deep_learning_20171108|2017 Intro. to Deep Learning]]

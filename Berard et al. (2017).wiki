@@ -1,0 +1,27 @@
+= Synopsis =
+Performed further sensitivity/validation of XBeach in a wave flume experiment. The _collision_ and _overwash_ regimes of Sallenger's _Storm Impact Scale_ were tested.
+
+= Conclusions =
+* The model correctly predicted that morphological change is 2x faster during the overwash regime than during the collision regime.
+* See notes for specific conclusions on the calibration of parameters.
+
+= Notes =
+* Lab results show:
+	1. Collision regime is characterized by erosion of dune toe that leads to rapid slumping followed by wave-driven reshaping of displaced sediment.
+	2. Overwash regime shows faster morphological changes and higher sediment transport rates.
+* XBeach was not able to simulate cross-shore variability in $Hₛ$.
+	* Due to harmonics and waves reflected in the wave tank.
+* XBeach was able to create an dune toe berm (for the high water experiment), but that it overestimated the offshore extent of the berm.
+* Results for reshaping avalanched sand were not good reflecting that the sediment transport formulas were not designed for the complex hydrodynamics of the swash region where waves are crashing on dune faces with high water levels.
+* Measured wet/dry slopes reduce the amount of calibration parameters in XBeach.
+* XBeach showed the greatest sensitivity to the threshold water depth ($ε$ or eps) that determines whether a grid cell is considered inundated or not.
+	* Best values were $ε=0.02m$ and $ε=0.09m$ for [[Soulsby-van Rijn]] and [[van Rijn-van Thiel de Vries]], respectfully.
+		* BSS score for SVR were 0.79 and 0.87
+		* BSS score for VRVT were 0.56 and 0.65
+		* There is some agreement with this results in the literature.
+* Other sensitive parameters were:
+	* Wet/dry critical slope
+	* The depth at which the calculation of unstable slopes should switch from dry to wet slope ($h_sw$)
+		* Found that $h_sw = 0.005m$ gave best results and that $h_sw$ scaled with the scale of the morphodynamics.
+	* Sediment transport formula
+* [[Soulsby-van Rijn]] sediment transport formula was better at predicting morphological change than the [[van Rijn-van Thiel de Vries]] formula.

@@ -1,0 +1,19 @@
+= Knowledge Base =
+	* [[Projects]] -- PhD et al.
+	* [[Courses]] -- LSU course work et al.
+	* [[Scrathpad]] -- Various temporary stuff
+	* [[Miscellaneous information]] -- Confirmation numbers, etc.
+
+= Meetings =
+	* [[Individual]]
+	* [[Research Group]]
+	* [[DeltaSEES]]
+	* [[Other Meetings]]
+
+= Events =
+	* [[Workshops]] -- The output and details of workshops
+	* [[Conferences]] -- Details, dates, and associated files
+	* [[Webinars]] -- Notes from webinars
+
+= Personal =
+	* [[Finances]]

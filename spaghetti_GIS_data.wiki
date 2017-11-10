@@ -1,0 +1,2 @@
+= Concept =
+* vectors are not related, so, for instance, a two roads can occupy the same location and not produce an intersection and adjacent areas each have their own border not one common border

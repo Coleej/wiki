@@ -1,0 +1,50 @@
+= Navigation =
+
+== Files ==
+	* [[file:~/Documents/Meetings/Research Group/02-17-2017/pres.odp|pres]]
+	* [[file:~/Documents/Meetings/Research Group/02-17-2017/progress_report.pdf|progress report]]
+
+== General Notes ==
+	* Look up Rossati's dissertation (2008) for information on the morphology change of Caminada headlands with compaction/subsidence.
+
+=== Arash suggestions ===
+==== General ====
+	* Synchronize the clocks 
+
+==== Configuration parameters ====
+	- Switch back to ENU after flume test
+	- Use ADV internal battery calculator to determine burst length and burst frequency
+	- prior setup: Burst length = 20 mins
+	- prior setup: 1 burst every 30
+	- Start recording the day of deployment (00:00:00)
+	- Consider storage based on sampling frequency
+
+==== HOBO ====
+	- Use the baseplace, with pbc and fun-noodle casing to deploy
+
+==== staff gauges ====
+	- Test all the staff gauges with still water
+	- Deploy an additional wave gauge near the first wave logger
+	- Put a cross support on the most seaward support
+	- Use C-channel for supports
+		- Use two channels per upright support
+	- Connect ground wire to support
+	- Put tacks on the top to keep the birds away
+
+==== ADVs ====
+	- The tape is the positive x direction
+	- Test the compass by pointing the x direction in NESW
+	- Use tables with wood to support the legs
+	- Use metal tubes to dig the hole for the ADV
+		- Make sure the top of the tube is sealed so that there is suction to remove the soil column
+	- Two 2x4s to support the ADV from the bottom
+		- Use a large hammer
+		- Use a block to drive in the 2x4s
+		- Make the pusher deep enough to get the ADV to right level
+			- Mark the pusher to know where the top of the stabilizing 2x4s are so that the probe of the ADV is at the right level.
+	- Construct ADV/pbc sleave in the lab and situate the sample volume relative to the top of the pbc. The top of the pbc pipe will be level with the marsh surface, so in this case we know the level of the sample volume.
+	- Put green cap at the bottom of the pbc sleave, tighten the two halves with hose clamps
+	- Put gasket on the end of the pbc to stop mud from entering the casing.
+	- Put the ropes on before putting in the ground
+
+==== wave gauge ====

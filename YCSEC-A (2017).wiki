@@ -1,0 +1,38 @@
+= Info =
+abstract due: June 23rd, 2017
+registration cost: $150
+registration due: June 30th, 2017
+conference dates: August 21st through August 23rd
+
+= Files =
+== Abstract ==
+* [[file:~/Documents/04_conferences/YCSEC-A_2017/abstract_template.docx|abstract template]]
+* [[file:~/Documents/04_conferences/YCSEC-A_2017/abstract.docx|abstract]]
+
+== Presentation ==
+* [[file:~/Documents/04_conferences/YCSEC-A_2017/draft.odp|draft]]
+* [[file:~/Documents/04_conferences/YCSEC-A_2017/codyjohnson.pdf|pres]]
+== Miscellaneous ==
+* [[file:~/Documents/04_conferences/YCSEC-A_2017/YCSEC_FullpProgram.pdf|program]]
+= Notes =
+== Beach Renourishment ==
+=== Katie Finegan ===
+* When going for a nourishment, the minimum threshold economically is about 1e6 cubic yards nourishment
+
+=== Brittany McMillan ===
+* Katrina cut is on Dauphin Island
+* Ran XBeach for Dauphin island.
+	* Video produced with Matlab
+
+== Sediment Transport ==
+=== Megan Wengrove ===
+* Looked at the Sand Engine
+
+=== Tongtong Xu ===
+
+=== Huidi Liang ===
+* Influence of land reclaimation projects on sediment transport
+
+== Professional Development - Communicating Science ==
+* COMPASS - Communication Partnership for Science and the Sea
+* 

@@ -1,0 +1,40 @@
+= Files =
+
+
+= Metadata =
+== Raw data ==
+=== Acquisition ===
+* Collected with EAARL-A lidar system
+* acquisition date = 2008-09-06
+
+=== QA/QC ===
+* data type = first surface
+* vertical accuracy = ±25cm
+* horizontal accuracy = 1m
+
+==== Data processing ====
+* RCF filtering was used
+	- grid cell size (buffer) = 5 meters x 5 meters
+	- vertical tolerance (vertical width) = 300 centimeters for first surface.
+
+
+=== CRS ===
+NAD83
+GRS80
+UTM 15n
+NAVD88
+GEOID09
+
+== Transformed data ==
+=== CRS ===
+NAD83
+GRS80
+UTM 15n
+NAVD88
+GEOID12b
+
+== Rasters ==
+* resolution = 2.5m
+* The GeoTIFFs were created using Delauney triangulation, follwed by linear interpolation based on routines in the ITT VIS Interactive Data Language (IDL) code.
+* nodata value = -32767. Where there is no data or their is an optical water depth > 1.5 Secchi disc
+

@@ -1,0 +1,12 @@
+= Files =
+[[file:~/Documents/05_meetings/10_research_group/2017-08-04/draft.odp|draft]]
+[[file:~/Documents/05_meetings/10_research_group/2017-08-04/report_20170804.pdf|report]]
+
+= Notes =
+* Do not consider lake Campaign right now. Do not want to  get bogged down in the details
+* Assume reasonable elevation values for the active breaches based on literature
+
+= TODO =
+1. [X] Research the literature for depths in the breach channels
+2. [X] Find average time step
+3. [X] Get map of interpolation errors for the Caminada offshore area

@@ -1,0 +1,31 @@
+= General =
+MSc thesis centered on improving the simulation of overwash and inundation regime morphodynamics in XBeach. XBeach, at one point in its development, tended to overestimate erosion during these regimes. Specifically, the work address getting around the limitations of specifying a sheet flow limiter by incorporating more physics and better wave inputs.
+
+conclusion: "As a general conclusion, it is stated that the proposed adjustments in model physics do increase the predictive skill of the XBeach model substantially. Especially the dilatancy concept and the bed-slope effect are important processes. However, during storm events in field cases, other factors dominate the results of the model. It is found that a good representation of the bottom friction and the wave skewness and asymmetry is very important to achieve proper model predictions."
+
+= Notes =
+=== Sediment transport ===
+* XBeach contains two artifical methods to limit sediment transport
+	- A maximum sediment concentration $c_{max} = 0.1$ (default).
+	- A maximum limit on the Shields parameter. Not limited by default.
+
+== Methods ==
+=== Models ===
+==== Fire Island ====
+===== Setup =====
+====== nesting ======
+Xbeach was nested in a Delft3D model to provide surge and wave BCs.
+
+====== grid ======
+* Δx = 2m
+* Δy = 5m
+
+====== bathymetry ====== 
+* [[Coastal Relief Model]] (CRM) is used for $z < -6.5m$
+	* The resolution of the CRM requires interpolation to the stepping of the XBeach model
+* Local nearshore bathymetry produced by the USGS is used for $-6.5m < z < -2.5m$
+	* The CRM data is fitted to the offshore limit of the local nearshore data.
+	* One continuous shorezone profile is created.
+* Lidar data is used for $-2.5m < z$
+	* The shorezone profile is translated until it intersects with the lidar data creating a continuous profile.
+	* Back bay measurement are uncertain and therefore a uniform $z = -1m$ is used.

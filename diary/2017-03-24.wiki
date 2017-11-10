@@ -1,0 +1,18 @@
+= Group Meeting =
+== Files ==
+[[file:~/Documents/Meetings/Research Group/03-24-2017/report.pdf|report]]
+
+== Notes ==
+* Comparison of NARR vs observed winds at a NOAA station by the Wax Lake delta.
+	- The peaks look ok
+	- NARR winds have a 32 km resolution
+
+* Took for offset in modeled and observed and add this difference to the boundary conditions.
+	- This is termed the sub-tidal signal
+	- The model basically doesn't capture this phenomena
+
+== TODO ==
+1. [X] Look at changing the Courant number to smooth out the simulations of the 1D advection equation
+2. [X] Look at implementing the new Janssen model
+3. [X] One slide about the numerical scheme of wave action balance
+4. [X] Finish TODO from [[diary:2017-03-17|last week]]

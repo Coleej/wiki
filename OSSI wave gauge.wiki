@@ -1,0 +1,10 @@
+= Navigation =
+
+== Configuration ==
+$fₛ = 10 Hz$ sampling frequency
+$Tburst = 20 min$ burst duration
+$Tint = 30 min$ burst interval
+
+== Notes ==
+* Set start time/date 1 minute before the actual time that is desired for the start time/date.
+* tested at 56.5 mm water depth

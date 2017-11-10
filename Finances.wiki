@@ -1,0 +1,3 @@
+= Files =
+[[file:~/Documents/Personal/Finances/expenses.ods|scratch expenses]]
+[[file:~/Documents/Personal/Finances/student_loans.ods|scratch student loans]]

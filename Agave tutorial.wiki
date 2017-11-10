@@ -1,0 +1,23 @@
+= Notes =
+== General ==
+* The fourth capability is kind of vague. How do jobs create custom call-backs? What are some examples of these call-backs that the typical user would find useful?
+* It would be useful and interesting to provide more explanation on what a RESTful Web service is and why it is good for a Scientific Gateway.
+* Maybe include more information on the commands and options.
+
+== Getting started ==
+* I don't know how easy it would be, but it would be clearer if each section (eg Getting Started) were demarcated by different boxes. I say this because the steps to setup Agave require that you switch windows, then you come back to the tutorial and you are kind of loss.
+* Its not entirely clear the first time that when you create your Agave account, you need to use the user name on the machine which you are running the application on.
+
+=== Step 3 ===
+* typo: "If time you wish to use Agave again in after that time expires, you only need to type:"
+
+=== Step 4 ===
+* When do you keep the jasonified keys for Agave to use?
+	- Should we make an Agave directory? Work in the source code directory or the hidden directory?
+
+=== Step 5 ===
+* typo: "While this example will execute programs and store results on the same machine, simdata in principle these can be distinct computational resources."
+	- need a comma after the machine name or set it apart with parentheses. As it is, it is confusing.
+* You might want to state that you have to copy your ssh-key.txt files into the storage.txt file.
+* The notes at the end aren't immediately clear.
+* The command at the end doesn't have any instructions or explanations with it.

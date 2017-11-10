@@ -1,0 +1,19 @@
+= Files =
+
+
+= Notes =
+== Grid ==
+* The minimum offshore grid spacing is approximately $Δx = 72m$
+	- Uses a minimum of 12 points per [[IG waves|IG wave]] length
+	- Based on a estimated short wave period of $T_m = 13s$
+	- Assumes $T_{p,long} = 4 * T_{p,short} = 52s$ and that $n ≤ 0.8$ at the boundary
+		* This would suggest that $Δt ≈ 5s$ will resolve the long waves
+* [[XBeach]] computes the time-step given a CFL number (default = 0.7)
+	* For the current model with $Δx ≈ 5m$ near the dunes, the $Δt ≤ 0.2$ to satisfy the default CFL number
+
+== Depth ==
+* Two strategies are attempted:
+	1. The 2006 BICM single-beam data is excluded from the coverage of the 2010 terrestrial survey produced by CPRA, but it is retained elsewhere
+		* These may either be directly interpolated or first grid cell-averaged first
+	2. All of the data is included
+		* These may either be directly interpolated or first grid cell-averaged first

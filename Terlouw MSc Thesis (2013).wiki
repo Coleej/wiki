@@ -1,0 +1,26 @@
+= Synopsis =
+The purpose is to test and validate XBeach on complex 2D bathymetry (Ameland, a barrier island) for use in assessment of safety (test case is for large storm).
+
+The results revealed that the lidar data was of insufficient quality to allow for modeling. As a result, a qualitative analysis of the storm impacts was carried out. The possible reasons for the bad data include:
+	1. different calibration methods
+	2. incorrect use of correction factors
+	3. visual correction
+	4. different collection agencies
+
+
+= Author's conclusions =
+
+
+= Notes =
+* Cites [[Battjes et. al (2004)]] stating for mild slope beaches ($β < 0.3$, where $β$ is the dimensionless beach slope) the bound [[IG waves|IG wave]] is dominate because the excursion length of the break point is large and reduces the effectiveness of this mechanism.
+* The author identifies the need for accuracy in the lidar due to the small scale of the morphological features he is modeling ($O[1m]$).
+	- To assess the horizontal accuracy he plots contours of one lidar data set and another for inspection.
+		- He finds that at some locations the lidar's elevation has been shifted by meters.
+			- This is not quantitative.
+			- Why privilege the reference data set as true?
+			- One data set is pre- and the other is post-storm. How can he be sure the difference isn't due to the storm?
+* To assess the vertical accuracy, using the same two lidar data sets, the author visually compares collocated transects.
+	- Significant differences are found in the horizontal and vertical aspects of the transects.
+		- The vertical difference could be due to different lidar returns being used.
+		- Its possible that projection errors caused the different horizontal positions.
+	- As a result, the author manually shifted the data and completed a qualitative assessment.

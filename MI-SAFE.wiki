@@ -1,0 +1,86 @@
+= Overview =
+
+= Notes =
+== FAST ==
+* FAST-IE is used to get coastal bathymetry from satellite
+	* The algorithm returns depth per pixel
+	* Ground truthed in Europe and US (Wax Lake Delta)
+* FAST-Veg is a component that estimates vegetation cover remotely
+	* Sentinel-2
+	* Uses the Vegetation index (NDVI)
+	* Returns a vegetation presence map
+	* Has been used to map seasonal vegetation dynamics
+	* Has been used to derive [[Leaf Area Index]] (LAI)
+
+=== Ground truthing ===
+==== Field measurements ====
+* What are the import parameters?
+	* What affects waves and water levels
+	* What attributes affect stability
+	* What is remotely measurable from space
+	* Examples
+		* High ground, vegetation, rough surface, and high water and low water
+* Surface attribute variability
+* Measured attributes
+	- incoming/reflected radiation - spectral response
+		- Used handheld spectrometers to ground truth the satellite data
+		- Compared measured vs theoretical spectra for such things as wet/dry vegetation
+			- Deviations from theoretical spectra were used to derive properties of the vegetation
+			- deviations also used to look at seasonal variations
+		- One plot showed good agreement between field and the satellite measurements
+	- vegetation
+		- biomass
+			- Used UAVs
+		- structure
+			- Used _side-on photography_ to assess structure
+	- sediment/topography
+		- elevation
+			- Used UAVs
+		- grain size
+		- features
+		- roughness
+			- some sort of novel measurement technique
+		- OM
+		- tidal bed dynamics
+		- long term sediment erosion/deposition
+	- Water elevation and waves
+		- recorded with 4 Hz
+		- Also measured topography with RTK units in the zones important to waves
+		- Timed wave measurements for when the marsh is flooded (the unit starts a burst when the tide is rising)
+* Field campaign
+	* Extremely shallow environments
+		* No boat access
+		* No foot access
+		* necessitated flexibility of sample locations
+	* Shore normal and parallel transects
+* Derived products
+	* Lidar derived margin categories (cliff, marsh, etc)
+
+== Data-model integration ==
+=== General ===
+* An attempt to do this globally
+* In the browser, the XBeach results were pre-computed and are selected based on user input
+* Uses water levels and wave height of a 10-year return period
+* No wave growth on the foreshore XBeach domain
+	* The boundaries are imposed from the global data sets for water levels and Hm0
+
+=== XBeach ===
+==== Model inputs ====
+* Topography sources: SRTM and GEBCO
+	* The constructed some derived product to combine the multiple maps
+* vegetation: GlobCover 2009
+* hydrodynamic:
+	* Muis et al. (2016)
+	* ERA-Interim for Hm0 and Tp
+ 
+==== Veg module ====
+* non-hydrostatic mode
+	* Includes drag force in momentum equation
+* surf-beat mode
+	* Mendez and Losada for short waves
+	* drag force in momentum equations for long waves
+* look at Van Rooijen et al. (2015, 2016) for details of model implementation
+
+== MI-SAFE system infrastructure ==
+* They have a user portal for MI-SAFE with a GUI
+* They have a metadata portal which serves: Geotiffs, NetCDF, and Insitu files

@@ -1,0 +1,37 @@
+= General =
+
+= Metadata =
+== Acquisition ==
+* Survey date: 2010-04-09 through 2010-04-26
+
+== Raw lidar ==
+== QA/QC ==
+δx = ±0.5m
+δy = ±0.15m
+
+== Las points ==
+=== CRS ===
+* UTM 15n
+* NAD83
+* GRS80
+* NAVD88 (GEOID12B)
+	* 0.01m altitude resolution
+
+
+== Rasters ==
+Δx = 1m
+
+
+= Analysis =
+== Morphology change between 2008 - 2010 ==
+=== Import ===
+1. Downloaded raster files from USGS
+2. projected to utm15n with a resolution of 2m and using lanczos_f interpolation
+
+=== Extract dune area ===
+* This removes water surfaces and small areas
+	1. remove all cells with elevation less than 0.297m (GI MHW NAVD88)
+	2. remove all areas except the 5 major continous areas that constitute the coastline dune/beach areas
+
+
+= Notes =

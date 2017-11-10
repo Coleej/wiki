@@ -1,0 +1,23 @@
+= Synopsis =
+Dune erosion, overwash, and breaching of Fire Island, NY during hurricane Sandy (2012) is modeled with XBeach. The model is primarily used to analyze the formation of the breach, although it isn't spatially accurate as to where it formed in the alongshore dimension. Rather than use artifical limiters, a physics based calibration is used.
+
+= Conclusion =
+Using the default parameters can significantly overestimate the erosion rates, but this can be improved by tuning: 
+	1. [[bed roughness]] 
+		* increasing the roughness in this case
+	2. [[wave skewness]]
+	3. [[wave asymmetry]].
+
+= Notes =
+* Some difficulty in modeling the alongshore location of the breach.
+* Dune crests region ($z_d > 2m NAVD88$) showed BSS of 0.8.
+
+== XBeach model setup ==
+* domain 
+	- longshore: 2 km
+* Input data:
+	- pre- and post-storm USGS LiDAR for topography
+	- NOAA Coastal Relief Model for bathymetry
+	- USGS LARC data for breaker bar
+* $morfac = 10$
+* spatially homogeneous grain size ($400 μm$)

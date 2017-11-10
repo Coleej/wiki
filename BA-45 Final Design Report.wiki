@@ -1,0 +1,15 @@
+= Navigation =
+
+== Notes ==
+* Find wave return period stats based on WIS on pg. 3-6
+	- 100 yr storm (Hs = 33.1 ft, Tp = 14.6 s)
+* Depth of closure determined from literature review (USACE (2004) and SJB and CEC (2005))
+	* -3.4 to -4.6 m NAVD88 
+	* -3.66 m NAVD88
+* Depth of closure determined from empirical relationships
+	* -6.8 m NAVD88 (Hallermeier, 1981)
+	* -5.2 m NAVD88 (Birkemeier, 1985)
+* Depth of closure based on sand/clay interface in seaward direction (OSI, 2010)
+	* highly spatially variable
+	* See [[file:/home/cjohnson/Documents/Maps/BA-45_Cam_Report_sand-clay_interface.pdf|Map]]
+* Depth of closure used in design: -4.575 m NAVD88 

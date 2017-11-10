@@ -1,0 +1,20 @@
+= Group meeting =
+== Files ==
+[[file:~/Documents/Meetings/Research Group/2017-05-05/report.odp|report]]
+[[file:~/Documents/Meetings/Research Group/2017-05-05/report.pdf|pres]]
+
+== Notes ==
+* How does XBeach compute wave height?
+	* Energy?
+* Look to see if the science questions have answers?
+	* Are they good enough?
+	* Go beyond.
+
+=== Retrieval ===
+* NJ wants to put out a second camera.
+
+== TODO ==
+* [X] Tasks
+	1. [X] Add a column to lit review table about are the questions answered?
+		- Are the answered well enough?
+		- Can their answers be expanded with new model runs? 

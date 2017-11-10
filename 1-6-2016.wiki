@@ -1,0 +1,46 @@
+= General Notes =
+Dr. Chen's presentation [[file:~/Documents/Meetings/DeltaSEES/1-6-2016/site_characteristics.pdf]]
+
+_Flood Risk_ definition:
+$ risk = consequence * probability $
+
+First visit to "Crab Claw" in late January.
+
+James Morris: March 30th.
+
+Schedule of meetings will be decided in future but will likely be the first friday of Feb.
+
+= Minutes =
+Broken down by contributions by each PI.
+
+== SH ==
+* Not ready to work on flood induced risk for 1980 or 1990 because the model is not ready.
+* Need to define flood _exposure_ before passing data to NL.
+* What storms should be ran through the model?
+	- Choose retired names (Katrina, Rita, etc.
+	- The pre-1970 and pre-1950 and pre-1900 storms have very little data available.
+	- A qualitative difference exists between developing wind field from old versus recent wind fields.
+* What is the appropriate hydrological output to feed to the sociological model?
+	- Max flood depth, average flood depth, etc.?
+* SH can an produce FEMA flood maps (synthetic, not real, storm surges).
+	- Can provide data by polygons but HUC polys are best to use.
+	- HUCs will guide the historical storm surge simulation runs.
+
+== NL ==
+* Is there a set of input parameters for social modeling from SH's currently developed model for 1980 or 1990.
+* Needs more *data*. Currently only has 4-5 points per parish.
+* Ready to work with 2010 data from SH.
+
+== SB ==
+* Maybe we should not be working on nuisance flooding at the moment.
+
+== RT ==
+* The proposal states that we are trying to calibrate perception of risk due to landscape change.
+* This should be considered when choosing which storms to model.
+* Need a temporal resolution on the order of 30 years (1980, 1990, 2000 may be too fine).
+* dt should be ~30 years. As stated in the proposal.
+* Probability in the vein of FEMA maps are for forecasting risk, however for the project we shouldn't think this way.
+	- We should focus on something like drivers in ecological studies should be considered. Determine the cause and effect relationship between flooding and population dynamics.
+
+= Action Items =
+[ ] SH and Chris will determine available wind fields for historical storms.

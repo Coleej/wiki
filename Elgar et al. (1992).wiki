@@ -1,0 +1,16 @@
+= General =
+Long-term observations of waves are made in 8m and 13m depth of water offshore from Duck, NC, and 13m at Barber's Point, HI. The purpose is to settle the debate about what contributes more energy to the [[IG waves|IG wave]] frequency band: bound waves (phase-coupled to the incident wave field) or free "leaky" edge waves.
+
+The result show high correlations between the [[IG waves]] and the incident waves, but the amplitude modulation between a depth of 13m and 8m (2km and 1km from the shore, respectfully) suggests that the [[IG waves|IG wave]] energy is dominated by free "leaky" waves. In the case of very high incident swell waves, the observations show that the [[IG waves]] are instead the result of the bound waves.
+
+= Conclusions =
+1.5 m ≥ For their data set, bound-wave contributions to [[IG waves|IG wave]] energy is significant for energetic incident waves ($Hₛ ≥ 2m$), but for more commonly observed moderate conditions ($1.5 m ≥ Hₛ ≥ 0.5m$), free waves dominate the [[IG waves|IG wave]] energy in 8- and 13m depth.
+	* At 13m depth, even when bound-wave contributions dominate (energetic conditions), there is still a contribution from free waves. However, at 8m there is far less free wave contribution.
+
+= Notes =
+* The bound waves discussed here are from wave-wave nonlinear interaction at the difference-frequency.
+	- The maximum bound-wave forcing occurs as a difference-frequency of $0.06 Hz$ which is nonlinearly excited by the frequencies $0.11 Hz$ (swell) and $0.17 Hz$ (sea).
+		* This does not seem to be very low frequency motion.
+
+* At the $h=13m$ NC location, there wave wave breaking during the high energy events.
+* Correlation between [[IG waves]] ($0.004 < f < 0.04$ Hz) and incident waves ($0.04 < f < 0.30$ Hz) suggest that the [[IG waves]] are locally driven.

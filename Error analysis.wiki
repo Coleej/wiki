@@ -1,0 +1,220 @@
+= Concepts =
+== Best estimate ==
+_best estimate_: The value which is reported along with the _uncertainty_ and is considered the researcher's most thorough and well-reasoned estimate of the results
+	- In the case of _random errors_ this is usually the mean of the measurements
+
+== Types of errors ==
+1. (accidental, stupid, and intended) mistakes
+2. systematic deviations
+	* Not possible to treat these statistically
+	* Caused by instrumentation defects, user bias, bad calibrations, impurities in experimental materials, and unknown sources.
+3. random errors or _uncertainties_
+	* It is possible to treat random _uncertainties_ statistically
+	* Due to limited precision or _random_ noise in the sampled signal
+	* When multiple measurements are available, then the _uncertainty_ is the spread around the average and one attempts to derive statistical conclusions about the probability distribution which the observations are _supposed_ to belong to.
+		- If there is only one measurement available, then the uncertainty should be estimated from knowledge of the instrument used to do the measurement.
+
+
+== Problem of definition ==
+A _problem of definition_ occurs when the sought quantity involved relies upon the measurement of other quantities which cannot be clearly defined.
+	* E.g. If one want to compute the wave length of some finite depth wave and cannot precisely measure the depth (it is known within ± 0.5 m)
+
+
+== Margin of error ==
+$δx$: This is the _uncertainty_, _error_, or _margin of error_ in the measurement or _best estimate_ $x$. This is sometimes referred to as the _absolute uncertainty_ to distinguish it from the _relative uncertainty_
+	- This gives the probable range of _uncertainty_, but it remains possible that the _best estimate_ was a satisfactory measurement even if the _accepted value_ lies outside the range of the _uncertainty_
+_fractional uncertainty_: the _uncertainty_ normalized by absolute value of the _best estimate_. This is also known as the _relative uncertainty_ or the _precision_
+	- In concise form: $δx' = δx / |xₑ|$ where $xₑ$ is the best estimate of $x$
+	- Often reported as a percentage of the _best estimate_
+
+
+== Accuracy and precision ==
+* In many real experimental cases, when the _true value_ is not known, then it is impossible to quantify the accuracy of a measurement, instead statistical analysis of repeated measurements yield a sense of the precision of the experiment
+
+
+== Accepted values ==
+_accepted value_ : A quantity which has been measured many times before with great precision, which, despite the fact that it still contains _uncertainty_, can be treated as exact
+_true error_ : The difference between a measurement and the _true value_ of a quantity
+	- The _true value_ of many quantities is not known and in many cases can never be known
+
+
+== Independent and random uncertainties ==
+* If the _uncertainty_ in two measurements are Gaussian in nature, then there is a 50% chance that a overestimation in one measurement is counteracted by a underestimation in the other
+	- Of course this only applies for random errors and systematic biases cannot be treated with the same statistical techniques
+* It may be the case that estimating _uncertainties_ which are _random and independent_ is an easier task because the _uncertainties_ are summed in quadrature
+	* In this case, when the _uncertainty_ is rounded to the one sig-fig, only the largest source of error influences the final estimation
+
+=== Statistical treatment ===
+==== Definitions ====
+$X,Y,...$ : The _true values_ of $x,y,...$
+	* This convention is adhered to by Taylor (1982)
+$x̅$ : The _mean_ of a set of measurements, with little or no _systematic error_, is usually the _best estimate_ of the _true value_
+$dᵢ$ : The _deviation_ (or residual) is the difference between an individual observation and the mean: $dᵢ = xᵢ - x̅$
+	* The magnitude of the _deviations_ informs us about the measurements precision
+	* Of course the average _deviation_ is zero leading to the definition of the _standard deviation_ as the root mean square _deviation_
+$σₓ$ : The _standard deviation_
+	* The _standard deviation_ remains a good measure of _uncertainty_ even if the observations are not normally distributed
+	* This provides an estimate of the _average uncertainty_ in the measurements
+	* The _population standard deviation_ or _sample standard deviation_ subtracts one from the sample size when taking the mean of square _deviations_.
+		- This is thought as a better way to take the _standard deviation_ of measurements as it yields an undefined _average uncertainty_ for a single measurement
+		- This definition somewhat corrects the other tendency to understate the _uncertainty_ when the number of observations is small
+$σₓ²$ : The _variance_ in the measurements
+$σₛ$ : The _standard deviation of the mean_ (SDOM) (or the _standard error_ or _standard error of the mean_): $σₛ = σₓ * √N$ where $N$ is the sample size
+	- This is derived by evaluating the _standard deviation_ of $M'$ experiments, each containing $N$ measurements of $x$, and providing their own _best estimate_ $x̅$
+		- $x̅$ are all distributed around $X$ with a width parameter $σₛ$, so the $x̅$ has a 68% probability of being the _true value_
+		- Any individual measurement $xᵢ$ has a 68% probability of falling within one $σₓ$ of the _mean_ for that sample population
+	- The SDOM reflects that fact that as the number of measurements increases, the _uncertainty_ in the final answer (the mean of the measurement) decreases, i.e. the precision of the final answer increases
+	- Usually, it is more worthwhile to refine the measurement technique than take extreme amount of measurements to increase the precision of the final answer
+$G_{X,σ}(x)$ : Gaussian centered at $X$ with spreading parameter $σ$
+$\erf(t)$ : The _error function_ or _normal error integral_
+	- This function is the definite integral of the normal distribution
+	- For _error statistics_, $t$ is some multiple of the spreading parameter and the integration from $[0,t]$ yields the probability that some value falls within ± tσ of the normally distributed values
+		- Common probabilities are: 68% for t = 1, 95.4% for t = 2, and 97.7% for t = 3
+		- If x̅ is taken as the _best estimate_, then these are the _confidence intervals_ that the estimate falls into. E.g. There is 68% confidence that x̅ ± σ includes the _true value_
+$PE$ : This is the _probable error_ and it denotes a 50% confidence interval, i.e. PE ≈ 0.67σ
+$\sigma_{xy}$ : The _covariance_ of jointly-distributed variables $x$ and $y$
+	- It is defined as: $\sigma_{xy} = \dfrac{1}{N} \sum^{N}_{i=1} (x_i - \overline{x})(y_i - \overline{y})$
+	- The _variance_ is a special case called the _auto-covariance_ (i.e. $y = x$ in the above formula)
+	- If $x$ and $y$ are _independent_ then the _covariance_ will tend to zero as the number of observations becomes large
+
+
+===== Moments =====
+Referring to the variable $x$ with a probability density function $f(x)$, the moments of $f(x)$ are given as:
+
+$mₙ = ∫(x - c)ⁿf(x)dx$
+
+$c$ is where the moments are "taken about". If $c = x̅$, then they moments are called _central moments_. If $x = 0$, then they are called _raw moments_.
+
+The important moments:
+1. For $c = 0$, $x̅$, the mean, is the first moment
+2. If $c = x̅$, then $σₓ²$, the variance, is the second moment
+
+==== Notes ====
+* If the _standard deviation_ of a set of small and random observations is $σ$, then given that _small random errors_ follow the normal distribution, $68%$ of the observations fall within $σ$ of the true value. Thus, for a single measurement of the same kind, we can be $68%$ confident that the measurement was within one $σ$ of the true value.
+	* Thus $σ$ can be used to define _uncertainty_: $δx = σₓ$
+	* However, $σ$ can be used as a measure of _uncertainty_ even if the observations are not normally distributed, but the probability of the observation will change
+* If the _mean_ is taken as the _best estimate_ of a measurement, then the SDOM is the _uncertainty_ in that measurement
+
+===== Significance of a best estimate =====
+In order to determine the significant of an experimental result's _best estimate_ (i.e. $x̅ ± σₓ$) we assume that $x̅$ is normally distributed and hypothesize that this distribution is centered on $X$ with a width $σₓ$
+	* First, the assumption of a normal distribution centered on $X$ requires that all _systematic errors_ have been eliminated and that we are correct in considering $X$ as the _true_ or _accepted value_
+	* Second, hypothesizing that the estimated $σₓ$ is the width parameter relies on an approximation but is reasonable if the number of measurements is large
+
+The probability of the _discrepancy_ in $x̅$ is then computed in order to determine how acceptable the results are, i.e. if the probability of the _discrepancy_ is extremely low then the experimental results should be brought into question.
+	* To determine this probability:
+		1. normalize the _discrepancy_ by $σₓ$, which yields $t$ the number of _standard deviations_ $x̅$ is away from $X$
+		2. Evaluate $erf(t)$ to determined the probability $P(x ∈ tσₓ)$ that a value fall within the range of $X$
+		3. Compute $P' = 1 - P$ to determine the probability ($P'$) of a _discrepancy_ this large
+
+Determining if a measurement is acceptable takes expert evaluation of $P'$, i.e. is an acceptable answer within 2 _standard deviations_ of $X$ ($P' ≈ 5%$) or some other distance. Rules of thumb for the _discrepancy_ provided by Taylor (1982):
+	* $t ≤ 1.8$ are acceptable by almost any standard
+	* $t > 2.5$ are completely unacceptable
+	* $1.9 < t < 2.6$ are a grey area that needs to be investigated further
+
+
+
+
+== Systematic errors ==
+"No simple theory tells us what to do about systematic errors. In fact, the only theory of systematic errors in that they must be identified and reduced until they are much less than the required precision (Taylor, 1982)."
+
+* The _total uncertainty_ must be broken up into components, _random error_ and _systematic error_, that are considered separately.
+	- $δxₜ = δxᵣ + xₛ$ where $δxₜ$ is the _total uncertainty_, $δxᵣ$ is the _random error_ (estimated with the SDOM), and $δxₛ$ is the _systematic error_
+* Rules are sometimes applied to equipment that set an assumed systematic error, e.g. the scale has an _uncertainty_ of 1%
+	-  $δxₛ$ is propagated as normal
+	- It must be decided on a case by case basis whether different _systematic errors_ are summed in quadrature or not
+		- They are not random, but they may be independent and therefore it can be assumed that some cancellation is possible
+	- The _random_ and _systematic_ components can be reported with the _best estimate_ separately or combined
+		- It is up to the research to decide whether to combine it with the _random error_ in quadrature or regular addition
+	- Given some appreciable amount of _systematic error_, the claim should not be made that it is 68% probable that the final answer falls within one _standard deviation_ of the _true value_
+		- $x̅ ≠ xₜᵣ ± δxₜ$ where $xₜᵣ$ is the _true value_ or _accepted value_
+
+
+== Error propagation ==
+* For derived values which include combinations of uncertain measurements, we compute the uncertainty in the derived quantity by taking the absolute value of derivative of the function with respect to the uncertain measurement and multiplying it times the uncertainty of the measurement.
+
+=== General formulation ===
+* The general formulation for error propagation through an arbitrary compound function of variables $x1, x2, ..., xn$ is sought by appealing the fundamental theory of calculus after observing that the approximation to a change (approximation because it is assumed that the function is linear in the vicinity of the argument) in a function due to a change in its argument is the partial derivative with respect to that argument multiplied by the amount of that change.
+* General formulation:
+	* $δq = √[(∂q/∂x1 * δx1)² + ... + (∂q/∂xn * δxn)²]$
+		* Provided $x1, x2, ... xn$ are independent and random variables
+		* If $x1, x2, ... xn$ are not independent then the _covariance_ of the variables needs to be considered
+	* $δq ≤ (∂q/∂x1 * δx1)² + ... + (∂q/∂xn * δxn)²$
+
+=== Rules ===
+1. Sums/differences: The _uncertainty_ of a difference or a sum is the sum of the _uncertainties_
+	- This rule always gives an upper bound on the _uncertainty_, but the actual _uncertainty_ may be somewhat smaller and is calculated with the *quadratic sum* of the two _uncertainties_
+	- Often the difference between _uncertainty_ calculations (sum vs quadratic sum) is negligible and in many experimental situations the estimation of _uncertainties_ is so *crude* that the difference is unimportant [Taylor (1982)]
+
+2. Products/quotients: The _relative uncertainty_ of a product or a quotient of values is the sum of those values' _relative uncertainties_
+	- This provisional rule provides an upper bound on the estimated _uncertainty_
+	- _Uncertainty_ in powers of $n$ are simply calculated with: $δq' = |n|δx'$ (the prime denotes _relative uncertainty_)
+	- For _random and independent uncertainties_ the _relative uncertainty_ of a product or quotient is computed with the quadratic sum of the _relative uncertainties_ of the measured values that went into the product or quotient
+	- To determine the _absolute uncertainty_ of the product or quotient, multiply the _relative uncertainty_ by the outcome of the product
+	- In the derivation of this *rule* it is assumed that the product of _relative uncertainties_ of the multiplied or divided values is *small* and can be neglected; this is almost always the case in practice [Taylor (1982)]
+		- The derivation of the quotient's provisional rule also makes use of the binomial theorem
+	- Taylor (1982) suggests that _relative uncertainty_, as opposed to absolute certainty, is the best error statistic to report with products and quotients
+
+3. Products with exact numbers: the _absolute uncertainty_ of a measured value with an exact number is the product of the absolute value of the exact number and the _uncertainty_ in the measured quantity
+	- E.g. $q = Bx$ where $B$ is exact and $x = xₑ ± δx$, therefore $δq = |B|δx$
+
+4. The _error propagation_ of an arbitrary function, e.g. $q(x)$, of one value can be computed by evaluating that arbitrary function at $xₑ ± δx$
+	- If the _uncertainty_ in x is assumed small, then the slope of $q(x)$ in the neighborhood of $xₑ$ can be considered a straight line and calculus can be used to define a simple formula for the _uncertainty_ in $q(x)$: $δq = |dq/dx|δx$
+
+5. For a compound function of measured quantities, the _uncertainty_ is determined by evaluating the _uncertainty_ in each elementary function and following the algebraic rules of precedence
+	- E.g. The _uncertainty_ in $p[q(y)r(x)))]$ is found by first evaluating the _uncertainty_ in $r(x)$ and $q(y)$, finding the _uncertainty_ in their product (say $δw$) and finally evaluating the _uncertainty_ in $p(x)$ given $δw$
+	- A caveat to this rule is that when a measurement appears in the compound function more than once, then these sources of _uncertainty_ cannot be considered independent
+		- In this case, the quadrature rules cannot be used
+		- This may significantly overestimate the _uncertainty_
+
+
+== Error compensation ==
+_compensating errors_: a cancellation of _uncertainties_ within a compound function due mathematical relationship between the _best estimates_
+	- E.g. $q = (xₑ - yₑ)/(xₑ - zₑ)$ -- the _uncertainty_ in $xₑ$ will to some extend be canceled by the division
+	- This is missed when performing step-wise _uncertainty_ calculations
+	- If the variables are _anti-correlated_ then their _uncertainties_ will tend to _compensate_ each other
+
+
+== Rejection of data ==
+=== Chauvenet's criterion ===
+This _rule of thumb_ states that if an outlier is improbable enough (assuming a Gaussian distribution about the mean of the measurements) that it should occur in a data set of this size (N measurement) less than a one-half fraction of a measurement, then it can be rejected
+
+
+== Measurement interpolation ==
+* When the graduation of the instrument is sufficiently large to allow for sub-gradation estimates, then it is said that estimate is _interpolated_ between the two surrounding gradations.
+
+
+= Notes =
+== General ==
+* "Almost all measurements are subject to bother random and systematic uncertainties (Taylor, 1982)"
+* The measurement must have sufficiently small _uncertainty_ (typically, in scientific work, it should be within a few percent of the value), but extreme precision is not necessary.
+	- An experienced scientist knows how to anticipate _systematic errors_ and thus ensures that any _uncertainty_ derived from them is much less than the required precision (Taylor, 1982)
+	- If binary decision is required (does $Z = X$ or $Z = Y$), then the uncertainties in the measurement of $Z$ must not overlap the accepted value of $X$ and $Y$. In some sense, the precision in $Z$ only needs to be small enough to not contain both $X$ and $Y$.
+	- Assertions of _uncertainties_ without justifications for how those _uncertainties_ were arrived at are worthless
+* When given a measurement (say $l = 36$ m), it is common for the implicit _uncertainty_ to be assumed a full unit of the least significant digit (i.e. $35.5 ≤ l ≤ 36.5$ m)
+* When computing the _error propagation_ of a complicated function Taylor (1982) recommends that at each step the _uncertainty_ is rounded to one sig-fig and that small _uncertainties_ can be entirely neglected
+* For certain experiments, _error analysis_ can proceed either statistically or through _error propagation_.
+
+
+== Error estimation ==
+* When using a digital meter, and the manual doesn't specify the _uncertainty_, then it is safe to assume that the _uncertainty_ is ± 1 in the final digit [Taylor (1982)]
+* The _systematic deviation_ and other sources of _uncertainty_ must be considered when using digital instrumentation in order not to overstate the precision implied by the instrument
+
+
+== Repeatable measurements ==
+* When a measurement can be repeated, then it is reasonable to assume the _average_ gives a good estimate of the value and the _range_ of the measurements can serve as a well estimated uncertainty
+	- It can be proven that the _average_ is almost always the best estimate
+	- Statistical methods can reduce the uncertainty down from the entire _range_ of the measurements
+* The final quantity of interest in an measurement (i.e. the result after any computation with the raw observation) can be a repeated measurement even if the raw observations are all of different quantities
+	- E.g. We could measure the diameters and circumferences of many different circles and treat the calculation of π as a repeated variable even though we couldn't do this with the diameter or circumference 
+	- This allows for the statistical treatment of the final quantity
+
+
+== Significant figures ==
+* As a general rule, the number of significant figures determines the order of magnitude of the _relative error_, regardless of the magnitude of the value. E.g. 0.0021 ± 0.0001 has a _relative error_ of 5% as does 21 ± 1 (the _relative error_ being rounded to one sig-fig).
+* When using a digital meter, and the manual doesn't specify the _uncertainty_, then it is safe to assume that the _uncertainty_ is ± 1 in the final digit [Taylor (1982)]
+
+
+== Discrepancies ==
+* _discrepancies_ need not be significant.
+	* _Discrepancies_ are insignificant if their _margins of error_ overlap
+	* _Discrepancies_ are assessed by their magnitude in comparison with the magnitude of the _uncertainty_

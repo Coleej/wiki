@@ -1,0 +1,32 @@
+= Synopsis =
+1D XBeach was run for a specific storm with 10 different cross shore profiles. The BSS score was calculated from the terrestrial part of the profile. The models showed the highest sensitivity to the _facua_ (parameter to control the effect of wave skewness and asymmetry on flow) parameter. 
+
+= Conclusions =
+The best BSS score for a set up parameters which yielded the highest *mean* BSS score was 0.7 for an individual profile.
+
+The authors concluded that XBeach is capable of modeling storm induced beach/dune morphology change, _if a site-specific calibration is performed_.
+
+= Notes =
+== Methods ==
+=== Lidar data ===
+* Pre-storm surveying was approximately 2 months before the modeled storm.
+	* terrestrial survey was done with geodetic methods.
+		* vert. accuracy = ± 5cm and horz. accuracy = ± 10 cm
+	* subaqueous survey was done with mutli-beam
+		* vert. accuracy = ± 8 cm and horz. accuracy = ± 20 cm
+* Post-storm surveying was done by LiDAR approximately 1 month after storm
+	* ≤ 0.2 m vertical and horizontal accuracy
+
+=== Analysis of results ===
+* Calibration assessment tables of [[Brier skill scores]] (BSS) ([[file:images/BSS_vanRijn03.png|eqn]]) are computed for various combinations of input parameters of the range of modeled profiles
+* Tables of volumetric changes over the modeled profiles for different setups are compared with the observed change
+* Visual comparison between modeled and observed profile changes
+
+== Model setup ==
+* Best model scores were found with:
+	* _hmin_= 0.01 or 0.05
+	* _facua_ = 0.2 to 0.5
+	* _wetslp_ = 0.2 to 0.4
+	* _dryslp_ =  1 or 1.5
+* Profiles near hard structures show a lower BSS.
+	* This is probably due to the lack of alongshore information when XBeach is run in 1D.

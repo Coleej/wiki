@@ -1,0 +1,14 @@
+= Files =
+[[file:~/Documents/Meetings/Research Group/2017-04-06/update.odp|update]]
+[[file:~/Documents/Meetings/Research Group/2017-04-06/report.pdf|report]]
+
+= Notes =
+
+
+= TODO =
+1. [X] Set up current model with no directional spreading
+	- Alongshore uniform with average profile
+	- this will help identify the actual wave propagation
+	- Look to verify long waves
+
+2. [X] Look for verification tests in Roelvink (2009)

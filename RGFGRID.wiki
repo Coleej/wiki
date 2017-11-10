@@ -1,0 +1,44 @@
+= Manuals =
+[[file:~/Documents/20_manuals/RGFGRID_User_Manual.pdf|RGFGrid user manual]]
+
+= Operations =
+== Navigation ==
+* To exit a given mode (point, spline, poly, etc) and enter a one, the appropriate ctrl-alt-<key> must be pressed
+
+== Edit point ==
+=== Move point with neighbors ===
+* The area of influence is always 1/6 of visual area
+
+== Block ==
+
+
+== Polygon ==
+* polygons are self-closing
+
+== Paste grid ==
+* Only two grids can be loaded at once
+* Perpendicular to the line of intersection, the grids should be similar
+	- No refinements allowed
+* Grid points should be close to each other
+
+
+= Notes =
+== General ==
+* Use *refine mesh locally* and *line smooth* together to produce smooth local refinements
+	1. Use *block refine* on the entire grid
+	2. *Orthogonalize* the entire grid
+
+* The _error_ in the direction in the pressure gradient in Delft3D-FLOW (NLSW equations) is proportional to the *orthogonality* (cell centered cosign of the intersecting cell boundaries) of the cells
+	- The center of the model should have $0.02 - 0.04$ for orthogonality scores
+
+* The *M-* and *N-smoothness* compares the adjacent cell areas and returns the ratio of the larger to the smaller
+	- The grid should be *smooth* to minimize truncation errors in the FD scheme
+	- Should be less than 1.2 in the area of interest, but local exceptions may be acceptable
+
+== Multi-domain grids (nested domains) ==
+* No gaps or overlaps between sub-domains
+* transverse lines from course to refined domains should be continued
+	- Refinement should be 1-to-N, where N is the grid refinement factor in the nested domain
+
+== Controls ==
+*undo* = Esc-Esc-Esc

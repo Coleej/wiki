@@ -1,0 +1,10 @@
+= Concept =
+For sandy coasts bottom friction is a primary mechanism of bottom dissipation. It is essentially the transfer of energy and momentum from the wave-induced orbital flow just above the turbulent boundary layer to that layer.
+
+== Notes ==
+* If the flow velocity at the bottom and the shear stress at the bottom are known, then the average dissipation rate due to bottom friction is the time-average of their inner product.
+* Bottom shear stress is usually approximated by a quadratic law involving the $uᵣₘₛ$ found from linear theory and a drag coefficient.
+	- This can be expressed in terms of the energy density spectrum and used as a source in the [[Wave energy balance]] or [[Wave action balance]] equations.
+	- A popular method of estimating the drag coefficient is to use Hasselmann et. al's method from the JONSWAP study. It is given by:
+		- $C_b = χ/(g*uᵣₘₛ)$ where $χ$ is a calibration parameter.
+			* $χ$ was estimated to be $0.067 m²s¯³$ in by Hasselman et. al.  

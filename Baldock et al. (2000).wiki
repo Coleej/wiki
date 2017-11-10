@@ -1,0 +1,28 @@
+= Summary =
+Considers the problem of surf beat generation (leaky modes only) through controlled laboratory experiments.
+	* The previous field work seem to suggest a mixture of released waves bound to the incoming wave groups (e.g. [[Longuet-Higgens and Stewart (1964)]]) and the time-varying breakpoint mechanism ([[Symonds et al. (1982)]]).
+
+The laboratory experiments are designed to test the theory of [[Symonds et al. (1982)]].
+	* The data are often compared to this theory and show some level of agreement, suggesting that a breakpoint moving with the incoming wave groups can generate the free [[IG waves|IG wave]] at the group frequency.
+
+= Conclusion =
+The theory of [[Symonds et al. (1982)]] and [[Schäffer and Svendsen (1988)]] is partially validated through observations.
+	1. Agreement is found in the outgoing [[IG waves|IG wave]] amplitude.
+	2. Agreement is found in the nodal structure of the long wave motion.
+	3. The maximum and minimum response of the outbound long wave generation agrees with theory.
+		- Maximum response around $χ = 1.1$ and minimum response at $χ > 4$. 
+
+= Notes =
+* The magnitude of free breakpoint forced waves is depended on the nodal structure of standing long wave in the surfzone, where maximum amplitude occurs where a node exists shoreward of the breakpoint and anti-node seaward ([[Symonds et al. (1982)]]).
+	- [[Symonds et al. (1982)]] find that this occurs near $χ = ω_g²*hb/g/β² = 1.2$
+		- This is supported by the data in [[Baldock et al. (2000)]]. See Fig. 9b for the cross-shore variation in amplitude at the _group frequency_. It is easy to see an antinode near the break point and a node just inside the surfzone.
+	- There is also a minimum response of outbound free long waves around $χ > 4$ which is predicted by [[Symonds et al. (1982)]].
+		- This is born out by data presented in Fig 11. In this experimental case, the spectrum is broad-banded ($f₁ » f₂$) which appears to have a few consequences.
+			1. The theory of [[Longuet-Higgens and Stewart (1960)]] predicts the incoming bound wave much better and this type of [[IG waves|IG wave]] is responsible for much more energy at the _group frequency_. See Fig 11b.
+			2. The _surfzone excursion_ (the distance the breakpoint travels in time in the cross-shore direction) is much wider.
+			3. An antinode is found inside the surfzone which may reduce the effectiveness of constructive interference. 
+
+* The data appears to show that there exists released, reflected waves at higher harmonics of the group frequency as suggested by ([[Symonds et al. (1982)]])
+
+* The data suggests that the incoming bound [[IG waves]] largely transfer their energy or are dissipated. This can be seen by the lack of a nodal structure corresponding to the situation where these waves are released, reflect off the shoreline and propagate back seaward.
+	- This indicates that oscillating breaking point forcing is more relevant to outbound free long wave generation.

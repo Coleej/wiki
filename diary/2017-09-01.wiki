@@ -1,0 +1,12 @@
+= Files =
+[[file:~/Documents/05_meetings/10_research_group/2017-09-01/report.odp|draft]]
+[[file:~/Documents/05_meetings/10_research_group/2017-09-01/report.pdf|report]]
+
+
+= Notes =
+* For abstract for ICCE, just explain the XBeach model and show the data which will be used for calibration
+
+
+= TODO =
+* [X] Make ICCE abstract with figure about the calibration data
+* [ ] Contact Carola about the XBeach boundary conditions from CERA

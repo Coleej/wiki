@@ -1,0 +1,24 @@
+= Summary =
+XBeach is used to produce runup (setup + swash heights) for comparison with a parametric model. XBeach was used to extend the underlying data set, that the parametric model relied upon, to extreme storm conditions ($Hs > 4m$). The XBeach results are assimilated into the parametric model and the parametric model shows improved skill.
+
+= Conclusion =
+Both models simulate setup well, with XBeach doing a better job. The parametric model shows greater skill in predicting runup heights. However, this may be due to the fact that the parametric model is a statistical fit from data derived from the experiment which they use for comparison with XBeach. Combining the parametric and XBeach models results in an error reduction of the parametric model by 19%. 
+= Notes =  
+* Observations from the experiment were used for BCs for the non-extreme storm cases.
+* For extreme cases, cat 1 - 5 wind fields were used to drive a SWAN model. The maximum $Hs$ and $Tp$ were used with 1-D simulations.
+	* The parametric model's predicted setup compares well with the XBeach results for cat 1. For larger storms its results are less than XBeach's.
+* Similar bathymetric observations to the Caminada Restoration data (cross-shore transects) are used to produce the depth file input.
+* XBeach doesn't simulate the incident band swash motions well, but this is expected as it doesn't reproduce the incident wave band.
+* The 2D simulations consistently underpredicted the runup to [[IG waves]], but the 1D simulation both over and underestimated the swash in this frequency band.
+* For the 1D case, when the wave direction was ±15° of shore normal the mean error is infragravity _significant swash_was 0.02m. Once the wave direction became oblique to the shore, then the error increased to -0.56m.
+* For the 2D case, the error in infragravity _significant swash_ was high regardless, ranging between -0.59m and -0.71m. 
+* The distribution of normalized swash elevations for the 1D and 2D simulations, showed positive skewness and negative skewness, respectfully.
+* 
+== Model setup ==
+* 2D domain = 380m x 800m (along v cross) 
+* 1D domain = 3.6km
+* Δy = 10m
+* Δx = 0.5m - 8m
+* γ = 0.41
+	* All other parameters were set to *default*
+* Lateral BCs = Neumann 

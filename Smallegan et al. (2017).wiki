@@ -1,0 +1,33 @@
+= Synopsis =
+A [[XBeach]] model is used to analyze the effects of barrier island restoration design during hurricane forcing (Bay Head, NJ during super storm Sandy) in different scenarios of sea-level rise. It is found that:
+
+1. Placing sand on the active beach provides slight protection from flooding
+2. Raising dune or sea-wall elevations reduces overall volumetric erosion but does little to stop bay-side flooding and back-barrier erosion
+3. Raising elevation of entire island (back-barrier included) offers the greatest protection
+
+A path-forward adaptive management strategy is offered based on these results
+
+= Conclusions =
+The best way to protect barrier island land from storms in future SLR scenarios is to elevate the land surface with restorations. Given a SLR, different levels of restoration can be considered, but this will be dependent on the site. It is clear, however, that given a dune elevation, the magnitude of the design SLR relative to the dune crest elevation determines a critical point where one adaptation strategy preponderates over another. Another critical point is related to the elevation of the back-barrier marsh to SLR.
+
+
+= Criticisms =
+* When they compare the future elevations of the site in FWOP to various restoration strategies, they do not consider that much of the elevation gain or volume gain was places there because of the restoration. It is not correct to say without project, the erosion is much worse because the elevation is -0.5 m NAVD88 and with a project it is 0.2 m NAVD88, when in both cases the erosion was comparable but the initial elevations were different
+* _In-situ_ organic accretion is not addresses in the slightest
+
+
+= Notes =
+* Three SLR scenarios are forecasted to address uncertainty in the projections of SLR to 2100
+	- +0.2 m
+	- +1.0 m
+	- +2.2 m
+* It appears from simulated results, that a small increase in MWL elevation (+0.2m) due to SLR causes a drastic increase in erosion compared to the current sea level.
+	- The system is in equilibrium with the current sea-level, so it doesn't respond as drastically as to when the MWL is elevated an additional 0.2m
+	- It is likely that over the course of a century of storms, the island would translate and keep pace with the increases in MWL.
+		* The authors say that this probably won't be the case because the area is so heavily populated and engineered which does seem likely
+* Placing more sediment on the island always appears a beneficial strategy. The question is how high to pile it and where?
+	- Raising the dune protects from bay-to-ocean transport, but this is dependent on the storm being targeted and requires probabilities to estimate as to its effectiveness
+	- Adding sediment to dune + beach makes overwashed sediment available to sustain elevations
+	- Raising the back-barrier generally keeps it above MHHW by increasing its elevation directly and reducing surge driven transport
+* For this location the initial dune height was high enough to allow for beach renourishment (dune toe to depth of closure) to protect from hurricanes up to +0.2m SLR. Therefore, determining a critical dune height given a design rate of SLR is the first step towards determining an adaptation strategy
+* The authors suggest that an initial _whole island_ elevating restoration (e.g. Galveston, TX after a 1900 hurricane) may be more cost-beneficial than a periodic renourishment regime

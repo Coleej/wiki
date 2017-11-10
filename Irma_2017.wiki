@@ -1,0 +1,22 @@
+= Files =
+[[file:~/Field Work/10_hurricanes/Irma_2017/checklist.ods|checklist]]
+[[file:~/Field Work/10_hurricanes/Irma_2017/hobo_inventory.ods|hobo inventory]]
+[[file:~/Field Work/10_hurricanes/Irma_2017/Irma_deployment_instruments.ods|deployment instruments]]
+
+= Deployment =
+* HOBOs (2397345 and 2368835) and wave gauges (Dr. Xu's B, p11, p01, p05) were deployed
+* Wave gauges (Dr. Xu's A and p06) were not deployed due to site conditions
+
+= Retrieval =
+== 2017-10-20 ==
+* Couldn't retrieve 1 HOBO (S/N 2368835)
+* Couldn't retrieve 2 wave gauges (Dr. Xu's B and p11)
+* HOBO (2397345) and wave gauges (p01 and p05) were retrieved
+
+= Data Analysis =
+== Figures ==
+* [[file:~/Field Work/10_hurricanes/Irma_2017/40_munged_data/abs_p.png|hobo absolute pressure]]
+* [[file:~/Field Work/10_hurricanes/Irma_2017/40_munged_data/p01_seastate.png|p01 seastate]]
+= Notes =
+* Deploy for 2017-09-09 22:00 UTC (5pm EST)
+* It doesn't look like there was any surge/waves associated with Irma's passing

@@ -1,0 +1,8 @@
+= White-capping =
+== Concept ==
+Wave breaking seems to be theoretically intractable at the moment. However, "the occurrence of white-capping is essential a property of the sea state itself, and obviously closely related to the wind (Holthuijsen, 2007)."
+
+== Notes ==
+* Constitutes a source term (for a single frequency component) in the [[Wave energy balance]] equation.
+	- Its formulation is a matter of informed speculation but includes wave steepness. 
+

@@ -1,0 +1,24 @@
+= Info =
+abstract due: 2017-09-01
+abstract submission fee (student):
+conference dates: July 30st - August 3rd 2018
+location: Baltimore, MD
+
+= Links =
+[[http://icce2018.com/]]
+[[file:~/Documents/04_conferences/ICCE_2018/ling_abstract.docx|Ling's abstract]]
+
+= Abstract =
+[[file:~/Documents/04_conferences/ICCE_2018/abstract_template.docx|template]]
+[[file:~/Documents/04_conferences/ICCE_2018/abstract_draft.docx|draft]]
+[[file:~/Documents/04_conferences/ICCE_2018/JohnsonCody.pdf|abstract submission]]
+
+* submit as LastnameFirstname.pdf
+* one page, 2-column layout
+
+= Topics =
+* Coastal hydrodynamic processes
+* Coastal sediment processes
+* Coastal, shore and estuarine structures
+* Ports, harbors and waterways
+* Coastal environment and management

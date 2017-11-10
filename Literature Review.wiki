@@ -1,0 +1,125 @@
+= Topics =
+- Literature
+- Data
+== Literature ==
+=== Highlighting/tab color code key ===
+
+| Color  | Highlight                    | Tab                          |
+|--------|------------------------------|------------------------------|
+| Yellow | Point of interest            | Point of interest            |
+| Orange | Important point              | Important point              |
+| Red    | Dubious or contentious point | Dubious or contentious point |
+| Green  | Data                         | Data                         |
+| Blue   | Equation                     | Equation                     |
+
+
+=== Physics ===
+==== Hydrodynamics ====
+	* [[Wave spectrum]]
+		- [[Jonswap spectrum|Jonswap]]
+		- [[Direction spreading]]
+	* [[Wave energy balance]]
+		- [[Shoaling]]
+		- [[White capping]]
+		- [[Wave breaking]]
+		- [[Refraction]]
+		- [[Diffraction]]
+		- [[Non-linear ineraction]]
+		- [[Bottom friction]]
+	* [[Wave skewness]]
+	* [[Wave action balance]]
+	* [[IG waves]]
+	* [[Momentum equations]]
+		- [[Depth-integrated and time-averaged]]
+			- [[Wave drivers]]
+		- [[GLM method]]
+	* [[Stokes' drift]]
+
+==== Sediment transport ====
+* [[Shields parameter]]
+
+=== Data analysis ===
+	* [[Data presentation]]
+	* [[Error analysis]]
+	* [[Covariance]]
+	* [[Interpolation methods]]
+	* [[GIS methods]]
+	* [[grids_and_datums|Grids and datums]]
+
+=== Research papers ===
+==== General ====
+	* [[Baldock et al. (2000)]]
+	* [[Baldock (2012)]]
+	* [[Bowen and Guza (1978)]]
+	* [[Callaghan et al. (2013)]]
+	* [[Elgar et al. (1992)]]
+	* [[Holthuijsen et al. (1989)]]
+	* [[Huntley et al. (1981)]]
+	* [[Kobayashi et al. (1996)]]
+	* [[Nederhoff (2015)]]
+	* [[Nielsen and Baldock (2010)]]
+	* [[Plant et al. (2002)]]
+	* [[Ranasinghe (2016)]]
+	* [[Schäffer and Svendsen (1988)]]
+	* [[Schäffer (1993)]]
+	* [[Symonds et al. (1982)]]
+	* [[Terlouw MSc Thesis (2013)]]
+	* [[van Dongeren et al. (2003)]]
+	* [[van Dongeren et al. (2007)]]
+	* [[Walstra et al. (2000)]]
+
+==== Coastal science ====
+	* [[Burvingt et al. (2017)]]
+	* [[Hapke et al. (2017)]]
+	* [[Plant and Stockdon (2012)]]
+	* [[Schwab et al. (2013)]]
+	* [[Splinter et al. (2018)]]
+	* [[Stockdon et al. (2007)]]
+	* [[Stone et al. (2004)]]
+
+===== Lidar based research =====
+	* [[Claudino-Sales et al. (2010)]]
+	* [[Ge et al. (2017)]]
+	* [[Harley et al. (2017)]]
+	* [[Splinter et al. (2018)]]
+	* [[Zhang (2011)]]
+
+==== XBeach ====
+	* [[Berard et al. (2017)]]
+	* [[Bergillos et al. (2017)]]
+	* [[Bugajny et al. (2015)]]
+	* [[de Vet (2014)]]
+	* [[de Vet et al. (2015)]]
+	* [[de Winter et al. (2015)]]
+	* [[Elsayed and Oumerci (2017)]]
+	* [[Harter and Figlus (2017)]]
+	* [[McCall et al. (2010)]]
+	* [[Muller et al. (2017)]]
+	* [[Roelvink et al. (2009)]]
+	* [[Roelvink et al. (2012)]]
+	* [[Roelvink et al. (2017)]]
+	* [[Simmonds et al. (2017)]]
+	* [[Smallegan et al. (2016)]]
+	* [[Smallegan et al. (2017)]]
+	* [[Sherwood et al. (2014)]]
+	* [[Stockdon et al. (2014)]]
+
+
+==== GoM science ====
+	* [[Houser (2013)]]
+
+=== White papers ===
+[[BA-45 Final Design Report]]
+[[BA-143 Final Design Report]]
+[[2017 Coastal Master Plan]]
+
+==== Notes ====
+	- 100 yr storm (Hs = 33.1 ft, Tp = 14.6 s) (BA-45 final design report, WIS results)
+	- Depth of closure varies spatially and between studies. -4.575m NAVD88 was used in the design of Caminada Headlands Restoration Project 
+
+=== Technical reports ===
+==== USGS ====
+[[Louisiana BICM (2013)]]
+[[Louisiana BICM (2017)]]
+[[USGS_coastal_erosion_haz|Coastal erosion hazards (Stockdon et al, 2012)]]
+[[corr_multi_lidar|Correct multiple lidar data sets (Thompson et al., 2017)]] 

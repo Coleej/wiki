@@ -1,0 +1,27 @@
+= Synopsis =
+XBeach doesn't adequately simulate the individual contributions of set-up, and [[IG waves|infrgravity]] and incident-band swash to wave run-up. This paper aims to improve these deficiencies by (1) examine, improve and validate the numerical and physical schemes for short-wave energy propagation; (2) validate the runup and overtopping with the phase-resolving non-hydrostatic mode.
+
+= Conclusions =
+* A new method of propagating the short-wave energy ("surf-bear" mode) is introduced (the _single-dir_ method). The average wave angle is computed from a stationary wave propagation calculation every so often and this is used in the wave action balance equation.
+	- More accurate for wave groupiness
+	- 2-3 times faster
+* The _single-dir_ mode along with the improved numerical scheme (i.e. they added a diffusion term following [[Warming and Beam (1976)]]) and employing the Roelvink-Daly breaker dissipation formulation resulted in the best comparison against data collected at Duck.
+	- This method significantly improves the simulated alongshore currents
+
+= Criticisms =
+* The comparisons and evaluations of the performance of different XBeach implementations are not that clearly laid out.
+
+= Notes =
+* "On intermediate beaches and during extreme events the swash motions are still predominantly in the infragravity band and so is the wave runup (p.2)"
+	- This validates the use of _surf-beat_ mode for simulating [[Gustav]] and [[Isaac]]
+* The optimum grid size for the propagation of [[IG waves]] in the offshore is around $15m - 20m$ for $d = 10m$
+* The old XBeach formulations showed strong damping of wave groupiness over large distances in directionally-spread waves
+* The new numerical formulation described here has been in place since 2015
+	- They modified the original short-wave energy propagation scheme to include a diffusion term following [[Warming and Beam (1976)]]
+* The energy in each direction bins is integrated at every point which did not consider individual components and led to excessive smoothing of longshore groupiness
+	- Another solution (_single-dir_) is offered which eliminates the θ-space term in the [[Wave action balance]] 
+	- The scheme computes the mean wave direction, with a stationary run, every so many time steps and this replaces the time-dependent wave direction in the [[Wave action balance]] equation
+	- A comparison of the _multi-dir_ and _single-dir_ options versus a non-hydrostatic simulation show the non-default _single-dir_ performing better
+* The Roelvink-Daly wave breaking dissipation formulation is seen to reproduce both the short and long-wave heights and the alongshore currents better than the default formulation
+* A comparison between 1D and 2D run-up simulations, where the 1D simulations contain no information on the wave angle, show the _importance_ of wave angle. 
+	- The run-up is significantly over-estimated because the waves are assumed normal to the shore 

@@ -1,0 +1,8 @@
+= Summary =
+Pre-construction survey for the [[Caminada Headlands Restoration Phase I]]. 
+
+[[file:///home/cjohnson/QGIS/Data/Caminada surveys/2013 presonstruction survey/Fill Template/TE23-SM-01-current.pdf|monument sheet]]
+
+= Notes =
+* dates: *2013-05-09 to 2013-07-12*
+* Documentation is poor

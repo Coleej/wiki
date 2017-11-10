@@ -1,0 +1,2 @@
+= General =
+Compares distributions to a reference curve and computes the _grey relational grade_

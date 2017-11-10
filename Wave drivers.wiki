@@ -1,0 +1,7 @@
+When the momentum equations are depth-integrated and time-averaged certain terms remain which need to be evaluated with a short-wave model. These are the [[Radiation stress]], $S_αα$, and [[Wave-averaged mass flux]], $Q_wα$. The gradients in these terms also drive the momentum equations and are thus called *wave drivers*.
+
+== Estimation of LWT's accuracy a wave driver ==
+* Assuming conservation of energy during shoaling, LWT underestimates wave height, $H$, near the break point, while a cnoidal wave model does a much better job.
+* Computing $c$ shows that LWT predicts a quickly decreasing phase speed as the wave shoals, as compared to wave tank data and a cnoidal wave theory.
+* However, computing the cross-shore variation in free-surface elevation (using the steady state force balance of [[Radiation stress]] and free-surface gradient), as a proxy for [[Radiation stress]], shows the LWT does quite well which must be explained by a balancing of the two sources of error mentioned above.
+* However, computing the volumetric flux due to waves shows the LWT overestimates the flux near breaking. This is probably due to the two sources of error mentioned above.

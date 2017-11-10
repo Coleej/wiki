@@ -1,0 +1,53 @@
+= Research Group =
+== files ==
+[[file:/home/cjohnson/Documents/Meetings/Research Group/03-10-2017/update.pdf|update]]
+
+== Notes ==
+* Is the jump in refinement in my grid ok?
+
+== TODO ==
+* [X] Make even simpler case.
+* [X] Make a constant slope case along a longshore uniform beach.
+* [X] Look at example grid from the tutorials.
+	- McCall's domain has smoothly varying grid refinement. It also has a large extension of longshore uniform grid cells.
+* [X] Run through Steve's Agave tutorial
+	- https://www.cct.lsu.edu/~sbrandt/AgaveTraining/
+
+= DeltaSEES =
+[[file:/home/cjohnson/Documents/Meetings/DeltaSEES/3-10-2017/SEES_TerrebonneBay_Fieldtrip_March2017_new.pdf| KX presentation]]
+
+== Minutes ==
+=== SH ===
+* Contact Karim Alisad for RTK measurements at next field visits.
+* De-tide KH's model results from Four League Bay. Perform a harmonic analysis and determine which signals are well represented by the model.
+* NARR data is not the best.
+* Suggests that KH's model should go back to the hydrodynamics before moving on to the sediment transport.
+* Should DeltaSEES have a special session at the next AGU meeting in New Orleans?
+	- Contact the other DeltaSEES groups (China and India) for this?
+
+=== KX ===
+* The values of TSS (~50 mg/L) at the mouth of the bay is typical for these systems.
+* The tidal channel TSS observation does not have the correct GPS location. It is more near the transition to the tidal flat.
+* Max depth at T1 is ~1.6m.
+* Suggest the KH run his model of Four League Bay for an energetic cold front.
+* FFT analysis on turbidity signal and found that the dominate period is around 4 days.
+
+=== RT ===
+* The presence of snails on the marsh grass is a good indicator of recent flooding.
+* Annabeth: Deploy the ISCO at the same time that the 26 hr survey across the mouth of the crab claw.
+* Referenced a study that monitored marsh flooding for a year and didn't observe a single flood event in Four League Bay. 
+	- Dan Chilldress did this work, attributed this low sea-level stand to El Nino and published a paper on this.
+
+=== DE ===
+* Suggests that KH's model should focus on basic hydro for a little while longer.
+
+=== NL ===
+* Contact a journal about creating a special issue.
+
+
+== General Notes ==
+
+
+== TODO ==
+1. [ ] Find Chilldress paper
+

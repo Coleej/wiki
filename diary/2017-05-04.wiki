@@ -1,0 +1,17 @@
+= Synopsis =
+Meeting with Dr. Chen about the general progress of phd research and upcoming field work. Also touched on the trip to Deltares.
+
+= Notes =
+* Trip to Deltares will most likely be September for at least one month.
+	* If the grant gets funded then the stay could be for up to three months.
+
+* The site visit to the living shoreline field project which Dr. Chen has with the USGS will be for a week sometime in July. 
+	- Dr. Chen said that I might not need to go on the site visit.
+	- Sites from Long Island to Delaware.
+	- The deployment will probably be sometime in October/November.  
+ 
+= TODO =
+1. [X] Contact the TCM meters company and ask about a dozen short TCM time frame.
+2. [ ] Meet up with Karim to see if he grabbed the elevation of the sensors.
+	- [ ] If Karim did not, then get in touch with Dr. Jafari to get set up with an RTK unit.
+3. [X] Look into getting a Ting sim card for the RTK unit.
