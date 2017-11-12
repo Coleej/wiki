@@ -1,0 +1,12 @@
+= Files =
+
+= Metadata =
+== Acquisition ==
+* acquired between 2013-08-29 and 2014-12-17
+
+== CRS ==
+horizontal data not specified (assumed to be NAD83)
+ellipsoid model not specified (assumed to be GRS80)
+vertical datum not specified (assumed to be NAVD88)
+geoid not specified (assumed to be GEOID12B)
+projected to SP FIPS 1702
