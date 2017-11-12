@@ -3,6 +3,13 @@ Survey performed by EMC, Inc. Cross-shore profiles of Caminada using the [[2010 
 
 * [[file:~/QGIS/Data/Caminada surveys/2011 landowner survey, post lee/11-101_Caminada_SER.pdf|report]]
 
+= Metadata =
+== CRS ==
+NAD83
+NAVD88
+GEOID09 (not specified, but it is assumed)
+SP FIPS 1702
+
 = Notes =
 * date: 2011-09-13 to 2011-09-16
 * Contact: Mr. Mattox (t:662-226-5166)

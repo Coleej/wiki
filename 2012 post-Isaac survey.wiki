@@ -3,6 +3,17 @@
 
 * [[file:~/QGIS/Data/Caminada surveys/2012 design survey, post isaac/EMC 12-126 CAM-1 SER.pdf|report]]
 
+= Metadata =
+== CRS ==
+NAD83 (epoch and adjustment not specified, but probably 2011)
+Reference system no specified (assumed to be GRS80)
+NAVD88 (GEOID not specified)
+GEOID09 (not specified, but inferred from the bench mark used (TE23))
+SP FIPS 1702
+
+== Processed ==
+* CRS reprojected to utm15n and transformed to NAVD88 GEOID12b
+
 = Notes =
 * dates: *2012-10-24 to 2012-11-21*
 * Original format U.S. survey feet for LA south (1702) zone with NAD83.

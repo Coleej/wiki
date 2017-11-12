@@ -3,7 +3,18 @@ Survey conducted by Picciola & Associates, Inc. for Taylor Engineering, Inc. The
 
 * [[file:~/QGIS/Data/Caminada surveys/2010 design survey/10 09 22 Final Survey Report.pdf|report]]
 
+= Metadata =
+== CRS ==
+NAD83 (2007)
+NAVD88 (2006.81)
+GEOID09
+State plane FIPS 1702
+
 = Notes =
+== Processing ==
+* Original data has been transformed from GEOID09 to GEOID12b and reprojected to utm
+
+== QAQC ==
 * A gap of 150 to 200 ft between the terrestrial and hydrographic survey exists between stations 360+00 to 620+00.
 	* Primarily on the Caminada side.
 * The error isn't specified in the report

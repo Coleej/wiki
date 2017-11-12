@@ -1,9 +1,15 @@
 = General =
 == References ==
 	* [[file:~/Documents/30_books/35_GIS/GIS_based_Analysis_of_coastal_lidar_time_series_Hardin_2014.pdf|coastal lidar book]]
-	* [[file:~/Documents/13_technical_reports/Mitasova_SpaceTimeBchMorphLidar.pdf]]
+	* [[file:~/Documents/13_technical_reports/Mitasova_SpaceTimeBchMorphLidar.pdf|Spact time beach morphology]]
 
-= Method =
+= Methods =
+== Work Flow ==
+1. Mask areas of insufficient lidar data
+1. Classify unclassified lidar data with mcc (see [[lidar_classification#MCC]])
+	- Use optimized mcc parameters derived from minimizing the error between the classified *bare-earth* data and approximately co-located RTK surveys
+2. 
+
 == Removing water points ==
 1. remove all cells with elevation less than 0.297m (GI MHW NAVD88 2007 - 2011)
 2. remove all areas except the 5 major continous areas that constitute the coastline dune/beach areas

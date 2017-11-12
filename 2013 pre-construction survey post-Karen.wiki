@@ -3,6 +3,15 @@ After tropical storm Karen, STA 140+00 eastward to STA 315+00 were re-surveyed. 
 
 [[file:~/Documents/16_white_papers/BA-45 Project Completion Report 03-27-2015-Final.pdf|completion report]]
 
+= Metadata =
+== CRS ==
+* no CRS information specified
+* assumed NAD83 and NAVD88 GEOID12A
+SP FIPS 1702
+
+== Processed ==
+* reprojected to utm15n and transformed to GEOID12B
+
 = Notes =
 * dates: *2013-10-17* to *2013-10-26*
 * Estimated erosion from Karen ~80,700 CY

@@ -3,6 +3,16 @@ Pre-construction survey for the [[Caminada Headlands Restoration Phase I]].
 
 [[file:///home/cjohnson/QGIS/Data/Caminada surveys/2013 presonstruction survey/Fill Template/TE23-SM-01-current.pdf|monument sheet]]
 
+= Metadata =
+== CRS ==
+NAD83
+NAVD88
+GEOID12A
+State plane FIPS 1702
+
+== Processed data ==
+* reprojected to utm15n and (needlessly) transformed to GEOID12B
+
 = Notes =
 * dates: *2013-05-09 to 2013-07-12*
 * Documentation is poor
