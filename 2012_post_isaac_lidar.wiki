@@ -10,6 +10,14 @@
 * date: 2012-09-05 to 2012-10-11
 * acquired Optech 3100 Serial 05SEN175 and Leica ALS70 SN716
 
+=== Las points ===
+==== CRS ====
+NAD83
+UTM 15n
+GEOID12 (as labeled in the metadata, but this identical to GEOID12A and GEOID12B in LA)
+NAVD88
+	- altimetric resolution = 0.01m
+
 === QAQC ===
 * The USGS ground truthed the aerial lidar data with ground surveys in a small area of the Chandeleur Islands. They also give the report of the contractors, but it is unclear how they relate to each other. They report this accuracy:
 	- Reported by the USGS
@@ -23,14 +31,6 @@
 	- RMSEz = 0.32m with an offset of 0.27m using 2
 * The lidar data _are_ shifted by some unspecified amount using a program which searches the lidar points locations and finds the difference between that and the ground truthing control point.
 	- Probably the offset for that area
-
-=== Las points ===
-==== CRS ====
-NAD83
-UTM 15n
-GEOID12 (as labeled in the metadata, but this identical to GEOID12A and GEOID12B in LA)
-NAVD88
-	- altimetric resolution = 0.01m
 
 == Data ==
 * Δx = 1m

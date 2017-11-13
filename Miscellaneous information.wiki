@@ -4,7 +4,7 @@
 [[Equation templates]]
 
 == Numbers ==
-* Credit information alert confirmation number (Experion): 0818332744
-* IRS PIN (2016): 002721
 * GI NAVD offset from MLLW = -0.024m
+	* Tidal epoch 2007 - 2011
+	* GEOID12B
 * GI MHW elevation = 0.297m NAVD88 
