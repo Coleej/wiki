@@ -1,0 +1,20 @@
+= Synopsis = 
+
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+* The MCC algorithm was design to be used in heavily forested errors and retain the vegetation canopy.
+	- If vegetation canopy is not important, then block minimums may be sufficient
+	- Thus _omission_ errors (where valid ground points are discarded) may not be such a bad thing where vegetation is not import
+* The RMSE error between interpolated DEMs and ground control points:
+	* GPS field plots:
+		* St. Joe = 0.4100 m (n=81)
+		* Moscow Mt. = 1.7655 m (n=84)
+	* NGS monuments:
+		* St. Joe = 0.2390 m (n=21)
+		* Moscow Mt. = 0.9470 m (n=18)
