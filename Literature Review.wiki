@@ -104,6 +104,9 @@
 	* [[Sherwood et al. (2014)]]
 	* [[Stockdon et al. (2014)]]
 
+==== Lidar ====
+	* [[Evans and Hudak (2007)]]
+	* [[Tinkham et al. (2011)]]
 
 ==== GoM science ====
 	* [[Houser (2013)]]

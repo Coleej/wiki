@@ -6,5 +6,6 @@
 == MCC ==
 The multi-curvature classification method iteratively interpolates a surface (beginning with the full point cloud) and removes points which deviate from that surface by a user set parameter. The algorithm completes when the classification *converges* in the sense that the relative amount of points rejected is below a user set parameter.
 
+* See original paper [[Evans and Hudak (2007)]]
 
 = Notes =
