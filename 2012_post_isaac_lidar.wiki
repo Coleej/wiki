@@ -28,7 +28,7 @@
 ==== CRS ====
 NAD83
 UTM 15n
-GEOID12
+GEOID12 (as labeled in the metadata, but this identical to GEOID12A and GEOID12B in LA)
 NAVD88
 	- altimetric resolution = 0.01m
 

@@ -3,7 +3,7 @@
 
 = Metadata =
 == Acquisition ==
-* collected on October 12th 2002 -- 20121012
+* collected on October 12th 2002 -- 20021012
 * acquired with the ATM
 
 == Raw lidar ==

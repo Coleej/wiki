@@ -26,3 +26,12 @@ GRS80
 	- I imagine this means the last return data, but this is how its describe in the documents
 * Filtered and edited lidar data are compared with ground control points (GCP) by sampling all lidar data within 1m of the GCP
 	- If a tree was present at the GCP, then a 3m radius was selected
+
+== Las ==
+=== CRS ===
+NAD83
+GRS80
+UTM 15n
+NAVD88
+GEOID12B
+
