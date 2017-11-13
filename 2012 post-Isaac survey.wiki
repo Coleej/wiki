@@ -36,4 +36,7 @@ SP FIPS 1702
 | SLP  | slope of dune             |
 | WE   | water's edge              |
 | MSH  | shots in marsh            |
-	* See report for more
+| EOA  | edge of asphalt           |
+| CLA  | center line of asphalt    |
+| PPL  | power pole                |
+| FL   | wood piling fence         |
