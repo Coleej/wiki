@@ -1,0 +1,12 @@
+= Synopsis = 
+A comparison between the Airborne Topographic Mapper (ATM) lidar survey system and GPS measurements are made.
+
+= Conclusions =
+The RMSE between over 40,000 points of comparison between the ATM and GPS units is ≈15 cm. = Criticisms =
+
+
+= Notes =
+* offsets ranged from -1 to 24 cm when comparing the ATM to the terrestrial surveys
+* random error ranged from 8 to 19 cm including errors from the GPS units
+
+

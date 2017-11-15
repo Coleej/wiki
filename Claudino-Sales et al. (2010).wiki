@@ -13,3 +13,17 @@ Pre- and post-Ivan (2004) lidar surveys are compared to determine morphology cha
 * Pre-storm lidar was +5 months before Ivan (which occurred in September) and the post-storm was 2 months after
 * Interpolation of raw lidar was done with TINs
 * A road was used as a GC point between lidar surveys
+	- Average difference in elevation of the road pre- and post-storm was ≈15cm
+	- Only profiles where the road elevation matched will before and after the storm are used for comparison
+* The distance from the dune to the sea is identified a critical feature which influences dune survivability. Longer distance equals more of a chance to survive
+* Four aspects of dune morphology contribute to dune survivability:
+	- continuity of the dune ridge
+		- They found that continuity might be a deciding factor in preserving dunes in contrast to their assertions in [[Claudino-Sales, Wang and Horwitz (2008)]]
+	- cross-shore width of dune field
+		- They point out that this might be a controlling factor but only use one example
+	- dune height
+		- This is also found to not be a major factor in survivability. But the examples they use have very steep foredune slopes and are narrow dunes
+	- intradune wetlands
+* Typical volumetric losses are quoted at 100 - 200 m³/m with washover deposition of 50 - 100 m³/m, resulting in net erosion
+	- These figures lose their cogency because island width affects the severity of the erosion
+	- Subaqueous washover deposition and alongshore transport are also posited as potential sinks in the sediment budget
