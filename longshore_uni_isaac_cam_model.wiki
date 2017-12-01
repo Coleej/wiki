@@ -1,6 +1,5 @@
 = Files =
 
-
 = Notes =
 == Grid ==
 * The minimum offshore grid spacing is approximately $Δx = 72m$
@@ -9,7 +8,7 @@
 	- Assumes $T_{p,long} = 4 * T_{p,short} = 52s$ and that $n ≤ 0.8$ at the boundary
 		* This would suggest that $Δt ≈ 5s$ will resolve the long waves
 * [[XBeach]] computes the time-step given a CFL number (default = 0.7)
-	* For the current model with $Δx ≈ 5m$ near the dunes, the $Δt ≤ 0.2$ to satisfy the default CFL number
+	- For the current model with $Δx ≈ 5m$ near the dunes, the $Δt ≤ 0.2$ to satisfy the default CFL number
 
 == Depth ==
 * Two strategies are attempted:

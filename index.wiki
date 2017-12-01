@@ -14,6 +14,7 @@
 	* [[Workshops]] -- The output and details of workshops
 	* [[Conferences]] -- Details, dates, and associated files
 	* [[Webinars]] -- Notes from webinars
+	* [[Seminars]] -- Notes from seminars
 
 = Personal =
 	* [[Finances]]

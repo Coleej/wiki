@@ -7,3 +7,18 @@
 	- Meeting with Dr. Chen about future work towards PhD
 [[diary:2017-10-11]]
 	- potential individual meeting about lidar error correction going forward
+[[diary:2017-11-15]]
+	- Update on coastal lidar work:
+		* New offset calculation with GEOID12B
+		* MCC optimization
+[[diary:2017-11-16]]
+	- Meeting with Kelin about Ke Liu's Gustav Model
+[[diary:2017-11-27]]
+	- Meeting with Kelin about Ke Liu's Gustav Model
+	- Discussed Delft3D:
+		* SWAN spectral output
+		* Generating wind fields for a given mesh
+		* Different SWAN binaries
+	- Discussed sources of error in wave results
+[[diary:2017-11-29]]
+	- Meeting with Dr. Chen

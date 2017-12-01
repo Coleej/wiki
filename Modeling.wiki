@@ -4,6 +4,8 @@
 
 == Delft3d ==
 	* [[Delft3D]]
+		* [[klie_delft3d_gustav_model|Ke's Gustav model files]]
+		* [[gustav_xbch_BC_d3d|The modified Ke Liu Gustav D3D model]]
 	* See Hopkins et. al (2017) for example model setup parameters.
 		- No validation section
 

@@ -68,6 +68,9 @@
 	* [[van Dongeren et al. (2007)]]
 	* [[Walstra et al. (2000)]]
 
+==== Economics and sociology ====
+	* [[Hinkel et al. (2013)]]
+
 ==== Coastal science ====
 	* [[Burvingt et al. (2017)]]
 	* [[Hapke et al. (2017)]]
@@ -76,6 +79,12 @@
 	* [[Schwab et al. (2013)]]
 	* [[Splinter et al. (2018)]]
 	* [[Stockdon et al. (2007)]]
+
+===== GoM science =====
+	* [[Georgio et al. (2005)]]
+	* [[Houser (2013)]]
+	* [[Mark et al. (2005)]]
+	* [[Penland et al. (1989)]]
 	* [[Stone et al. (2004)]]
 
 ===== Lidar based research =====
@@ -107,11 +116,10 @@
 
 ==== Lidar ====
 	* [[Evans and Hudak (2007)]]
+	* [[Mitasova et al (2002)]]
 	* [[Sallenger et al. (2003)]]
 	* [[Tinkham et al. (2011)]]
 
-==== GoM science ====
-	* [[Houser (2013)]]
 
 === White papers ===
 [[BA-45 Final Design Report]]

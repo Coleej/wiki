@@ -1,4 +1,4 @@
-= Thesis =
+= Theses =
 
 
 == Hypotheses ==
@@ -23,3 +23,4 @@
 	* [[Deltares trip]]
 	* [[Paper work]]
 	* [[Qualifying Exam]]
+	* [[general_exam|General Exam]]

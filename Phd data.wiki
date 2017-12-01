@@ -35,7 +35,7 @@
 == Dune morphology ==
 	* [[2010_dune_morpho|2010 USACE lidar derived dune morphology]]
 
-== Other ==
+== Bathymetry ==
 	* [[BICM_bathymetry_2006|2006 BICM bathymetry]]
 	* [[CoNED_2014|2014 CoNED]]
 

@@ -1,10 +1,21 @@
 = General =
+== Metadata ==
+=== Acquisition ===
 * Acquired in late June, July, and August 2006
 * Acquired with System for Accurate Nearshore Depth Surveying (SANDS)
 	- Single-beam acoustic sonar
 	- 2km shore-normal transects every ~457m
 	- Every 3rd transect was extended to 7km
 	- Back barrier bay was surveyed to h ≈ 2.4m or 762m into the back bay
+
+=== CRS ===
+NAD83
+GRS80
+UTM15N
+NAVD88
+GEOID03
+
+== Processing ==
 * The gridded data is interpolated using a Kriging method with 100m spacing
 	- A digitized shoreline ($z = 0.5m$ NAVD88) was included in the interpolation to exclude interpolating over the islands
 * The final _vertical uncertainty_ = ± 0.09m

@@ -1,6 +1,6 @@
 = Navigation =
 == Files ==
-	* [[file:~/Phd/Committee/Research outlook.odt|Research Outlook]]
+	* [[file:~/Phd/50_committee/10_qualifying_exam/Research outlook.odt|Research Outlook]]
 	* [[Outline]]
 	* [[file:~/Phd/50_committee/10_qualifying_exam/qualifying_exam_pres.odp|Presentation]]
 

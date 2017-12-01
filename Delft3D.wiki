@@ -6,4 +6,97 @@
 	- It (Delft3D-FLOW) aims to model flow phenomena of which the horizontal length and time scales are significantly larger than the vertical scales.
 	- The flow is forced by tide at the open boundaries, wind stress at the free surface, pressure gradients due to free surface gradients (barotropic) or density gradients (baroclinic).
 	- In the present implementation, the tangential velocity component is set to zero. It is assumed that the flow is normal to the open boundary. The data needed for the boundary conditions can be obtained from measurements, tide tables or from a larger model, which encloses the model at hand (nesting).
-* Delft3D-NESTHD is a program for offline generation of boundary conditions for nested grids. 
+* Delft3D-NESTHD is a program for offline generation of boundary conditions for nested grids.
+
+=== Domain ===
+*thin dams* block the flow but do not influence water storage
+
+=== Bathymetry ===
+depths are measured downward positive from a reference level
+
+=== Time frame ===
+* *reference date* is the date by which the model time is measured by, ie the (arbitrary) t = 0 point along the time axis
+* The start and stop times should still be specified in real world time
+
+=== Monitoring ===
+==== Observations ====
+* Time-dependent observations of quantities computed by the model must be specified in grid coordinates
+
+==== Cross-sections ====
+* Cross-sections output the sum of computed fluxes, flux rates, and transport rates (hydro, matter)
+* Specify the start and end point of the cross-section in grid coordinates
+
+=== Additional parameters ===
+* Trt* files define different constants for _trachytopes_ (ie roughness formulations), eg vegetation
+* Fil2dw (a *.2dw) defines 2D weirs which cause subgrid energy loss and are implemented as effective friction coefficients
+
+=== Output ===
+==== Store communication file ====
+* This defines the time span and interval to output the com-* files for use in other [[Delft3D]] modules
+* This set of files can become large because it needs to store all the results at every grid node
+
+==== Restart interval ====
+* Defines an interval at which [[Delft3D]] should output the entire model to be restarted at the time in a latter simulation
+
+=== File descriptions ===
+==== Control files ====
+===== .mdf =====
+* Has the structure <runid.mdf>
+	- _runid_ will be used to identify the run in the result files
+* The _master definition flow_ file which controls the model run and flow calculations
+
+==== config_*.xml ====
+* This is an xml formatted config file which must be passed as the only argument to *d_hydro.exe*
+	- Generated automatically by the FLOW-GUI when executing a run from within the GUI
+	- Must be manual generated for scripts
+
+==== Communication files ====
+* the dioconfig.ini file controls how the DelftIO library calls are handled when two [[Delft3D]] executables need to communicate
+	* If a dioconfig.ini file is not present, then the default is used:
+		* StreamType=BINARY
+		* Online=False
+		* Active=True
+
+==== Attribute files ====
+===== .ini =====
+The initial condition file for hydrodynamics, transported constituents, and secondary flow intensity at all points
+
+== WAVE ==
+=== Coupling with [[Delft3D]] ===
+[[Delft3D]] contains [[SWAN]] and may be coupled with in a variety of ways:
+	* *Wave* mode computes each wave condition on a spatially uniform depth and current
+	* *Offline* uses flow characteristics form a completed [[Deltf3D#FLOW|D-FLOW]] computation
+		- Select the _Run WAVE together with FLOW_ in the Hydrodynamics tab
+		- affected with a com-file
+	* *Online* coupling has a dynamic interaction between flow and waves so that they have a mutual effect on each other
+		- Select the _Run WAVE together with FLOW_ in the Hydrodynamics tab
+		- affected with a com-file
+
+=== Grids ===
+* It is preferable to define the bathymetry on the computational grid, rather than specify an additional bathymetric grid
+	- [[SWAN]] will interpolate the bathymetry data from the bathymetric grid onto the computational grid
+
+=== Physics ===
+==== Non-linear triads ====
+* non-linear triad interactions (not realizable in shallow water) are turned off by default
+
+==== Diffraction ====
+* Diffraction is solved with [[Holthuijsen et al. (19930)]]
+	* For diffraction to accurately be resolved the grid spacing need to be about $\frac{1}{10}$ the wave lengths: $dx = \frac{L}{10}$
+	* For course grids turning on diffraction may cause instability and is therefore turned _off_ by default
+
+=== Output curves ===
+* These define curves where [[SWAN]] output is generated
+	* May be discontinuous segments
+	* Results are interpolated from the grid to the
+
+=== Output parameters ===
+* Define the coupling interval, output interval, and time-step for the computation
+	* Default time-step is 5 min
+* Determine the type of output
+	* which grid to output data onto
+	* which specific location and what time (1D or 2D spectra)
+	* *it seems that the .loc file for output locations can only be 6 characters*
+
+=== Additional parameters ===
+* Wind fields are set in the domains tab because this option is not yet implemented in the GUI

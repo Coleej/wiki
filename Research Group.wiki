@@ -80,3 +80,5 @@
 	- update on Irma deployment retrieval
 [[diary:2017-11-03]]
 	- procedure to analyze wave gauge
+[[diary:2017-11-17]]
+	- Advice on running Ke's Gustav model for XBeach boundary conditions

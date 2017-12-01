@@ -7,4 +7,13 @@
 * GI NAVD offset from MLLW = -0.024m
 	* Tidal epoch 2007 - 2011
 	* GEOID12B
-* GI MHW elevation = 0.297m NAVD88 
+* GI MHW elevation = 0.297m NAVD88
+
+== LSU color codes ==
+gold:   #FDD023
+purple: #461D7C
+
+== Other color codes ==
+=== Arc Dark theme ===
+darker: #303642
+dark:   #414A59
