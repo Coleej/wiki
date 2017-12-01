@@ -1,0 +1,6 @@
+= Files =
+== New files ==
+[[file:~//Phd/40_models/d3d/10_gustav/wavcis_locs.ldb|WAVCIS locations]]
+	* These are used to define new observation points to verify the [[Delft3D]] output for [[XBeach]]
+
+= Notes =

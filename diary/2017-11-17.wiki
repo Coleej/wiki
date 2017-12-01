@@ -1,0 +1,18 @@
+= File = 
+[[file:~/Documents/05_meetings/10_research_group/2017-11-17/draft.odp]]
+[[file:~/Documents/05_meetings/10_research_group/2017-11-17/report.pdf]]
+
+= Notes =
+* Just compare with AK's stations, WAVCIS, and Grand Isle, and LUMCON
+* Turn off sediment transport
+* Keep vegetation
+* Keep online coupling
+* Waves come earlier than surge, run model earlier
+* D3D only allows output at grid nodes. Ke liu's mesh is too large
+	* It can interpolate the water level, but not the waves
+* For now, don't touch the mesh and just output at the closest nodes
+	* Adjust domain to align with grid nodes
+* Find more references for Caminada
+	* USACE
+	* Look at the references in the design reports
+* Compare the long time retreat

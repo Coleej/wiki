@@ -1,0 +1,35 @@
+= File = 
+[[file:~/Documents/05_meetings/00_individual/2017-11-15/draft.odp]]
+[[file:~/Documents/05_meetings/00_individual/2017-11-15/report.pdf]]
+
+= Notes =
+== General ==
+* Continue with XBeach modeling and lidar analysis
+* Make sure to document lidar analysis
+
+== Lidar analysis ==
+* Dr. Chen supports turning the MCC optimization into a paper
+	- Suggests contacting the USGS St. Pete office about co-authoring this paper
+	- Suggests expanding the region of analysis, but not to the entire domain at the moment
+	- Make the new region somewhere which will allow for an XBeach model domain and analysis
+	- Make sure to document lidar analysis
+* Speak to Feng Chen about paralleling the MCC algorithm
+	- Split domain into tiles for computation
+
+== XBeach ==
+* Make new domain the in the interior of Caminada in order to cut out the effects of the inlets
+* Expect to do multiple runs for the small area until the results are reasonable and well understood
+* In the future, the domain will be expanded to the inlets
+
+== General Exam ==
+* Need to show XBeach results
+* Get proposal for RESTORE ACT from Dr. Chen to develop work plan
+
+== Structure of Dissertation ==
+1. Data Analysis
+	1. Lidar classification with guidelines <----- paper
+	2. Rate of shoreline translation, volumetric change, etc <------ paper
+2. XBeach modeling of hurricane Gustav and Isaac
+	1. _Collaboration with Deltares_
+3. Numerical experiments
+	1. _Collaboration with Deltares_

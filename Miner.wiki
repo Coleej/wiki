@@ -1,0 +1,25 @@
+= Files =
+
+= Notes =
+* the Superdome is about 4.5 million yd³
+* Clayton Brilland worked on the Ship Shoal borrow site for the Cam restoration
+* average 1 dollar per yard per mile for restoration but Caminada was ~30 dollars
+* Cam erodes 3km/100 year historically
+* *Shifted data sets for subsidence when calculating erosion rates for Cam (1880 - 2006)*
+	* A static shift of 7mm was applied to the whole area
+	* Used tidal gauge at Grand Isle to determine the shift of the bathymetric data
+* Steeping of section of Cam behind breakwater post-1970 was attributed to breakwaters and shoreline hardening
+* During the transgressive stage, the opening up to the inlets and increase in tidal prism, increasing amounts of sediment are lost to ebb tidal deltas
+* sub-aerial area is used to evaluate the value of coastal restoration projects
+* Ship Shoal has much higher quality sand (coarser grain size and less mud)
+	- Is this different from the native sand at Cam?
+	- How does this affect the sediment mobility during a hurricane
+* Dr. Davin Wallace
+	- Mississippi Offshore Sediment Resources Inventory: Late Quaternary Stratigraphic Evolution of the Inner Shelf
+* R. Caffey, D. Petrolia and I. Georgiou
+	* Economics and geomorphic comparison of nearshore vs. OCS sand from coastal restoration projects
+	* D3D results show that placing the borrow pits in the offshore is more valuable to restoration projects than making nearshore cuts (these affect wave energy)
+* "the models" say that the renourishment lasts about 25 years before renourishment need to restore the foot print and shoreline position
+
+== Management strategy ==
+* Used to be to move the shoal and ebb-tidal delta sediment to the subaerial portions of the barrier headlands

@@ -1,0 +1,6 @@
+= LSU =
+== DOCS ==
+[[Miner]]
+	- Member of the All Other Minerals branch of Bureau of Ocean Energy Management ([[BOEM]])
+	- Presentation on the applied science of offshore sand for renourishments
+	- 24 studies ongoing in the The Marine Minerals Program

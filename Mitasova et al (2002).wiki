@@ -1,0 +1,11 @@
+= Synopsis = 
+Early explanation and example of applying GRASS GIS and RST interpolation to coastal lidar (ATM) data sets
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+* 

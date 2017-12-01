@@ -1,0 +1,95 @@
+= Files =
+== Model inputs ==
+* GoM component wind fields are identical (GU_n02b_95{x,y}.wnd) in all cases
+	- Delft3D/asm/GU_n02b_95x.wnd - May 16 2014
+	- Delft3D/typhoon/t101to150/t112_n02b_4081/GU_n02b_95x.wnd - March 18 2015
+	- Delft3D/typhoon/t101to150/t111_n02b_4085hu/GU_n02b_95y.wnd - March 18 2015
+
+* There is only one regional flow wind file on the computational grid
+	- Delft3D/asm/mesh14/GU_mesh14_95.wnd - Nov. 25 2014
+		* *Seems too old to cover Ke's extension?*
+		* Seems to be used by all the *.mdf files
+
+* There is only one set of component wind files for the curvilinear grid
+	- Delft3D/asm/mesh14/GU_mesh14_95y.wnd - Nov. 18 2014
+
+* there are many files for hurricane_mesh14.*, but they all seem identical
+	- the mesh14_08_c.dep is identical
+
+* there are many files for new02b.*, but they all seem identical
+
+* there is only one mesh14_fri07.rgh
+
+* There are 4 initial condition files (test5_082800.ini). Three of them are identical and more recent
+	* Delft3D/typhoon/t149_bay_ocean/test5_082800.ini - Aug. 29 2015
+	* others - Oct. 24 2015
+
+* There are few versions of veg*_def and multiple files for the one specified in the mdf. The one used seems to be the most recent
+	* Delft3D/typhoon/t152_r02_sav/veg2007_def - Feb 26 2016
+
+
+
+== Un-categorized files ==
+=== typhoon/Input/README.txt ===
+* Contains the paths and partial descriptions for Ke's model inputs:
+	- boundary conditions (.bnd and .bct files)
+	- observation files (.obs files)
+	- structure files (.thd, .lwl, and .veg files)
+	- initial sediment thickness (.dep)
+	- initial flow conditions
+
+=== Dell_m4800/README.txt ===
+* Contains a description of highest level directories
+
+== Directories ==
+== typhoon/t* ==
+* these are individual numerical experiments and tests for the 2D model
+* each directory contains the .mdf and .mdw files for the run
+* each directory contains a README.txt which explains the purpose of the experiment
+
+== typhoon/run3d/ ==
+* contains directories with individual 3D models
+
+= Model setup =
+== General ==
+A 2D depth averaged model
+
+== Grids ==
+=== Gulf of Mexico (GoM) mesh ===
+==== Resolution ====
+* Δx ≈ [50km, 10km] from the Atlantic to LA coast, respectfully
+
+=== LA mesh ===
+==== Resolution ====
+* Δx ≈ [1km - 3km] near continental shelf
+* Δx ≈ [200m - 300m] near coastal wetlands
+* Δx ≈ [60m - 80m] near across the Mississippi River
+
+== Wind ==
+* Kelin's parametric model was used to generate the wind field
+* The National Hurricane Center's best tract was used and merged with the large-scale background winds provided by National Center for Environmental Protection
+* $RMSE = 2.6 \frac{m}{s}$ for all stations with $R^2 = 0.92$
+
+== Vegetation ==
+* Vegetation cover maps provided by [[USGS]] 2007 coastal wide map
+* Vegetation properties were taken from the USDA Natural Resources Conservation herbaceous plant online database and other literature
+* The vegetation induced drag was separated from the bottom friction in the flow model to eliminate unrealistic bottom shear stresses in the sediment transport model
+* Vegetation induced wave height reduction was calculated with the [[Madsen et al. (1988)]] which relates the roughness length to Manning's _n_ and local water depth
+	* The Manning's _n_ was spatially variable and computed from the mapped vegetation properties
+	* The roughness length was updated at each [[SWAN]] time step from the computed water level in the flow model
+
+== D-WAVE ==
+=== Physics ===
+* A $1 \frac{m}{s}$ North wind is uniformly applied (why?)
+	* Forces quadruplet interactions to be turned on
+* Bottom friction is set to [[Madsen et al. (1988)]] with a value lower than the default: 0.002m
+	* the default is 0.05m
+
+=== Numerics ===
+* The necessary coverage of wet grid points was lowered from 98% (default) to 95%
+
+=== Output parameters ===
+* the wave computation time-set is 60 min (default = 5 min)
+
+=== Coupling ===
+* Ke Liu used the default _dioconfig.ini_ file

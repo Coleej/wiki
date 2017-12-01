@@ -1,0 +1,16 @@
+= Synopsis = 
+This is a summary of all the processes affecting the LA coast: waves, storms, hurricanes, sediment transport, subsidence, and sea-level rise.
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+* Has a map of alongshore sediment transport rates
+	- Caminada headlands has a divergence in the center
+		* eastward rate = 146,000 $\frac{m}{yr^3}$
+		* westward rate = 11,000 $\frac{m}{yr^3}$
+* From 1940 to 2005, Grand Isle, LA has the highest rate of RSLR in the continuous US
+	- RSLR = 1.03 $\frac{cm}{yr}$

@@ -1,0 +1,18 @@
+= Notes =
+== Observation points ==
+* Observation points are not in world coordinates, but rather in grid coordinates.
+* Look at the boundary file *.ldb 
+  - This is defined in world coorindates
+  - Load it into the GUI as land boundary file
+  - Use the GUI cursor to get the newly displayed points in grid coordinates
+
+== Argument file ==
+* Change the .mdf file in the .xml file (eg config_d_hydro.xml)
+	* *Only change the .mdf file*
+
+== dioconfig.ini ==
+* make sure that this is in $D3D_HOME
+
+== Fully coupled runs ==
+* make sure you change the *.mdw file in the PBS script
+* Make sure to use a "1" with the wave.exe to indicate "loosely coupled"

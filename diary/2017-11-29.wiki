@@ -1,0 +1,9 @@
+= File = 
+[[file:~/Documents/05_meetings/00_individual/2017-11-29/draft.odp]]
+[[file:~/Documents/05_meetings/00_individual/2017-11-29/report.pdf]]
+
+= Notes =
+* Look into the alongshore wave boundary on XBeach. Can you have periodic instead of extending the domain? 
+	* Look at Chen and Svendsen on this
+* Look at RST boundary effects in order to determine the size of the buffer. This shouldn't be arbitrary
+* look at berm and possibly increase resolution and keep attention on the sand bar migration

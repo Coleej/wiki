@@ -1,0 +1,9 @@
+= Setup =
+
+= Hydrodynamics =
+== Short waves ==
+* Peak $H_{m0}$ and $T_p$ are ~2.52m and 9.2s, respectfully
+	* Following the [[XBeach]] documentation the estimated [[IG waves|IG wave]] period is: $T_p * 4 = 36.8s$
+	* For this $T_p$, the depth needed to satisfy $n \leq 0.8$ is $d =\approx 14.5m$
+
+= Notes =

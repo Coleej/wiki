@@ -1,0 +1,29 @@
+= Notes =
+== Topics ==
+=== Wind field ===
+* The wind field (x-component, y-component, and pressure) on the flow computational field has -999 values on the first row and last column.
+	* Kelin said that these are not on the wind field for the wave grid
+	* Kelin didn't say if it was related to specification at the center or corner of the grid
+	* Kelin said that this is different than the bathymetry file
+* When generating the wind field, if you change the grid then you need to re-compute the wind field using the Kelin's parametric model
+* It is possible to look at the wind input using the wave map file
+	* Double check what is used in the model compared to the data at the WAVCIS locations
+	* Its possible that the parametric model didn't get the wind right at those specific locations
+
+=== Overestimation of waves ===
+* Kelin thinks that the near doubling of wave height (modified Ke Liu model in the area of interest vs. WAVCIS data and output at other areas in the model, ie AK's gauges) is probably due to incorrect find fields
+* It may be that the area of interest is located too close to the hurricane track and error in the track lead to error in the wind field here
+	* Other stations near the track (AK's gauges) didn't show this trend
+	* Check water levels to see if this is also the case with the flow
+* It could be differences in the wind used between flow and wave (ie the wind field I generated for the wave grid)
+
+=== [[SWAN]] spectral output ===
+* Kelin didn't know much about this, but said to check the temporary files created by [[Delft3D]] and [[SWAN]] (eg INPUT, WINDNOW, etc)
+
+=== Different [[SWAN]] binaries ===
+* Kelin's swan.sh script points to a newer version of [[SWAN]]
+	* For the [[SWAN]] binary, the letters trailing the version number indicate patches, ie 4011AB is version 4011 with patches A and B applied
+	* Kelin says that the particular one his script points to (4110A) has vegetation turned on
+
+=== Delft3D online ===
+* The *.urls created by Delft3D are made for online control/viewing of a running Delft3D model

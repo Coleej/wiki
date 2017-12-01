@@ -1,0 +1,5 @@
+= Files =
+[[file:~/Field Work/40_TBS_living_shoreline/wave_gauge_index.ods]]
+= Notes =
+* start time 2017-11-20 23:59:00 (UTC)
+* Gauge rent-0042 was configured to start at 2017-11-21 01:00:00 (UTC) because the other start time has passed
