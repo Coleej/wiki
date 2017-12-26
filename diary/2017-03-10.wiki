@@ -1,6 +1,6 @@
 = Research Group =
 == files ==
-[[file:/home/cjohnson/Documents/Meetings/Research Group/03-10-2017/update.pdf|update]]
+[[file:/home/cjohnson/Documents/05_meetings/10_research_group/2017-03-10/update.pdf|update]]
 
 == Notes ==
 * Is the jump in refinement in my grid ok?

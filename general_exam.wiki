@@ -1,3 +1,28 @@
 = Files =
-[[file:~//Phd/50_committee/20_general_exam/dissertation_proposal.odt|draft]]
+[[file:~/Phd/50_committee/20_general_exam/dissertation_proposal.odt|propsal draft]]
+[[file:~/Phd/50_committee/20_general_exam/dissertation_proposal_draft.pdf|propsal draft pdf]]
+[[file:~/Phd/30_deltares/project_description_qchen_ea.pdf]]
+[[file:~/Phd/50_committee/20_general_exam/pres_draft.odp|presentation draft]]
 
+
+= Notes =
+== Committee comments ==
+* Dr. Xu says that we need to make sure that the lidar data sets are comparable with regard to resolution. 
+	- For lidar this means what sort of common resolution will the point densities of all the surveys allow.
+	- This should be doubled checked and the resolution of the interpolated DTM needs justification
+* Dr. Jafari says that subsidence could account for some of the dune crest lowering and that the loading of the sand as it rolls over onto the marsh could cause some consolidation, similar to that seen after the restoration was put into place.
+* Dr. Xu says that even the installation at Port Fourchon will not be stable through time because of deep subsidence in the Holocene sediment package (~100 m thick)
+	- What are the rates of deep subsidence for the area and what are the rates of shallow subsidence and compaction?
+* Dr. Nyman brought up the fact that the road has probably been refinished a few times over the period of the lidar time series.
+	- Is it possible to get this information?
+	- Estimate the added thickness of refinishing a road. Is it on the order of cm's or mm's?
+* Dr. Hagen feels that the distance into the marsh the XBeach domain extends is important.
+	- How does this affect the overland flow?
+	- How to justify the extend used?
+* Dr. Xu was confused about my presentation of the stages of the Delta Cycle and which one I propose to be studying.
+	- Make sure to indicate that I'm studying the processes involved in Stage 1, but that my motivation is engineering stage 1 to prolong its sustainability
+* Dr. Hagen thinks that ground truthing the lidar within the back-barrier marsh for the XBeach model is important
+	- I have already begun this process, but will make sure to finish it while building the XBeach topobathy
+	- His student may be doing some surveys in the area. I'll pay attention to this
+* Dr. Nyman and Hagen were interested to know define the fragmentation of the back-barrier marsh.
+	* What is the difference between anthropogenic and natural fragmentation and how could they be formulated within an XBeach model?

@@ -1,5 +1,5 @@
 = Files =
-[[file:~/Documents/Meetings/Research Group/2017-04-06/update.odp|update]]
+[[file:~/Documents/05_meetings/10_research_group/2017-04-06/update.odp|update]]
 [[file:~/Documents/Meetings/Research Group/2017-04-06/report.pdf|report]]
 
 = Notes =

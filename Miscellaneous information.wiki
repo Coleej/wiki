@@ -4,10 +4,12 @@
 [[Equation templates]]
 
 == Numbers ==
-* GI NAVD offset from MLLW = -0.024m
+* GI NAVD offset from MLLW = -0.009m
 	* Tidal epoch 2007 - 2011
 	* GEOID12B
-* GI MHW elevation = 0.297m NAVD88
+* GI MHW elevation = 0.330m NAVD88 (GEOID12b)
+* GRIS GPS station at GI vertical movement = -5.6 mm/yr
+* Ke's latest hydro model is t133_profil_wave
 
 == LSU color codes ==
 gold:   #FDD023

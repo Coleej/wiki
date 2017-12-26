@@ -1,6 +1,6 @@
 = Files =
-[[file:/home/cjohnson/Documents/Meetings/Research Group/03-17-2017/update.odp|pres]]
-[[file:/home/cjohnson/Documents/Meetings/Research Group/03-17-2017/update.pdf|update]]
+[[file:/home/cjohnson/Documents/05_meetings/10_research_group/2017-03-17/update.odp|pres]]
+[[file:/home/cjohnson/Documents/05_meetings/10_research_group/2017-03-17/update.pdf|update]]
 
 = General notes =
 

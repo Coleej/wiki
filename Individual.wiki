@@ -22,3 +22,5 @@
 	- Discussed sources of error in wave results
 [[diary:2017-11-29]]
 	- Meeting with Dr. Chen
+[[diary:2017-12-05]]
+	- Meeting with Dr. Chen

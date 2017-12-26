@@ -1,0 +1,11 @@
+= Synopsis = 
+Uses Delft3D (2DH) and 1D models UNIBEST-CL+ and LONGMOR to model the evolution of mega-nourishments. They are calibrated with data from the [[sand_motor|Sand Motor]] and present relationships between length and width for a large range of these values for mega nourishments.
+
+= Conclusions =
+"The life time of nourishments is mainly determined by the dimensions of the nourishment and incoming wave energy. (p.51)"
+
+= Criticisms =
+
+
+= Notes =
+* 

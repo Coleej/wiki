@@ -74,16 +74,19 @@
 ==== Coastal science ====
 	* [[Burvingt et al. (2017)]]
 	* [[Hapke et al. (2017)]]
+	* [[pagan_et_al_2017|Pagán et al. (2017)]]
 	* [[Plant and Stockdon (2012)]]
 	* [[Sallenger et al. (2003)]]
 	* [[Schwab et al. (2013)]]
-	* [[Splinter et al. (2018)]]
 	* [[Stockdon et al. (2007)]]
+	* [[van Rijn (2009)]]
 
 ===== GoM science =====
 	* [[Georgio et al. (2005)]]
+	* [[Harper (1977)]]
 	* [[Houser (2013)]]
 	* [[Mark et al. (2005)]]
+	* [[Medeiros et al. (2012)]]
 	* [[Penland et al. (1989)]]
 	* [[Stone et al. (2004)]]
 
@@ -93,6 +96,9 @@
 	* [[Harley et al. (2017)]]
 	* [[Splinter et al. (2018)]]
 	* [[Zhang (2011)]]
+
+==== Delft3D ====
+	* [[Tannon et al. (2018)]]
 
 ==== XBeach ====
 	* [[Berard et al. (2017)]]
@@ -111,13 +117,16 @@
 	* [[Simmonds et al. (2017)]]
 	* [[Smallegan et al. (2016)]]
 	* [[Smallegan et al. (2017)]]
+	* [[Splinter et al. (2018)]]
 	* [[Sherwood et al. (2014)]]
 	* [[Stockdon et al. (2014)]]
 
 ==== Lidar ====
+	* [[Brock et al. (2002)]]
 	* [[Evans and Hudak (2007)]]
 	* [[Mitasova et al (2002)]]
 	* [[Sallenger et al. (2003)]]
+	* [[Splinter et al. (2018)]]
 	* [[Tinkham et al. (2011)]]
 
 

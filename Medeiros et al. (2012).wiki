@@ -1,0 +1,11 @@
+= Synopsis = 
+The use of land use/land cover to determine Manning's n for hydrodynamic modeling is evaluated at 24 sites in Florida which were subject to storm surges. It is found that for large model domains, the method works well, but for local-scale models error is introduced due to variability withing LU/LC types, misclassification, and parameter value selection. The work doesn't perform any hydrodynamic modeling, but rather calculations of Manning's n and error estimation.
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+* 

@@ -1,6 +1,7 @@
 = Group Meeting =
 == Files ==
-[[file:~/Documents/Meetings/Research Group/03-24-2017/report.pdf|report]]
+[[file:~/Documents/05_meetings/10_research_group/2017-03-24/report.odp|report]]
+[[file:~/Documents/05_meetings/10_research_group/2017-03-24/report.pdf|report]]
 
 == Notes ==
 * Comparison of NARR vs observed winds at a NOAA station by the Wax Lake delta.
