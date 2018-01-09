@@ -1,0 +1,18 @@
+= Files =
+
+= Reviewed publications =
+* [[Passeri et al. (2015)]]
+
+= Notes =
+== General ==
+* Very broad and nondescript introduction
+* Simple statements on processes which are cited
+* Explanation of elementary concepts with high-level conceptual language
+* 25 year old citations are present
+* Conceptual description of relevant processes is broad and intermingled with tangential comments on importance
+* The width of the subject should be covered and cited, but the details do not need individual treatment (just quote relevant stats)
+* Its okay to state the obvious (ie the obvious to someone vested in the subject), no need to impress anyone
+
+== Structure ==
+* The paper should focus on sandy coasts, thus eliminating XBeach-G works
+* Divide the sections into coastal relief (or modeled hydrodynamic processes, eg hurricane vs regular storm?)

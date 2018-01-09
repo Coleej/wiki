@@ -1,6 +1,32 @@
-1. [ ] Burke Marine
-	- t: (863)465-0371
+= Construction =
+1. [X] Burke Marine
+	- t: (863) 465-0371
 	- Construction company
-2. [X] Roland Martin Marine Center
-	- t: (863)983-2128
+	- Are going to get back to me
+
+= Dive shops =
+1. [X] Dive Odyssea
+	- (772) 242-4889
+	- Provided some boat scrubber names
+2. [X] Deep Six Dive & Watersports
+	- (772) 288-3999
+	- Gave referrals for boat cleaners
+
+= Boat scrubbers =
+1. [X] Mike
+	- (215) 205-3875
+	- Will call me back later
+2. [X] Hammerhead Pro. Divers (Matt Reynolds)
+	- (772) 323-6760
+	- Left a voice message
+3. [X] Affordable Boat Cleaning (Brian Brinks)
+	- (772) 285-7058
+	- Left a voice mail
+4. [X] Dockside Marine Services (Gary Dowd)
+	- (772) 283-6893
+	- Left a voice mail
+
+= Stores =
+1. [X] Roland Martin Marine Center
+	- t: (863) 983-2128
 	- Store but not helpful

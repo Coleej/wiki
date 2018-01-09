@@ -1,0 +1,7 @@
+== QGIS 2.18 and GRASS ==
+1. Added and qgis debian repositories
+2. Install from repos:
+	1. grass (7.0.3-1build) package because QGIS 2.18 doesn't work with GRASS 7.2 or up
+	2. qgis (2.18), python-qgis (2.18), and qgis-plugin-grass (2.18)
+
+

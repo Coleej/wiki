@@ -1,0 +1,4 @@
+= Parts =
+== NICs ==
+=== Intel Gigabit VT Quad Port Server Adapter ===
+- part number: EXPI9404VTG1P20 (EXPI9404VT)

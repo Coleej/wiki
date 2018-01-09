@@ -1,0 +1,9 @@
+= Software =
+== Dpkg packages ==
+[[qgis_grass_ubuntu1604|QGIS and GRASS (ubuntu 16.04)]]
+
+== VMs ==
+[[kvm_qemu_ubuntu1604|kvm/qemu (ubuntu 16.04)]]
+
+= Hardware =
+[[dell_o-plex9020_router|Dell Optiplex 9020 DIY router]]

@@ -3,6 +3,7 @@
 	* [[Courses]] -- LSU course work et al.
 	* [[Scrathpad]] -- Various temporary stuff
 	* [[Miscellaneous information]] -- Confirmation numbers, etc.
+	* [[Documentation]] -- Self documentation for admin, devel, etc.
 
 = Meetings =
 	* [[Individual]]
