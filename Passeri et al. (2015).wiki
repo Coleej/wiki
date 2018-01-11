@@ -9,3 +9,5 @@
 
 = Notes =
 * Looks the interactions between hydrodynamics, morphology, and marsh ecology during SLR as different sections
+* A *fifth* storm impact scale regime is proposed: _Recession_
+	* _Recession_ has to to with short-term morphodynamics and post-event hydrodynamics, but no further details are mentioned

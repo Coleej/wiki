@@ -1,4 +1,5 @@
 = Files =
+[[file:~/Documents/17_manuscripts/00_my_work/05_xbeach_literature_review/outline.docx]]
 
 = Reviewed publications =
 * [[Passeri et al. (2015)]]
@@ -16,3 +17,7 @@
 == Structure ==
 * The paper should focus on sandy coasts, thus eliminating XBeach-G works
 * Divide the sections into coastal relief (or modeled hydrodynamic processes, eg hurricane vs regular storm?)
+* It may be interesting to classify all the applications of XBeach to date based loosely on the coastal morphology and event scale
+	- Evaluate their success for each environment/event (ie the classification scheme mentioned above)
+	- Summarize the lessons learned from each applications
+	- Sketch out a trajectory of development within the applications

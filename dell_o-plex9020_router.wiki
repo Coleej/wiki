@@ -1,4 +1,49 @@
 = Parts =
+== CPU ==
+4th Gen i7-4770 Intel processor
+	- Quad core
+	- 3.4 GHz
+	- 8 MB cache
+	- HD graphics 4600
+
+== Memory ==
+8GB (2 x 4 GB) of DDR3 SDRAM non-ECC (sold by Micron)
+	- item code: 4 GB 1Rx8 PC3-12800U-11-12-A1
+	- product code: MT8JTF51264AZ-1G6E1
+
+== Chipset ==
+Intel Q87
+
+== Graphic card ==
+AMD Radeon HD 8570 GPU
+	- 730 MHz clock speed
+	- 1 GB DDR3 memory
+	- 128-bit memory interface
+	- PCIe 3.0 x8
+
+== Storage ==
+1. 500 GB SSHD (Seagate)
+	- model number: ST500LM000
+	- 5400 RPM
+	- 64 MB cache
+	- SATA 6.0 GB/s
+2. 240 GB SD 335 Series (Intel)
+	- model number: ssdsc2ct240a4 
+	- SATA 6.0 GB/s
+
+== Integrated NIC ==
+Intel i217LM Ethernet LAN 10/100/1000
+
+
+== PCIe expansion slots ==
+1. half-height PCIe x16
+2. half-height PCIe x16 (wired x4)
+
+== Power supply ==
+255W PSU
+
+
+= Potential expansions =
 == NICs ==
 === Intel Gigabit VT Quad Port Server Adapter ===
 - part number: EXPI9404VTG1P20 (EXPI9404VT)

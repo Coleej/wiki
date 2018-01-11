@@ -142,8 +142,7 @@
 	- Depth of closure varies spatially and between studies. -4.575m NAVD88 was used in the design of Caminada Headlands Restoration Project 
 
 === Technical reports ===
-==== USGS ====
 [[Louisiana BICM (2013)]]
-[[Louisiana BICM (2017)]]
+[[Byrnes_LABICM_2017|Louisiana BICM Phase 2 (2017)]]
 [[USGS_coastal_erosion_haz|Coastal erosion hazards (Stockdon et al, 2012)]]
 [[corr_multi_lidar|Correct multiple lidar data sets (Thompson et al., 2017)]] 
