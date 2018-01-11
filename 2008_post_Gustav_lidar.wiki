@@ -38,3 +38,11 @@ GEOID12b
 * The GeoTIFFs were created using Delauney triangulation, follwed by linear interpolation based on routines in the ITT VIS Interactive Data Language (IDL) code.
 * nodata value = -32767. Where there is no data or their is an optical water depth > 1.5 Secchi disc
 
+= Notes =
+
+= Work =
+== Central subregion ==
+* Lidar was classified with the [[lidar_classification#MCC|mcc]] algorithm
+	- resolution (res) = 0.5 m
+	- tension (t) = 0.255
+	- spline step (s) = 15

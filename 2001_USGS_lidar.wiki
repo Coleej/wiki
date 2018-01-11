@@ -28,3 +28,10 @@
 
 == QA/QC ==
 = Notes =
+
+= Work =
+== Central subregion ==
+* Lidar was classified with the [[lidar_classification#MCC|mcc]] algorithm
+	- resolution (res) = 0.5 m
+	- tension (t) = 0.175
+	- spline step (s) = 15

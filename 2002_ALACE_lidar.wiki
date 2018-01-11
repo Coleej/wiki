@@ -23,3 +23,10 @@
 = Notes =
 * Produced as part of the USGS/NASA Airborne Lidar Assessment of Coastal Erosion (ALACE) Project
 * No processing has been done. Vegetation and water surface returns are present in the data
+
+= Work =
+== Central subregion ==
+* Lidar was classified with the [[lidar_classification#MCC|mcc]] algorithm
+	- resolution (res) = 1.0 m
+	- tension (t) = 0.15
+	- spline step (s) = 20

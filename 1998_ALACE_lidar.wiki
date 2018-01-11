@@ -31,3 +31,10 @@
 
 = Notes =
 * part of the Gulf Coast NOAA/USGS/NASA Airborne LiDAR Assessment of Coastal Erosion (ALACE) Project for the US Coastline project
+
+= Work =
+== Central subregion ==
+* Lidar was classified with the [[lidar_classification#MCC|mcc]] algorithm
+	- resolution (res) = 0.5 m
+	- tension (t) = 0.2
+	- spline step (s) = 20
