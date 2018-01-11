@@ -1,0 +1,35 @@
+= Synopsis = 
+
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+== General ==
+* There was a low frequency of tropical storm impacts between the 1930s and 1950s
+	- 9 cyclones (2 cat 2 hurricanes)
+
+== Methods ==
+=== Coastal classifications ===
+* The coasts line is divided into 9 geomorphic zones. The Late LaFourche Delta comprises the [[Caminada Headlands]]
+* The geomorphic zones are subdivided into shoreline reaches
+	- The Late LaFourche Delta contains reaches 42 - 48
+	- The [[Caminada Headlands]] are reach 45 (21.7 mi) and extended from [[Belle Pass]] to [[Caminada Pass]]
+
+=== Historical storms ===
+* All direct hits within 125 mi of Lake Charles (SW LA) and within 125 mi of New Orleans (SE LA) were recorded
+* Hurricanes and tropical storms were recorded
+
+=== Shorelines ===
+USC&GC T-sheets (1880s, 1930s, and 1950s) and orthorectified imagery (1998 - 2012) was used to delineate shorelines
+
+==== Orthoimagery ====
+* The high-water mark (HWM) was used to determine the shoreline
+	* This is the upper limit of average wave runup at high tide
+	* Geographically corresponds to the berm crest
+	* Probably not consistent with mean high-water as determined from tidal gauges
+	* If this was complicated, then MHW at nearby tide gauges for the time of the imagery was used
+	* If hardstructures marked  the shoreline, then they "_made consistent_" and held fixed through time
