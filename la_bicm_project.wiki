@@ -1,0 +1,7 @@
+= Project code =
+LA-0226 - BICM
+
+= Data code keys =
+ELSBB = elevation single-beam bathymetry
+ELSUR = elevation survey data
+LASARD = Louisiana SAnd Resource Database

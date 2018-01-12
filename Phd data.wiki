@@ -3,6 +3,7 @@
 	* [[file:~/Phd/10_data/10_raw_data/raw_data_inventory.odt|data inventory]]
 	* [[file:~/Phd/10_data/10_raw_data/raw_data_summary.odt|summary statement]]
 	* [[file:~/Phd/10_data/99_miscellaneous/target_event_geomorph.ods|catalog by event]]
+	* [[la_bicm_project|BICM Phase 2]]
 
 = Coastal geomorphology =
 == Storm impact reports ==
