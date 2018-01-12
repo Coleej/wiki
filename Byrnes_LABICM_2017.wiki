@@ -28,8 +28,36 @@ USC&GC T-sheets (1880s, 1930s, and 1950s) and orthorectified imagery (1998 - 201
 
 ==== Orthoimagery ====
 * The high-water mark (HWM) was used to determine the shoreline
-	* This is the upper limit of average wave runup at high tide
-	* Geographically corresponds to the berm crest
-	* Probably not consistent with mean high-water as determined from tidal gauges
-	* If this was complicated, then MHW at nearby tide gauges for the time of the imagery was used
-	* If hardstructures marked  the shoreline, then they "_made consistent_" and held fixed through time
+	- This is the upper limit of average wave runup at high tide
+	- Geographically corresponds to the berm crest
+	- Probably not consistent with mean high-water as determined from tidal gauges
+	- If this was complicated, then MHW at nearby tide gauges for the time of the imagery was used
+	- If hardstructures marked  the shoreline, then they "_made consistent_" and held fixed through time
+
+==== Uncertainty ====
+* The authors made efforts to correct systematic error prior to analysis, so they assume that all shoreline change measurement uncertainties are random. The uncertainty is there for calculated by summing in quadrature. The formula is given as:
+
+$ U_t = \pm \sqrt{U_{sf}^2 + U_c^2 + U_{si}^2 $
+
+where:
+	$U_{fs}$ is uncertainty in the field surveys
+	$U_c$ is uncertainty in cartographic sources
+	$U_{si}$ is uncertainty in shoreline interpretation (feature identification)
+
+* A mean change rate is considered insignificant if the magnitude of change was less the estimated uncertainty in the change rate *and* the number of transects used to determine the mean was less than 50
+
+==== Positional change analysis ====
+* accomplished with the Digital Shoreline Analysis System (DSAS) plugin to ArcGIS developed by the USGS
+	* [[https://woodshole.er.usgs.gov/project-pages/DSAS/]]
+
+== Results ==
+=== Regional changes ===
+==== Late Lafourche Delta ====
+| period        | mean (m/y) | std (m/yr) | n    |
+|---------------|------------|------------|------|
+| 1880s - 1930s | -10.4      | 13.8       | 1188 |
+| 1930s - 1950s | -6.77      | 10.7       | 1125 |
+| 1950s - 1998  | -6.8       | 8.78       | 1135 |
+| 2004 - 2012   | -6.25      | 11.55      | 1112 | 
+
+

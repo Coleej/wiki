@@ -1,6 +1,5 @@
 = Theses =
 
-
 == Hypotheses ==
 1. What is the fate of dune/beach sediment at Caminada during collision and overtopping regimes (i.e. hurricane Isaac) for the pre-restoration topography?
 	* [[Sherwood et al. (2014)]] found that at the Chandeleur Islands, mean cross-shore flows deposited sand offshore, thus challenging the paradigm of [[barrier island rollover]]. This warrants testing the Caminada-Headlands in order to determine the likely net direction of sediment transport for a given storm.
@@ -9,7 +8,6 @@
 	* Corollaries for engineering given the uncertainty in the transported sediment's fate.
 		1. Can sediment retention be optimized through engineering (e.g. changing design elevation or profile, adding a larger back-barrier marsh component)?
 		2. Depending on the near-term post-storm deposition, can hard structures be used to make recovery of sediment possible?
-
 
 = Chapters =
 	* [[Literature Review]]
