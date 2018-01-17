@@ -1,0 +1,11 @@
+= Synopsis = 
+The paper examines how the definition of a dune feature drives the methodology used to extract dunes and to synthesize a comprehensive definition of dune features.
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+* 
