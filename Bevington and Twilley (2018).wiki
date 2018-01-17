@@ -1,0 +1,20 @@
+= Synopsis = 
+Various innovative GIS techniques are used to test a conceptual model of delta marsh island morphological development. It is found that older sections of the delta have higher mean elevations and inundated less frequently. Therefore, these sections grow less, but this growth is the development of prior inundations when the island was younger and lower.
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+== Methods ==
+* Subaerial extent for different time periods was derived from maps, aerial imagery, and lidar
+	- Used MLW (-0.04 m NAVD88) to define subaerial contour
+		* They didn't specify the geoid and this MLW level was taken from 1980 and 1978 articles
+		* Digitized with ArcMap
+	- Subaerial extent derived from 2012 USGS lidar was taken to be anything above -0.5 m NAVD88 (no geoid)
+
+== Results ==
+* The PCA showed that marsh elevation increased with age
+* A time series of marsh edge transects compared to a 2-year hydrograph show qualitative correlation between inundations (large fresh water pulses) and inland accretion 
