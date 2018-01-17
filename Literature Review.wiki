@@ -73,6 +73,7 @@
 	* [[Hinkel et al. (2013)]]
 
 ==== Coastal science ====
+===== General =====
 	* [[Burvingt et al. (2017)]]
 	* [[Hapke et al. (2017)]]
 	* [[pagan_et_al_2017|Pagán et al. (2017)]]
@@ -82,8 +83,10 @@
 	* [[Schwab et al. (2013)]]
 	* [[Stockdon et al. (2007)]]
 	* [[van Rijn (2009)]]
+	* [[Wernette et al. (2018)]]
 
 ===== GoM science =====
+	* [[Bevington and Twilley (2018)]]
 	* [[Georgio et al. (2005)]]
 	* [[Harper (1977)]]
 	* [[Houser (2013)]]
@@ -93,6 +96,7 @@
 	* [[Stone et al. (2004)]]
 
 ===== Lidar based research =====
+	* [[Bevington and Twilley (2018)]]
 	* [[Claudino-Sales et al. (2010)]]
 	* [[Ge et al. (2017)]]
 	* [[Harley et al. (2017)]]

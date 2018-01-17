@@ -1,2 +1,2 @@
 = LSU =
-[[CE7200|Surge and Tide modeling]]
+[[ce7701_spring18|CE7701]]

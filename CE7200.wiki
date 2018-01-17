@@ -1,5 +1,0 @@
-= Course details =
-SMS license code = PJFT7T8
-
-= Lecture meetings =
-[[diary:2017-08-24|lecture 2]]
