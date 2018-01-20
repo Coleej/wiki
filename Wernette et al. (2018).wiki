@@ -2,16 +2,21 @@
 The paper examines how the definition of a dune feature drives the methodology used to extract dunes and to synthesize a comprehensive definition of dune features.
 
 = Conclusions =
-
+It is probably best to use LCP or RR for larger scale autonomous feature extraction. However, the SIP method should be tested for suitability with the data and study area. MDI should still be used during the initial stage of the analysis in order to inform the application of the other methods.
 
 = Criticisms =
-
+* There was no quantitative analysis of the reviewed methods for extracting dune features
+* In the end, there is really no final, objective decision about dune feature extraction or even definition
+* The various methods should have been applied to a typical project in order to highlight the differences in outcomes
+* The figures/presentation of the applications of the different methods are very poor (however, this is an early access article and may not have the final figures) and do nothing to illustrate the difference in the methods
 
 = Notes =
 * Dune crest may be the _simplest_ definition: "highest elevation of the coastal primary sand dune"
 
 == Methods ==
 === Dune feature interpretation ===
+[[file:images/wernette2018_method_table.png|table of methods]]
+
 ==== Manual delineation and interpretation (MDI) ====
 * This is useful to begin more automated and objective feature extraction
 	- Combine this with various mapcalc functions/mapping to facilitate the delineation
@@ -21,8 +26,26 @@ The paper examines how the definition of a dune feature drives the methodology u
 * Defines features based on points of maximum curvatures and slope sign changes  in shore-normal 2D elevation profiles
 	- They incorrectly call the slope sign change an _inflection point_
 * This may be useful because these changes in slope are related to sediment transport and deposition
-
+* [[Stockdon et al. (2009)]] apply smoothing filters to DEM prior to employing this method
+* "Since the back-barrier shoreline is often difficult to extract consistently in a very low-relief enviornment of is far away from the dune, extracting features landward of $D_{crest}$, such as $D_{heel}$, is not feasible using the SIP approach (p.)"
 ==== Least-cost path (LCP) ====
+* Apply cost function to DEM (typically inversely related to elevation) and extract a path which minimizes this cost (ie a line of highest elevation that is interpreted to be a continous dune crest line)
 
 ==== Relative relief ====
+* RR applies user-defined window is applied to the DEM where the elevation of center cell is a function of the lowest elevation within the window.
+	* Landward location relative to the shoreline and RR values are set to define $D_{crest}$, $D_{toe}$, and $D_{heel}$
 
+=== Semantic dune model ===
+$D_{toe}$:
+	- Landward of the shoreline, marked by an increase in slope moving landward
+	- Topographic high relative to the beach and topographic low relative to the dune
+	- Not likely marked by vegetation
+
+$D_{crest}$:
+	- Local relative topographic maximum that is landward of shoreline and $D_{toe}$
+	- Marked by a change in the sign of the slope
+
+$D_{heel}:
+	- Landward of $D_{crest}$ and analogous to the $D_{toe}$
+	- Often marked by a point of high curvature where the dune flattens out
+	- If the dune is transgressing over vegetation, the $D_{heel}$ may be marked by a vegetation line
