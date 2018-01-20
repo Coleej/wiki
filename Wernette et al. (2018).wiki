@@ -8,4 +8,21 @@ The paper examines how the definition of a dune feature drives the methodology u
 
 
 = Notes =
-* 
+* Dune crest may be the _simplest_ definition: "highest elevation of the coastal primary sand dune"
+
+== Methods ==
+=== Dune feature interpretation ===
+==== Manual delineation and interpretation (MDI) ====
+* This is useful to begin more automated and objective feature extraction
+	- Combine this with various mapcalc functions/mapping to facilitate the delineation
+* May be the best method when performed by an expert in the area
+
+==== Slope-infection point based (SIP) ====
+* Defines features based on points of maximum curvatures and slope sign changes  in shore-normal 2D elevation profiles
+	- They incorrectly call the slope sign change an _inflection point_
+* This may be useful because these changes in slope are related to sediment transport and deposition
+
+==== Least-cost path (LCP) ====
+
+==== Relative relief ====
+
