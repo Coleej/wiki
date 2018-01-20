@@ -6,4 +6,5 @@
 	* [[Teaching]]
 
 = Personal Projects =
+	* [[DIY_home_server|DIY home server]]
 	* [[Home theater]]

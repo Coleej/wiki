@@ -1,0 +1,7 @@
+= Hardware =
+== CPU/chip set/memory ==
+[[dell_optiplex9020|Dell Optiplex 9020]]
+
+== NICs ==
+=== Intel Gigabit VT Quad Port Server Adapter ===
+- part number: EXPI9404VTG1P20 (EXPI9404VT)

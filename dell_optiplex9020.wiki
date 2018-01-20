@@ -43,7 +43,3 @@ Intel i217LM Ethernet LAN 10/100/1000
 255W PSU
 
 
-= Potential expansions =
-== NICs ==
-=== Intel Gigabit VT Quad Port Server Adapter ===
-- part number: EXPI9404VTG1P20 (EXPI9404VT)

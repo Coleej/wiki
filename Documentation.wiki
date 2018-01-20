@@ -6,4 +6,4 @@
 [[kvm_qemu_ubuntu1604|kvm/qemu (ubuntu 16.04)]]
 
 = Hardware =
-[[dell_o-plex9020_router|Dell Optiplex 9020 DIY router]]
+[[dell_optiplex9020|Dell Optiplex 9020]]
