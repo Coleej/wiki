@@ -5,5 +5,9 @@
 == VMs ==
 [[kvm_qemu_ubuntu1604|kvm/qemu (ubuntu 16.04)]]
 
+== Deltares ==
+[[xbeach_build|XBeach]]
+[[delft3d_build|Delft3D]]
+
 = Hardware =
 [[dell_optiplex9020|Dell Optiplex 9020]]
