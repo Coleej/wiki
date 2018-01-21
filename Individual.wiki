@@ -24,6 +24,7 @@
 	- Meeting with Dr. Chen
 [[diary:2017-12-05]]
 	- Meeting with Dr. Chen
-[[diary:2018-01-19]]
-	- LSU closed for a freeze. No meeting
+[[diary:2018-01-22]]
+	- LSU closed for a freeze on [[diary:2018-01-19]]. No group meeting
+	- Individual meeting with Dr. Ozdemir
 	- Update on morphological analysis of Caminada's central subregion
