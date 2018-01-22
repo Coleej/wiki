@@ -3,7 +3,8 @@
 [[file:~/Documents/05_meetings/00_individual/2018-01-22/report.pdf]]
 
 = Notes =
-* 
+* Make wave rose for the time period studied in order to infer longshore currents
 
-= TODO =
-1. [ ] 
+== Publications ==
+* The conclusion tells whether the hypotheses are true. If they aren't then this is indicated and other possible mechanisms or process are presented
+* 5 - 10 figures usually suffices
