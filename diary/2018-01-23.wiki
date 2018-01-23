@@ -1,0 +1,11 @@
+= Notes =
+* _scale variabily_: Do processes transfer from one scale to another (e.g. meso- to micro-scale)
+	- Ozdemir thinks this is one of the biggest problems we are facing
+* turbulence = chaotic.
+	- Admits to average quantification over time
+	- Due to nonlinearity in the processes
+* Turbulent mixing is much faster than diffusion
+
+== Momentum eq'n ==
+* the pressure term is often given as a general placeholder for the driving force
+* In order to have diffusion, the flow must be representable as a 2-nd order eq'n
