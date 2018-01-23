@@ -1,0 +1,46 @@
+= Synopsis = 
+
+
+= Conclusions =
+* The results seem to indicate the $R + S$ (run-up and surge) is not the best indicator for all storm impact regimes, but should be separated to allow more refined response categories.
+* "The results for dune lowering and dune destruction indicated that both these responses occur primarily on narrower dunes and typically, dunes of lower initial volume are more readily destroyed. (p. 524)"
+* "The results showed that accumulation overwash is controlled by surge level and beach crest width, and barrier overwash is controlled by surge level and storm duration. Dune translation and dune lowering occur for narrower dunes. (p.525)"
+
+= Criticisms =
+Why did they not discuss Sallenger's Storm Impact Scale or test it with this data set?
+
+= Notes =
+* [[file:images/donnelly2007ovrwshtypes.png|Types of cross-shore responses to overwash types]]
+
+== Profile responses ==
+=== Crest Accumulation ===
+* "Crest accumulation is thought to be caused by the deposition of sediment from wave run-up as it decelerates up to and on the beach crest.(p 522)"
+* "...crest accumulation occurs primarily at low surge levels but that slightly higher surge levels can cause crest accumulation if the crest width is larger. (p.522)"
+
+=== Dune translation ===
+* "...dune translation data points for large relative crest widths and low relative run-up levels. (p.523)"
+
+=== Barrier responses ===
+* category to contain barrier destruction and barrier roll-over
+* "barrier responses are typically represented by higher surge levels (as a percentage of beach crest height) and wider beach crest widths but may occur for a large range of relative run-up heights. Typically the barrier response will be observed on a barrier if a dune is not present, hence the wider beach crest widths. (p.523)"
+* Shows some relationship to number of overtopping waves for the event
+
+== Methods ==
+=== Dunes ===
+* Parameters used to characterize dunes in non-dimensional analysis:
+	- $Y_c$: crest height about MSL
+	- $D$: Rear dune height (measured from back-barrier plain)
+	- $s, s_f, s_{avg}, \text{and} and s_b$: foreshore, dune front, average slope (MSL to dune crest) and dune back slope
+	- $B_D&: dune width (defined as cross-shore width of dune 0.3m below crest elevation)
+* used a _representative_ dune volume per unit dune length:
+	* $V_D = \frac{1}{2} D^2 (s_f + s_r)$
+
+=== Hydrodynamics ===
+* waves were taken from multiple sources:
+	- observations coupled with surveys
+	- offshore buoys
+	- WIS hindcasts for storm period
+* Waves were reversed shoaled with [[linear_wave_theory|LWT]]
+	- Assumed shore-normal wave direction
+* Runup wave calculated following [[Wise et al. (1996)]]
+* Water levels were taken form nearby tidal stations
