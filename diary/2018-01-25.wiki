@@ -2,6 +2,7 @@
 == General ==
 * Is the continuity equation the same as the conservation of mass?
 * The dimension of a particular momentum eq'n is termed the _streamwise_ direction
+* Numerical models solve momentum and con't eq'ns and the turbulent stresses need to be closed with different turbulence models
 
 == Non-linearity ==
 * Ozdemir's definition of non-linearity:
