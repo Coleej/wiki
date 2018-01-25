@@ -21,3 +21,4 @@
 	- There are normal and shear Reynolds' stresses
 * In order to account for skewness in the fluctuations in the turbulent flow, one must proceed to the *turbulent kinetic energy* eq'n
 	* A production term appears which is affected by the *Reynolds' stress* and shear
+* The standard deviation of flow measurements give the turbulent fluctuations even though the sampling frequency is too low
