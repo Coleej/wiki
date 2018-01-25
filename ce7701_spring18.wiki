@@ -2,3 +2,5 @@
 
 = Lectures =
 [[diary:2018-01-23]]
+	- Introduction and some basic fluid mechanics
+[[diary:2018-01-25]]

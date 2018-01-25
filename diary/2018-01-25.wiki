@@ -1,0 +1,22 @@
+= Notes =
+== General ==
+* Is the continuity equation the same as the conservation of mass?
+* The dimension of a particular momentum eq'n is termed the _streamwise_ direction
+
+== Non-linearity ==
+* Ozdemir's definition of non-linearity:
+	- Linearity in differential equations is different from the functional definition
+	- A rule of thumb: if there is curvature, then it is non-linear
+* Local acceleration, viscous, and pressure terms are linear
+* The convective acceleration is non-linear <- *source of turbulence*
+
+== Turbulence ==
+* The Reynolds' limits for turbulent flow were affected by a railroad near his lab
+* After the Reynolds' decomposition, the standard deviation and variance of the fluctuations gives a measure of turbulence
+* Turbulence is inherently 3D
+	- So, even for a 1D pipe flow, as soon as it enters a turbulence regime the flow is 3D
+* After averaging the Reynolds' decomposition the only extra term remaining is the *Reynolds' stress*
+	- The Reynolds' stress is not always characterizable
+	- There are normal and shear Reynolds' stresses
+* In order to account for skewness in the fluctuations in the turbulent flow, one must proceed to the *turbulent kinetic energy* eq'n
+	* A production term appears which is affected by the *Reynolds' stress* and shear

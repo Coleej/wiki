@@ -1,5 +1,5 @@
 = Files =
-[[file:~/Documents/17_manuscripts/00_my_work/05_xbeach_literature_review/outline.docx]]
+[[file:~/Documents/17_manuscripts/00_my_work/05_xbeach_lit_review/outline.docx]]
 
 = Reviewed publications =
 * [[Passeri et al. (2015)]]
