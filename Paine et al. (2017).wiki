@@ -31,10 +31,20 @@
 		* 2012 survey: -0.15m to +0.23m
 * differences between local MSL and NAVD88 datum are given (15cm to 1cm)
 
+==== DTM production ====
+* No mention of lidar classes (bare-earth vs unclassified or vegetation)
+* IDW interpolation to 1-m resolution
+
 === Morphology ===
-* DTMs were contoured at a certain elevation (unspecified) to produce shoreline proxies which were compared to historical shoreline erosion rates
 * DTMs were contoured at 1-m intervals and the area of these level surfaces were used:
 	1. to determine geomorphic features
 	2. estimate subaerial sand storage
 	3. determine erosional resistance
 	4. storm flooding susceptibility
+
+==== Shorelines ====
+* DTMs were contoured at 0.6m NAVD88 (GEOID99) (_why use GEOID99?_) to produce shoreline proxies which were compared to historical shoreline erosion rates
+	- Used an estimated wet-dry boundary for the TX coast above MSL, but instead put it above NAVD88 because MSL and NAVD88 vary along the coast by 20cm
+		* "Using the most seaward, continuous contour of 0.6 m NAVD88 from the LIDAR-derived DEM provides a consistent shoreline feature among LIDAR data sets when water level and wave activity may differ but will differ from mean sea level along the Texas coast according to the local difference between mean sea level and NAVD88. That difference is negligible for the southern Texas coast but reaches about 0.15 m at Galveston on the upper Texas coast. Given the average beach slope on the Texas coast of about 0.04 m/m determined from beach profiles acquired during this study, the elevation difference translates to a potential lateral shift of less than 4 m that is consistent among the 2010, 2011, and 2012 LIDAR surveys. Errors in LIDAR-derived elevation, estimated to be about 0.1m or less on the basis of comparisons with ground GPS measurements, translates to a potential lateral shoreline position error of 2–3 m. (p.492)"
+	- Most seaward 0.6m NAVD88 contour was edited and smoothed (2m tolerance) in ArcMap ([[DSAS]]) to produce shoreline
+* Shoreline retreat analysis was performed for 11,783 cross-shore transects spaced 50m apart
