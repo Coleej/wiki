@@ -1,15 +1,19 @@
 = Synopsis = 
-
+Three lidar surveys of the entire TX coast are used to quantify shoreline change rates and subaerial storage change rates for different elevations. These are analyzed spatially and in the context of historical rates of erosion for the TX coast.
 
 = Conclusions =
 
 
 = Criticisms =
-
+* On pages 501 and 502, ETA extents for different elevations are overlaid on [[national_agricultural_image_program|NAIP]] images.
+	- This clearly shows that the vegetation were influencing the DTM elevations.
+	- Dune crests probably do have vegetation, but its clear that vegetation is at this areas and the class of the interpolated lidar isn't specified
 
 = Notes =
 == General ==
 * "Two critical parameters that increase the erosion potential of a tropical cyclone are surge height and surge duration: the longer sea level is elevated above normal during storm passage, the greater the potential for redistribution of sediment eroded from the beach. (p.490)"
+* It would be illuminating to plot morphodynamic rates each lidar survey (of mine) as a function of space and then indicate the proximity of land-falling hurricanes to these rates
+	- Horizontally stack the figures to make a time series
 
 == Methods ==
 === Forcing description ===
@@ -22,7 +26,7 @@
 * 3 surveys (2010, 2011, 2012)
 * Described the lidar sampling equipment and other details
 
-==== Ground truthing ====
+=== Ground truthing ===
 * Ground GPS surveys of roads and other open areas with unambiguous surfaces were shot
 * lidar points with 0.5m of GPS points (no number is given) were differenced and the average difference for a survey was used to correct the lidar for bias
 	- residuals:
@@ -36,15 +40,22 @@
 * IDW interpolation to 1-m resolution
 
 === Morphology ===
-* DTMs were contoured at 1-m intervals and the area of these level surfaces were used:
-	1. to determine geomorphic features
-	2. estimate subaerial sand storage
-	3. determine erosional resistance
-	4. storm flooding susceptibility
-
 ==== Shorelines ====
 * DTMs were contoured at 0.6m NAVD88 (GEOID99) (_why use GEOID99?_) to produce shoreline proxies which were compared to historical shoreline erosion rates
 	- Used an estimated wet-dry boundary for the TX coast above MSL, but instead put it above NAVD88 because MSL and NAVD88 vary along the coast by 20cm
 		* "Using the most seaward, continuous contour of 0.6 m NAVD88 from the LIDAR-derived DEM provides a consistent shoreline feature among LIDAR data sets when water level and wave activity may differ but will differ from mean sea level along the Texas coast according to the local difference between mean sea level and NAVD88. That difference is negligible for the southern Texas coast but reaches about 0.15 m at Galveston on the upper Texas coast. Given the average beach slope on the Texas coast of about 0.04 m/m determined from beach profiles acquired during this study, the elevation difference translates to a potential lateral shift of less than 4 m that is consistent among the 2010, 2011, and 2012 LIDAR surveys. Errors in LIDAR-derived elevation, estimated to be about 0.1m or less on the basis of comparisons with ground GPS measurements, translates to a potential lateral shoreline position error of 2–3 m. (p.492)"
 	- Most seaward 0.6m NAVD88 contour was edited and smoothed (2m tolerance) in ArcMap ([[DSAS]]) to produce shoreline
-* Shoreline retreat analysis was performed for 11,783 cross-shore transects spaced 50m apart
+* Shoreline retreat analysis was performed for 11,783-11,811 cross-shore transects spaced 50m apart
+	- Separate intervals had different amounts of transects
+
+==== Subaerial sand storage ====
+* Starting at 2m NAVD88, the DTMs were contoured at 1m intervals up to +9m NAVD88
+* Level surface area was plotted against the contour elevation to produce [[elevation_threshold_area|elevation threshold area (ETA)]] relationships
+	- example: [[file:images/paine2017_eta_example.png|ETA curve]]
+* [[elevation_threshold_area|(ETS)]] relationships were used to determine:
+	1. to determine geomorphic features
+	2. estimate subaerial sand storage
+	3. determine erosional resistance
+	4. storm flooding susceptibility
+	5. maturity and extent of dunes
+
