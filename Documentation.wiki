@@ -9,5 +9,8 @@
 [[xbeach_build|XBeach]]
 [[delft3d_build|Delft3D]]
 
+== Utilities ==
+[[mpich2_build|MPICH2]]
+
 = Hardware =
 [[dell_optiplex9020|Dell Optiplex 9020]]

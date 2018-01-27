@@ -1,0 +1,5 @@
+= Version 3.2.1 =
+== Configure options =
+* enable-fast=yes
+* enable-fortran=all
+* enable-cxx

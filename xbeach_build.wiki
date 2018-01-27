@@ -1,5 +1,8 @@
+= Revision 5446 =
+== Custom built libraries ==
 = Revision 5445 =
-== Build ==
+== Using Ubuntu repos ==
+=== Build ===
 * Checked out from the SVN repo (1.23.5445M XBeachX BETA release)
 * Compiled with packages from Ubuntu's Xenial (16.04) repositories
 * configuration (config script lost)
@@ -7,7 +10,7 @@
 	- with-mpi
 	- with-netcdf
 
-== Tests ==
+=== Tests ===
 1. [X] Holland default
 	- Cannot view output with matlab toolbox
 2. [X] Delilah
@@ -15,5 +18,6 @@
 	- Last time step returned the error *Wave propagation row xxx, iteration 500, error:****** (where xxx is a row = [1, 173])
 	- Cannot view output with matlab toolbox
 
-== Notes ==
+=== Notes ===
 * The program finishes and crashes on exit
+	- This only occurs when using mpi support
