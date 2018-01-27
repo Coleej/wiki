@@ -1,0 +1,40 @@
+= Synopsis = 
+
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+== General ==
+* "Two critical parameters that increase the erosion potential of a tropical cyclone are surge height and surge duration: the longer sea level is elevated above normal during storm passage, the greater the potential for redistribution of sediment eroded from the beach. (p.490)"
+
+== Methods ==
+=== Forcing description ===
+* The entire shoreline of TX was analyzed with lidar surveys between 2010 - 2012
+* Table of all tropical storms on the record which made landfall in TX (p.491)
+	- time period
+	- landfall location
+
+=== Lidar ===
+* 3 surveys (2010, 2011, 2012)
+* Described the lidar sampling equipment and other details
+
+==== Ground truthing ====
+* Ground GPS surveys of roads and other open areas with unambiguous surfaces were shot
+* lidar points with 0.5m of GPS points (no number is given) were differenced and the average difference for a survey was used to correct the lidar for bias
+	- residuals:
+		* 2010 survey: -0.18m to +0.07m
+		* 2011 survey: -0.21m to +0.22m
+		* 2012 survey: -0.15m to +0.23m
+* differences between local MSL and NAVD88 datum are given (15cm to 1cm)
+
+=== Morphology ===
+* DTMs were contoured at a certain elevation (unspecified) to produce shoreline proxies which were compared to historical shoreline erosion rates
+* DTMs were contoured at 1-m intervals and the area of these level surfaces were used:
+	1. to determine geomorphic features
+	2. estimate subaerial sand storage
+	3. determine erosional resistance
+	4. storm flooding susceptibility
