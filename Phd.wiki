@@ -10,7 +10,8 @@
 		2. Depending on the near-term post-storm deposition, can hard structures be used to make recovery of sediment possible?
 
 = Chapters =
-* [[Literature Review]]
+	* [[Literature Review]]
+	* [[phd_methods|Methods]]
 
 = Resources =
 	* [[Modeling]]
