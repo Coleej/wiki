@@ -7,6 +7,10 @@
 			* look-ahead = 241
 			* threshold = 0
 	3. The shoreline is reduced
-		1. Douglas-Peucker Reduction
-			1. reduction = 100%
-			2. threshold=20
+		- Douglas-Peucker Reduction
+			* reduction = 100%
+			* threshold = 20
+
+= Transects =
+	1. Shore normal transects are placed every 50m
+		1. They vary from 350m - 500m depending on the section of coastline
