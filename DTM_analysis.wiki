@@ -10,8 +10,4 @@
 		- Douglas-Peucker Reduction
 			* reduction = 100%
 			* threshold = 20
-	4. Shifted 25m to the SE to separate from the 1998 DTM
-
-= Transects =
-	1. Shore normal transects are placed every 50m
-		1. They vary from 350m - 500m depending on the section of coastline
+	4. Shifted 25m to the SE to separate from the [[1998_ALACE_lidar|1998 NOAA/USGS/NASA ALACE lidar]] DTM
