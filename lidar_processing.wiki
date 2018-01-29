@@ -9,10 +9,10 @@
 		- [[2002_ALACE_lidar|2002 NOAA/USGS/NASA ALACE lidar]]
 		- [[2008_post_Gustav_lidar|September 2008 USGS post-Gustav lidar]]
 
+= Interpolation =
+
 = Masking =
 	1. If lidar didn't have a return within a 10 m cell, then this area was masked out
 	2. Cells below MHW for the year of the survey were masked out
 		- See [[file:~/Projects/10_caminada_lidar/40_lidar_analysis_central_subregion/MHW_estimates_7mmperyr_subsidence.csv|MHW estimates]] for values used
 		- Determined from linear regression of GI tide gauge with 7mm of subsidence removed
-
-

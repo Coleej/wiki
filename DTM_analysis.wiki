@@ -1,0 +1,12 @@
+= General =
+
+= Baseline =
+	1. The 1998 DTM is contoured at 1998 MHW (0.308m NAVD88 GEOID12b)
+	2. The shoreline is smoothed
+		- sliding_window
+			* look-ahead = 241
+			* threshold = 0
+	3. The shoreline is reduced
+		1. Douglas-Peucker Reduction
+			1. reduction = 100%
+			2. threshold=20
