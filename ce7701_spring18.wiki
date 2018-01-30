@@ -1,5 +1,8 @@
 = Files =
 
+= Research papers =
+[[Scandura (2007)]]
+
 = Lectures =
 [[diary:2018-01-23]]
 	- Introduction and some basic fluid mechanics

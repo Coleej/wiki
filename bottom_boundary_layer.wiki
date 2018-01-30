@@ -1,0 +1,24 @@
+= Definitions =
+*boundary layer* := intuitively defined as the layer inside which the flow is significantly influenced by the bed
+*boundary layer thickness* := $\delta = \sqrt{\nu_t T}$
+	- $\delta$ is the thickness of the layer
+	- $\nu_t$ is the eddy viscosity
+	- $T$ is the period of the flow
+*wave boundary layer* := boundary layer when mean current and long period waves are neglected
+	- vertically varies slowly near the bed
+*velocity defect* := The vertically variable difference in velocity in the flow from the free stream velocity due to the bed
+
+= Concepts =
+== Dimensional analysis ==
+[[Jonsson (1966)]] concluded that oscillatory boundary layers depend mainly on the [[reynolds_number|Reynolds number]] and [[bed roughness|relative bed roughness]]
+	- Reynolds number (waves) := $\frac{A^2 \omega}{\nu}$
+	- relative bed roughness := $\frac{r}{A}$
+	- where $r$ is the roughness length and $A$ is the water particle semi-excursion
+
+== Equations of motion ==
+* The starting point equations for fluid motion in the BBL is the [[navier_stokes_equations|Navier-Stokes eq'ns]]
+* The velocity component is usually taken as zero within the BBL
+* The convective acceleration term can be eliminated when the flow is spatially uniform ($\frac{\partial u}{\partial x} = 0$). This occurs under the conditions:
+	1. when the free stream velocity ($u_\infty$) is zero
+		- Not the case for real surface waves
+	2. Flow very close to the bed (within the excursion of the roughness elements) can be neglected, ie $\frac{\delta}{r} >> 1$

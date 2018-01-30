@@ -36,6 +36,8 @@
 			- [[Wave drivers]]
 		- [[GLM method]]
 	* [[Stokes' drift]]
+	* [[sediment_transport|Sediment transport]]
+		* [[bottom_boundary_layer|Bottom boundary layer (BBL)]]
 
 ==== Sediment transport ====
 * [[Shields parameter]]

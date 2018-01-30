@@ -1,0 +1,20 @@
+= Synopsis = 
+
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+== Formulas ==
+*Reynolds' of the Stokes boundary layer*: $R_{\delta} = U^*_0 \frac{\sqrt{2\nu^*/\omega^*}}{\nu^*}$
+	- $U^*_0$ and $\omega^*$ are the amplitude and frequency of the velocity oscillations far form the wall
+	- $\nu^*$ is the kinematic viscosity of the flow
+
+*Stokes boundary layer thickness*: $\delta = \sqrt{2\nu^*/\omega^*}$
+
+
+== General ==
+* 
