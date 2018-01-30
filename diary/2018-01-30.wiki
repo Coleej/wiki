@@ -1,0 +1,38 @@
+= Notes =
+== General ==
+
+== Reynolds stress ==
+* This changes the mixing and the vertical velocity profile compared to laminar flow
+* This figures as a sink to the pressure gradient term
+
+== Kinetic energy equation ==
+* Large K denotes mean KE and small k denotes turbulent KE
+* Derive the mean KE equation with the product of the momentum eq'n and the mean velocity and likewise for the turbulent KE eq'n (TKE)
+
+=== Mean KE budget ===
+* The vorticity transports energy from the mean flow to the TKE budget
+* The Reynolds stress energy term is always negative (explanation forthcoming) and forms the *turbulence production term* in the TKE budget
+
+== Turbulence generation ==
+* Roughness in the pipe gives rise to the fluctuations
+* Ideally smooth surfaces may still have turbulence due to _impurities_ within the flow (temp., sediment)
+
+== Turbulence dissipation ==
+* Viscosity is a cause of turbulence dissipation (as seen in the dissipation term in the TKE budget)
+* The kinematic viscosity between the MKE and TKE budget are identical, but the shear terms will be different
+* In the eddy spectrum energy cascade, the energy containing eddies range are the formations directly taking energy from the mean flow and transfers it to viscous dissipation
+	- the energy cascade is used to check numerical simulation results
+
+=== Kolmogrov scales of turbulence energy turbulence ===
+* The scale at which dissipation occurs is small-scale motions which is determined, statistically, by the molecular viscosity and energy dissipation
+* Time scale of Kolmogrov comes from dividing the molecular viscosity by the dissipation rate, rooted
+	- $t_n ~ \sqrt(\frac{\nu}{\epsilon})$
+	- length of time where the small eddies revolve once
+* Length scale is given by the Kolmogrov length scale (size of the dissipating eddies which transfer energy to viscous dissipation)
+	- $\eta ~ (\frac{\nu}^4}{\epsilon})^(1/4)$
+
+== Numerical modeling ==
+* For course grid resolution, where the scales of the energy cascade aren't resolved, various turbulent dissipation models must be employed
+* Direct numerical simulation (DNS) resolves every scale of turbulence
+* Large eddy simulation (LES) resolves motion of the eddies in the inertial sub-range
+* κ-ε model is a compromise when the resolution is too course for LES
