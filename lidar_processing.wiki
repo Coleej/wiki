@@ -1,6 +1,10 @@
 = Acquisition =
 
 = Offset correction =
+	* lidar were shifted according to systematic biases determined from residuals calculated from GC points along Chevron rd. shot during [[2012 post-Isaac survey]]
+	* The shifts were taken as the mean residual and corrected for VLM observed at the GI tide station
+		- [[file:~//Projects/10_caminada_lidar/10_lidar_offset_correction/2nd_attempt_geoid12b/err_base_stats_g12b_no_subsidence.csv|mean residuals]]
+		- [[file:~//Projects/10_caminada_lidar/10_lidar_offset_correction/2nd_attempt_geoid12b/offset_VLMs_corr.csv|VLM corrections]]
 
 = Classification =
 	* The surveys following surveys were classified with the [[lidar_classification#MCC|MCC]] algorithm. The other surveys were already classified
@@ -10,6 +14,10 @@
 		- [[2008_post_Gustav_lidar|September 2008 USGS post-Gustav lidar]]
 
 = Interpolation =
+	* The shifted and classified base-ground lidar were analyzed for quality (point density, elevation variance per cell) at a different resolutions
+		- [[file:data/lidar_stats_entire_region.csv|lidar stats]]
+	*  were interpolated with RST interpolation to 0.5m resolution DTMs.
+		- cross-validation (cv) optimization results can be found here: [[file:data/cv_results|cv results]]
 
 = Masking =
 	1. If lidar didn't have a return within a 10 m cell, then this area was masked out
