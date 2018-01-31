@@ -1,0 +1,11 @@
+= Pip packages =
+== nbextensions ==
+1. Install from pip repo (pip install jupyter_contrib_nbextension)
+2. install nbextensions as system user and create sym-links (jupyter contrib nbextension install --system --symlink)
+	- We want to system install the extensions so that they are available to all virtual environments
+	- This will link the nbextensions from the /usr/local/lib/python*.*-/dist-packages --> /usr/local/share/jupyter/nbextension
+3. enable the configurator system wide (sudo -H jupyter_nbextensions_configurator enable --system)
+4. make a stow directory in /usr/local/share/jupyter
+5. git clone vim_binding plugin into /usr/local/share/jupyter/stow/vim_binding/nbextensions/vim_binding
+6. stow install vim_binding
+7. *you must install jupyter_nbextensions_configurator into every virtual env*

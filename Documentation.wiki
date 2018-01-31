@@ -11,6 +11,7 @@
 
 == Utilities ==
 [[mpich2_build|MPICH2]]
+[[jupyter_setup|jupyter]]
 
 = Hardware =
 [[dell_optiplex9020|Dell Optiplex 9020]]
