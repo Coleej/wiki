@@ -1,0 +1,5 @@
+= NOAA Data-retrieval API =
+description: https://tidesandcurrents.noaa.gov/api/
+	- query: https://tidesandcurrents.noaa.gov/api/datagetter?
+	- datagetter API is different from the html form fill fields
+	- API can only return 6-min intervals for water level (limit is 31 days)
