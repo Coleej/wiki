@@ -1,0 +1,18 @@
+= Notes =
+== BBL Turbulence in steady flows ==
+* Define a velocity scale: the shear velocity ($u_*$)
+	* $u_* = \sqrt{\frac{\tau}{\rho}}$
+	* connects the length and the time scale
+* In the non-dimensional laminar velocity profile very close to the wall, the profile becomes linear
+* Viscosity dominates near the wall.
+* The turbulent flows change the velocity profile and a Reynolds' stress appears on the left
+	* this term eventually vanishes after integration over the control volume denoting the redistribution of momentum
+
+== Law of the Wall ==
+* viscous length scale: $\frac{\nu}{u_*}$
+* Even in turbulent flow, very near the wall the velocity profile is linearly dependent on distance form the wall
+	* This is the viscous sub-later ($u_+ = z_+$, $z_+ <$)
+	* Buffer layer: $5 < z_+ < 30$
+		* See an explosive growth in turbulence (growth of the turbulent production term)
+	* log layer: turbulence is developed here
+	* Transitions into the outer layer where turbulence is fully developed
