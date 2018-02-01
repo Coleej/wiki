@@ -1,5 +1,5 @@
 = Synopsis = 
-
+The aim of the work is to study the steady streaming generated in a turbulent oscillating boundary layer due to the wave asymmetry
 
 = Conclusions =
 
@@ -15,6 +15,25 @@
 
 *Stokes boundary layer thickness*: $\delta = \sqrt{2\nu^*/\omega^*}$
 
-
 == General ==
-* 
+* [[Longuet-Higgins (1958)]] showed that a small amplitude wave propagating over a smooth bottom creates and onshore directed steady streaming flow.
+	- The case for laminar flow and if the eddy viscosity is independent of time
+	- Important for sediment transport in the nearshore
+* Asymmetric waves have an offshore directed steady streaming due to asymmetry in the turbulent fluctuations during the on- and offshore directed phases
+	- Important for sediment transport in the nearshore
+	- Opposes the Longuet-Higgins streaming
+
+=== Stokes' layer flow regimes ===
+I. Small $R_\delta$
+* Flow is laminar and described by the Stokes solution
+
+II. $R_\delta > 100$
+* small perturbations are observed but the flow remains similar to the Stokes solution
+
+III. $R_\delta > 550$
+* The flow is intermittently turbulent
+* turbulent bursts appear during the decelerating phase
+* significantly different from the stokes solution
+
+IV. $R_\delta > 3500$
+* fully turbulent with bursts throughout the entire cycle

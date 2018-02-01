@@ -1,0 +1,5 @@
+= Conceptual overview =
+* Intuitively defined as the layer close to the bottom where wave-induced motion is noticeably affected by the boundary.
+	- Only the order of a few millimeters for smooth boundaries, a few centimeters for loose sand, and 50 centimeters for bedform ripples
+* Velocity amplitude, and shear, is highest near the bed and lead the free-stream velocity ($u_\infty$), switching directions before the free-stream layer of the flow
+	* For a laminar flow, the shear leads $u_\infty$ by 45°, but this is not the case with _turbulent flow_

@@ -37,10 +37,11 @@
 		- [[GLM method]]
 	* [[Stokes' drift]]
 	* [[sediment_transport|Sediment transport]]
-		* [[bottom_boundary_layer|Bottom boundary layer (BBL)]]
+		- [[bottom_boundary_layer|Bottom boundary layer (BBL)]]
+			* [[stokes_boundary_layer|Stoke's BBL (oscillatory BBL)]]
 
 ==== Sediment transport ====
-* [[Shields parameter]]
+	* [[Shields parameter]]
 
 === Data analysis ===
 	* [[Data presentation]]
