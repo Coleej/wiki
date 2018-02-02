@@ -10,3 +10,4 @@
 	- Con't intro to basic fluid mechanics
 	- Introduce the Reynolds stress term
 [[diary:2018-01-30]]
+[[diary:2018-02-01]]
