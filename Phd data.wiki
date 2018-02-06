@@ -12,7 +12,7 @@
 		* [[https://pubs.usgs.gov/ds/0839/|2012 post-storm Lidar URL]]
 		* [[https://pubs.usgs.gov/ds/0988/index.html|2012 post-storm photogrpahy URL]]
 
-== Lidar ==
+= Lidar ==
 	* [[1998_ALACE_lidar|1998 NOAA/USGS/NASA ALACE lidar]]
 	* [[2001_USGS_lidar|2001 USGS lidar]]
 	* [[2002_ALACE_lidar|2002 NOAA/USGS/NASA ALACE lidar]]

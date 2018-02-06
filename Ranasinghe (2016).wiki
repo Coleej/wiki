@@ -1,5 +1,5 @@
 = Synopsis =
-
+This paper deals with _open_ sandy coasts (and deals mainly with mainland coastlines, not barrier islands) and doesn't pertain directly to deltaic muddy coast lines. It aims to address: (1) 1st order effects of climate change; (2) method of modeling these effects on a local scale (~10km); (3) future research needs and related topics. For the modeling, the author describes stepping down from GCMs to local scale high-resolution models and dealing with the uncertainty at each level
 
 = Conclusions =
 
@@ -8,3 +8,4 @@
 
 
 = Notes =
+* Due to SLR, the sediment budget on a coastline will be altered by an increase in accommodation space within back-barrier basins. This increase in accommodation space is equal to increase in MSL x basin footprint. The basin tries to maintain an equilibrium volume of water over the course of SLR and will borrow sediment form the nearby coastline to fill in this newly opened up accommodation space.

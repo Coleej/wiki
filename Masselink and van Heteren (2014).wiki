@@ -1,0 +1,19 @@
+= Synopsis = 
+This paper reviews progress made in the past two decades in our understanding of barrier response to extreme wave and water-level conditions caused by TCs and ETCs. They build on [[Sallenger (2000)]], placing beach change, dune erosion, overwash, breaching and destruction in the context of pre-storm conditioning and post-storm recovery.
+
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+[[file:images/masselink2014_bchmorph_params.png|influential parameters in morphodynamics]]
+
+== General ==
+* "Shelf width exerts a substantial morphological control over storm-related barrier behaviour. Wind-driven surges superimposed on spring tides are more important on coasts fringing wide shelves, whereas storm-wave height has a tendency to dominate over tidal effects on coasts with narrow shelves. (p.325)"
+* "The most important subaerial morphological aspects are beach width and slope, height and continuity of the foredune ridge,width of the primary and secondary dune area, and inlet presence. (p.325)"
+* "When frontal dunes of wide barriers are eroded, interior wetlands provide accommodation space for perched washover fans flanking secondary dunes, limiting loss of sediment to back-barrier areas (Claudino-Sales et al., 2008). (p.325)"
+* "storm surges, wave conditions, and near-coastal currents. Their absolute values do not necessarily matter, as these are site-specific, but what counts is the deviation from fair-weather values. (p.325)"
+* "As storm surges tend to climax on rising tides (Idier et al., 2012), peak water levels will be somewhat lower in practice than their maximum theoretical values for spring high tides. (p.327)" 
