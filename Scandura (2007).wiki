@@ -15,6 +15,9 @@ The aim of the work is to study the steady streaming generated in a turbulent os
 
 *Stokes boundary layer thickness*: $\delta = \sqrt{2\nu^*/\omega^*}$
 
+*free stream orbital velocity*: $u^* = U_0^*cos(\omega^*t^*) + U_1^*cos(2\omega^*t^*)$ (2nd-order Stokes wave)
+
+*wave asymmetry*: $u_r = \frac{U_1^*}{U_0^*}$
 == General ==
 * [[Longuet-Higgins (1958)]] showed that a small amplitude wave propagating over a smooth bottom creates and onshore directed steady streaming flow.
 	- The case for laminar flow and if the eddy viscosity is independent of time
@@ -22,15 +25,17 @@ The aim of the work is to study the steady streaming generated in a turbulent os
 * Asymmetric waves have an offshore directed steady streaming due to asymmetry in the turbulent fluctuations during the on- and offshore directed phases
 	- Important for sediment transport in the nearshore
 	- Opposes the Longuet-Higgins streaming
+* "The above authors ([[Ribberink and Al-Salem (1995)]]) reported that, under asymmetric flow conditions, a net wave-averaged horizontal velocity was measured against the direction of the ‘wave propagation’, or in the direction of the flow during the trough half-cycle, which was about 4%of the time-dependent flow velocity. (p.267)"
+
 
 === Stokes' layer flow regimes ===
 I. Small $R_\delta$
 * Flow is laminar and described by the Stokes solution
 
-II. $R_\delta > 100$
+II. $550 > R_\delta >= 100$
 * small perturbations are observed but the flow remains similar to the Stokes solution
 
-III. $R_\delta > 550$
+III. $3500 > R_\delta >= 550$
 * The flow is intermittently turbulent
 * turbulent bursts appear during the decelerating phase
 * significantly different from the stokes solution

@@ -16,4 +16,12 @@ This paper reviews progress made in the past two decades in our understanding of
 * "The most important subaerial morphological aspects are beach width and slope, height and continuity of the foredune ridge,width of the primary and secondary dune area, and inlet presence. (p.325)"
 * "When frontal dunes of wide barriers are eroded, interior wetlands provide accommodation space for perched washover fans flanking secondary dunes, limiting loss of sediment to back-barrier areas (Claudino-Sales et al., 2008). (p.325)"
 * "storm surges, wave conditions, and near-coastal currents. Their absolute values do not necessarily matter, as these are site-specific, but what counts is the deviation from fair-weather values. (p.325)"
-* "As storm surges tend to climax on rising tides (Idier et al., 2012), peak water levels will be somewhat lower in practice than their maximum theoretical values for spring high tides. (p.327)" 
+* "As storm surges tend to climax on rising tides (Idier et al., 2012), peak water levels will be somewhat lower in practice than their maximum theoretical values for spring high tides. (p.327)"
+* "The multitude of factors and hydrodynamic processes influencing and acting on beaches and barriers results in highly variable morpho- logical responses, both spatially and temporally. No single wind, wave or tidal parameter dominates storm-driven beach and barrier behaviour at all locations, and not even storm intensity is directly correlated to storm damage. (p.329)"
+
+== Overwash ==
+* "Storm-generated transport of sediment from barrier to back-barrier environments via overwash is typically on the order of tens of m³/m for locations impacted during individual events (Carruthers et al., 2013). In case of confined overwash, transported volumes may exceed 100 m³/m. (p.328)"
+* "Discrete overwash is a moderate-magnitude event set into motion when runup of most waves exceeds the barrier crest by at least a few decimetres, resulting in local overflow and a commensurate halt to dune scarping. (p.333 - 334)"
+	- "These processes are more strongly correlated to storm duration and surge level than to wave height (Donnelly, 2007). (p.334)"
+
+ 
