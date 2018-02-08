@@ -1,0 +1,32 @@
+= Synopsis = 
+
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+== Figures ==
+[[file:images/houser2011_xshr_features.png|Cross-shore features]]
+
+== General ==
+* "Despite erosion of the beachface and backshore and a shoreline retreat of~27m, the foredune height increased over most of the study area and washover was limited to the pre-existing channels. (p.66)"
+
+== Methods ==
+=== Lidar ===
+* 2 Lidar surveys 2000 and 2005
+* Lidar was gridded and tiled with 50m buffer zone
+	- 1m resolution
+	- IDW interpolation
+	- RMSE = 0.24 (2000) and 0.32m (2005)
+
+=== Waves ===
+* Used MIKE21 for waves
+* "The shelf bathymetry fronting the barrier island is not uniform alongshore. Transverse ridges extend to the NNW (10°) or about 40° off the shoreline with an apparently regular spacing."
+	- The bathymetry at Caminada seems more alongshore uniform
+
+
+=== Analysis ===
+* Cross-wavelet analysis with a complex Morlet mother wavelength ([[Torrence and COmpo (1998)]])
