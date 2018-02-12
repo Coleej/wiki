@@ -1,0 +1,21 @@
+= Synopsis = 
+The primary purpose of this study is to document morphological impacts of extreme storms in the GoM and western Atlantic coasts. 6 - 7 hurricanes are compared with the observed overwash deposits that they have caused. Relationships between overwash and various extreme storm parameters are presented, but not conclusive relationships are drawn.
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+== General ==
+* "Beyond this first approximation washover penetration depends on factors other than storm surge elevations. (p. 562)"
+
+=== Images ===
+* coastal response types
+	- [[file:images/morton2003_stormresponsetypes.png]]
+* figure showing washover extents versus distance from Hurricane eye [Carla (1961)] for the Texas coast
+	- [[file:images/morton2003_washvdisteye.png]]
+
+== Methods ==
+* aerial photography is used to quantify washover extents and [[modes.]]

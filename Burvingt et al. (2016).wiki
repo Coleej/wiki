@@ -1,0 +1,18 @@
+= Synopsis = 
+The 2013/2014 winter storm season in England is studied with pre- and post-storm lidar surveys. This period had 22 +10m $H_{m0}$ waves and 157 beaches were extracted and studied from the lidar. The analyzed lidar are used to infer sediment transport patterns.
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+== General ==
+
+== Methods ==
+=== Lidar ===
+* "Every beach for which LiDAR coverage was estimated to be less than *70%* of the whole surface area has been removed from our list of study sites. (p. 1054)"
+* "...the beach area cannot be directly identified. Therefore, every single beach area was digitized by drawing polygonal shapefiles on ArcMap 10.2.2 software (Fig. 5c). The 157 shapefiles were drawn using high resolution aerial pictures (Fig. 5b) and, beach areas were digitized with high precision and leaving out obstacles (cliff, infrastructure on the beach). (p. 1054)"
+
+

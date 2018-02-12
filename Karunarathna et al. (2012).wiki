@@ -1,0 +1,12 @@
+= Synopsis = 
+Profiles from a sandy beach and composite sand-gravel beach are compared. The profiles are are analyzed with [[empirical_orthogonal_function|EOF]] analysis for cross-shore zones of morphodynamic activity. Mean profiles are compared to the equilibrium profile of [[Dean (1977)]] (showing a 11% and 5% RMSE, for the sandy and composite beach respectfully). The [[empirical_orthogonal_function|EOF]] quantitatively showed the difference between the two beach types analyzed.
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+== General ==
+* 

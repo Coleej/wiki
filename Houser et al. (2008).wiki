@@ -1,0 +1,19 @@
+= Synopsis = 
+Two lidar data sets (pre- and post-Ivan) for Santa Rosa, FL are analyzed with [[empirical_orthogonal_function|EOF]] analysis and spectral analysis to determine relationships between dune/nearshore features at distinct alongshore wavelengths.
+
+= Conclusions =
+* "The weak but still significant correlation ($r^2=0.18$) between the large dunes of pre-storm E4 (eigenfunction-4) and the low-elevations of post- storm E2 (see Fig. 5f) suggests that (in fact) large dunes adjacent to smaller dunes can be eroded through lateral erosion. (p.231)"
+* "Results of the cospectral analysis suggest that the alongshore variation in dune morphology is correlated with the bathymetry of the inner-shelf at a range of length scales (750, 1450 and 4550). (p.236)"
+
+
+= Criticisms =
+
+
+= Notes =
+== General ==
+
+== Methods ==
+=== Lidar ===
+* IDW interpolation of USACE and USGS (EAARL) lidar 
+	- "The pre-Ivan IDW root-mean-square-error (RMSE) was 0.34 and the post-Ivan RMSE was 0.54.(p. 226)"
+* "We used the same transects to calculate short-term (May 2004 to September 2005) storm-driven shoreline change rates as were used in the long-term, pre-storms analysis. However, due to numerous gaps in the post-storm shoreline from island breaching and washover, only about 60% of the transects crossed all three LIDAR shorelines. (p.227)"

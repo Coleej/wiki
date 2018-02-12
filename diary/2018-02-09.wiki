@@ -1,0 +1,13 @@
+= File = 
+[[file:~/Documents/05_meetings/10_research_group/2018-/draft.odp]]
+[[file:~/Documents/05_meetings/10_research_group/2017-/report.pdf]]
+
+= Notes =
+* 
+
+= TODO =
+1. [ ] Make sections more reasonable
+2. [ ] Have a few average dune profiles visualized
+3. [ ] Pay attention to breaches
+4. [ ] Look at literature for berm crest determination
+5. [ ] Attempt sediment budget
