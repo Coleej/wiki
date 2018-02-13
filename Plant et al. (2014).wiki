@@ -1,0 +1,22 @@
+= Synopsis = 
+This paper aims to answer questions about the effects of small perturbations in beach/dune elevation (ie the berm) on morphodynamic evolution using models which probabilistically predict berm overwash and then relate this to morphological evolution.
+
+= Conclusions =
+The team were able to probabilistically predict overwash given historical wave and water level data. This was then fit to observations of linear alongshore berm length observations, based on the intensity of overwash events in the intervals of the observations.
+
+= Criticisms =
+* It didn't seem like there was enough discussion on fitting the overwash probability exceedence data to the berm length observation time-series
+* The methodology for predicting wave property probabilities and their comparisons to the historical record were not clearly presented.
+* There was a lot of talk about the uncertainty in their model, but it was only presented as a shaded area on a very coarsely resolved figure.
+
+= Notes =
+== General ==
+== Methods ==
+* Berm observation began 17 Nov. 2010 and ended 3 Sept. 2011 (TS Lee landfall)
+
+=== Overwash ===
+* "Our approach to this study was to develop and test a model that predicts changes in the linear extent [ie alongshore continuity] of the berm based on predicted likelihoods of overwash events. (p.302)"
+* "Our approach to predicting berm evolution assumed that berm overwash was the primary driver of rapid evolution, and that more gradual evolution resulted when overwash did not occur or was infrequent. (p.306)"
+	- "Overwash occurred when the combination of tides, storm surges, and wave-induced water levels (i.e., wave setup and swash excursions, which are collectively called runup) exceeded the berm height (p.306)"
+	- "The term $H_1$ is the significant wave height estimated near the *20m contour* (p.307)"
+* "As has been shown by others, systematic prediction of overwash is an excellent indicator of morphologic change, particularly for features that lack vigorous regeneration mechanisms, such as low berms, transgressive submergence shorelines, and even some dunes. (p.314)"

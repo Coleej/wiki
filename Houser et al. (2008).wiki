@@ -2,9 +2,10 @@
 Two lidar data sets (pre- and post-Ivan) for Santa Rosa, FL are analyzed with [[empirical_orthogonal_function|EOF]] analysis and spectral analysis to determine relationships between dune/nearshore features at distinct alongshore wavelengths.
 
 = Conclusions =
+* "It appears that the alongshore pattern in dune morphology, shoreline erosion and storm impact are controlled (at a range of length scales) by the transverse ridges on the inner-shelf and the island width,which is related to the back barrier cuspate headlands along Santa Rosa Sound. (p.238)"
+* "Long-term rates of erosion are observed between cuspate headlands where the island is narrow and the low island elevation promotes overwash penetration, while storm- related rates of erosion are greatest at the headlands where the island elevation is greatest and more sediment is eroded offshore. (p.238)"
 * "The weak but still significant correlation ($r^2=0.18$) between the large dunes of pre-storm E4 (eigenfunction-4) and the low-elevations of post- storm E2 (see Fig. 5f) suggests that (in fact) large dunes adjacent to smaller dunes can be eroded through lateral erosion. (p.231)"
 * "Results of the cospectral analysis suggest that the alongshore variation in dune morphology is correlated with the bathymetry of the inner-shelf at a range of length scales (750, 1450 and 4550). (p.236)"
-
 
 = Criticisms =
 
