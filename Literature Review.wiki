@@ -100,8 +100,8 @@
 	* [[Bevington and Twilley (2018)]]
 	* [[Georgio et al. (2005)]]
 	* [[Harper (1977)]]
-	* [[Houser and Mathew (2011)]]
 	* [[Houser et al. (2008)]]
+	* [[Houser and Mathew (2011)]]
 	* [[Houser (2013)]]
 	* [[Mark et al. (2005)]]
 	* [[Medeiros et al. (2012)]]
@@ -120,6 +120,7 @@
 	* [[Houser and Mathew (2011)]]
 	* [[Paine et al. (2017)]]
 	* [[Splinter et al. (2018)]]
+	* [[Stockon et al. (2009)]]
 	* [[Zhang (2011)]]
 
 ==== Delft3D ====
