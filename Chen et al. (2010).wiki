@@ -1,0 +1,21 @@
+= Synopsis = 
+Waves from hurricane Gustav (2008) is hindcast with [[SWAN]] and [[ADCIRC]]. These are compared to Andrew Kennedy's gauges and is forced with a verified parametric hurricane wind model of [[Hu et al. (2010)]].
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+== General ==
+* "Wave spectral comparisons show that the white-capping formulation of Westhuysen et al. (2007) generally outperforms the default formulation of Komen et al. (1984) in SWAN under hurricane conditions. (p.1)"
+* "maximum wind waves occurring on the right side of the hurricane track and propagating in the direction parallel to the hurricane translation direction (p.1)"
+
+== Methods ==
+=== Hurricane model ===
+* Winds come from H*wind data ([[Powell et al. (1998)]])
+* Central pressure comes form Nation Center for Environmental Prediction (NCEP) best track data
+
+=== SWAN ===
+* resolution = [400m, 3000m]

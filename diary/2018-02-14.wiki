@@ -1,0 +1,18 @@
+= File = 
+[[file:~/Documents/05_meetings/00_individual/2018-02-14/draft.odp]]
+[[file:~/Documents/05_meetings/00_individual/2018-02-14/report.pdf]]
+
+= Notes =
+* Dr. Chen is satisfied with the analysis of the Caminada dune data once the volume change is complete
+	- He suggests one value of dune toe elevation
+	- This should be based on alongshore averaging the dune profiles and determining the point of maximum curvature
+* Dr. Chen want to include forcing in some regard. His main ideas are
+	1. Separate dune change into the episodic portion and the background rates
+	2. Water levels compared to dune crest elevation is the primary control factor
+		* Get water levels for the events from CERA right at Caminada
+		* Compute freeboard for each transect and relate this to change
+* Rates of movement should be compared to the forcing within the separation between episodic vs regular forcing
+	- Look at movement rates for $D_{high,x}$ given prior $D_{high,z}$
+	- Look at volume change given freeboard
+* Plot dune crest elevation change versus spatial relationships to hurricanes (track info) and also incorporate the wind fields
+

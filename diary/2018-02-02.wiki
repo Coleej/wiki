@@ -1,0 +1,10 @@
+= File = 
+[[file:~/Documents/05_meetings/00_individual/2018-02-02/draft.odp]]
+[[file:~/Documents/05_meetings/00_individual/2018-02-02/report.pdf]]
+
+= Notes =
+* Try to separate the effects of tropical storms for background change
+* Keep the lidar systematic error in mind while crafting results
+
+= TODO =
+1. [ ] 

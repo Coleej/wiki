@@ -1,0 +1,16 @@
+= Notes =
+* turbulence in the boundary layer is chiefly important for _sediment transport_
+== Laminar boundary layer (periodic flow) ==
+* Make a distinction between time-periodic flows and wave-driven flows
+* Solutions to the time-periodic flows (assuming a sum of period velocities; one representing free-steam and the other within the boundary layer) are a sum of free-steam and decaying velocity-deficit term
+* Treat tidal-boundary layers as steady state (background) because the period is so large and the boundary layer thickness is so large
+* A reversal of shear sign in the shear profile indicates large velocity gradients and the production of turbulence. This occurs during the return phase of a wave driven flow
+
+== Asymmetric waves ==
+* Asymmetric wave are important for equilibrium profiles
+* Onshore bar migration is postulated to occur because of a skewness in the _acceleration_ profile
+* Skewness and asymmetry are the same thing in statistics, but in coastal engineering, if there is skewness in the outer velocity, then the wave is considered asymmetric
+* For skewed waves, the outer velocity is symmetric but the velocity is skewed
+* Skewness affects the acceleration profile
+	* equal to the third velocity central moment divided by the second moment to the 3/2
+	* The numerator increases with skewness and the sign tells you

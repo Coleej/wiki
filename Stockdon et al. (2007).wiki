@@ -25,6 +25,9 @@
 * Dune morphology was averaged with a 40m sliding window (i.e. three consecutive cross-shore profiles) in order to smooth out noise and allow for easier discrimination as to which impact regime actually occurred in nature (p.12)
 * The object determination of impact regime (defined by assumed values of cross-shore elevation change) was visually compared with pre- and post-storm profiles
 
+== Runup ==
+* The beach slope between the dune crest or berm and the MHW shoreline was used in the calculation of the wave runup (p.9) which is different from the usual situation that uses the foreshore beach slope
+
 == Wave model ==
 * The SWAN model was tested with and without imposed wave energy BCs (derived from WaveWatch III) and a mean difference of ~15cm was found. This indicates that local wind-wave generation was the dominate forcing (p.8)
 * The significant wave was extracted at the 10m isobath every 30 mins and this was taken as the local wave conditions (p.9)

@@ -1,0 +1,42 @@
+= Synopsis = 
+North and South Padre Island, TX is the study site of alongshore variability in dune morphology change between 2000 and 2005 lidar surveys.
+
+= Conclusions =
+Nearshore bathymetry causes refraction patterns in the wave fields which focus the wave energy, directly shaping the beachface and governing in the alongshore whether it is a dissipative or intermediate beach. This control is ultimately geological in origin for this study area as the regional/local geology are responsible for the formation of transverse ridges attached to the nearshore. The alongshore variability in dune height is seen to cohere, but lag, the beach state by several hundred meters and is situated in between distinct beach state zones. The type of beach determines aeolian transport potential (ie the ability to develop a boundary layer capable of transport) and sediment availability (limited by moisture and other larger clasts found in the more energetic zones), with reflective/intermediate having more sediment but less potential than dissipative beaches.
+
+= Criticisms =
+
+
+= Notes =
+== Figures ==
+[[file:images/houser2011_xshr_features.png|Cross-shore features]]
+
+== General ==
+* "Despite erosion of the beachface and backshore and a shoreline retreat of~27m, the foredune height increased over most of the study area and washover was limited to the pre-existing channels. (p.66)"
+* "The time- averaged run-up varies between 0.68m for the more intermediate sections of the island and 0.52m for the more dissipative sections. (p.66)"
+	- Not very much variation in runup for a nearshore bathymetry which is more variable in the alongshore than Caminada. Their site features transverse bars with crests on the order of meters.
+* "The average shoreline retreat between 2000 and 2005 was 27m and was not statistically statistically significant different over the range of dune heights at the 95% confidence level. (p. 67)"
+* "The variables exhibit considerable variability alongshore over a range of different length scales,but with a visually dominant variation at a length scale of over 2000m that reflects the average spacing between washover channels. (p.67)"
+
+=== Results ===
+* Dune height ($D_{high} - D_{low}$) is significantly correlated with $D_{high}, D_{low}, \eps_{surf}$, beach width, and a proxy for beach volume at length scales of 1300, 2300, 5300, and 8200 meters.
+	- However, dune height and backshore elevation (berm height) is output of phase with beach width, contradicting the model that aeolian fetch determines dune height
+	- Dune height depends instead on beach state - intermediate or dissipative beaches (the surf scaling parameter $\eps_{surf}$) and lag the dissipative areas (moving northward) by 200 - 500 meters.
+* "This is consistent with a growing body of literature in which localized coastal response is shown to be forced by wave refraction by offshore features...the results of this study suggest that the beach–dune interaction on this island is also geologically forced. (p.70)"
+
+== Methods ==
+=== Lidar ===
+* 2 Lidar surveys 2000 and 2005
+* Lidar was gridded and tiled with 50m buffer zone
+	- 1m resolution
+	- IDW interpolation
+	- RMSE = 0.24 (2000) and 0.32m (2005)
+
+=== Waves ===
+* Used MIKE21 for waves
+* "The shelf bathymetry fronting the barrier island is not uniform alongshore. Transverse ridges extend to the NNW (10°) or about 40° off the shoreline with an apparently regular spacing."
+	- The bathymetry at Caminada seems more alongshore uniform
+
+
+=== Analysis ===
+* Cross-wavelet analysis with a complex Morlet mother wavelength ([[Torrence and COmpo (1998)]])

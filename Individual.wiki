@@ -31,3 +31,10 @@
 	- Update on morphological analysis of Caminada's central subregion
 [[diary:2018-01-30]]
 	- update for Dr. Chen
+[[diary:2018-02-02]]
+	- Meeting with Ozdemir
+	- Direction on analyzing Caminada data
+[[diary:2018-02-09]]
+[[diary:2018-02-14]]
+	- individual meeting with Dr. Chen
+

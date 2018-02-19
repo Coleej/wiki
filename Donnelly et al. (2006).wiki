@@ -1,0 +1,17 @@
+= Synopsis = 
+
+
+= Conclusions =
+
+
+= Criticisms =
+
+
+= Notes =
+== General ==
+
+== Methods ==
+* excess runup: $\Delta R = R + S - d_c$
+	- $R$ = runup height
+	- $S$ = storm surge elevation
+	- $d_c$ = dune crest elevation

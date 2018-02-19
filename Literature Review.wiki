@@ -79,11 +79,17 @@
 ==== Coastal science ====
 ===== General =====
 	* [[Burvingt et al. (2017)]]
+	* [[Donnelly et al. (2006)]]
 	* [[Donnelly (2007)]]
+	* [[Hapke et al. (2016)]]
 	* [[Hapke et al. (2017)]]
+	* [[Karunarathna et al. (2012)]]
+	* [[Masselink and van Heteren (2014)]]
+	* [[Morton and Sallenger (2003)]]
 	* [[pagan_et_al_2017|Pagán et al. (2017)]]
 	* [[Passeri et al. (2015)]]
 	* [[Plant and Stockdon (2012)]]
+	* [[Plant et al. (2014)]]
 	* [[Sallenger et al. (2003)]]
 	* [[Schwab et al. (2013)]]
 	* [[Stockdon et al. (2007)]]
@@ -93,21 +99,32 @@
 
 ===== GoM science =====
 	* [[Bevington and Twilley (2018)]]
+	* [[Chen et al. (2010)]]
+	* [[Forbes et al. (2010)]]
 	* [[Georgio et al. (2005)]]
 	* [[Harper (1977)]]
+	* [[Houser et al. (2008)]]
+	* [[Houser and Mathew (2011)]]
 	* [[Houser (2013)]]
 	* [[Mark et al. (2005)]]
 	* [[Medeiros et al. (2012)]]
+	* [[Morton and Sallenger (2003)]]
+	* [[Plant et al. (2014)]]
 	* [[Penland et al. (1989)]]
+	* [[Smith et al. (2011)]]
 	* [[Stone et al. (2004)]]
 
 ===== Lidar based research =====
 	* [[Bevington and Twilley (2018)]]
+	* [[Burvingt et al. (2016)]]
 	* [[Claudino-Sales et al. (2010)]]
 	* [[Ge et al. (2017)]]
 	* [[Harley et al. (2017)]]
+	* [[Houser et al. (2008)]]
+	* [[Houser and Mathew (2011)]]
 	* [[Paine et al. (2017)]]
 	* [[Splinter et al. (2018)]]
+	* [[Stockon et al. (2009)]]
 	* [[Zhang (2011)]]
 
 ==== Delft3D ====

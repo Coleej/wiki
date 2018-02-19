@@ -11,3 +11,6 @@
 	- Introduce the Reynolds stress term
 [[diary:2018-01-30]]
 [[diary:2018-02-01]]
+	- scales of turbulence
+	- wall layer model for turbulence flow
+[[diary:2018-02-06]]
