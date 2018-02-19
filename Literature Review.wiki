@@ -81,6 +81,7 @@
 	* [[Burvingt et al. (2017)]]
 	* [[Donnelly et al. (2006)]]
 	* [[Donnelly (2007)]]
+	* [[Hapke et al. (2016)]]
 	* [[Hapke et al. (2017)]]
 	* [[Karunarathna et al. (2012)]]
 	* [[Masselink and van Heteren (2014)]]
@@ -98,6 +99,8 @@
 
 ===== GoM science =====
 	* [[Bevington and Twilley (2018)]]
+	* [[Chen et al. (2010)]]
+	* [[Forbes et al. (2010)]]
 	* [[Georgio et al. (2005)]]
 	* [[Harper (1977)]]
 	* [[Houser et al. (2008)]]
@@ -108,6 +111,7 @@
 	* [[Morton and Sallenger (2003)]]
 	* [[Plant et al. (2014)]]
 	* [[Penland et al. (1989)]]
+	* [[Smith et al. (2011)]]
 	* [[Stone et al. (2004)]]
 
 ===== Lidar based research =====

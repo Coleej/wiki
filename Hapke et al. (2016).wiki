@@ -1,0 +1,35 @@
+= Synopsis = 
+Connects shoreface geology and shoreline response at multiple time-scales (event, decadal, and seasonal) for Fire Island, NY, including the effects of Hurricane Sandy. In there words, "The studies examined the occurrence of paleochannels and deposits within the shoreface along a single barrier island and found a relationship between the pat- terns of decadal shoreline change and variable sediment availability, with shoreline erosion in areas dominated by paleochannels (p.43)".
+
+They specifically try to define the relative importance of geological control on storm response of shorelines. 
+
+= Conclusions =
+Short-term response and recovery dominate the shoreline behavior at large spatial scales and a lack of trend through time to this process indicates that the shoreline at Fire Island, NY is stable at decadal to century time-scales. At the long-term time scales, alongshore variability of the shoreline movement is controlled by offshore geological framework. A meso-scale pattern is suggested that deals with feedback between storms and geology, where frequent storms may periodically disrupt the regular trend but this is quickly adjusted back to equilibrium by geological framework.
+
+= Criticisms =
+* There was not enough physical or geological explanation for attributing eigenfunctions to certain causes of physical phenomena.
+
+= Notes =
+== General ==
+* "hydrodynamic processes alone are not sufficient to explain all shoreline variability over multiple time and space scales. Internal characteristics (e.g., framework geology and geomorphology) of barrier is- land systems exert control on both the long-term and/or short-term responses to the hydrodynamics. (p.42-43)"
+* "The shoreline data- base contains numerous historical shorelines for years in which storms occurred but none of the data were collected specifically to re- solve storm events and subsequent recovery. (p.44)"
+* 
+
+== Methods ==
+=== Hydrodynamics ===
+* Data obtained from Wave Watch 3 ([[WW3]]) and [[NOAA]] tidal station (8531680) 
+
+=== Feature extraction ===
+* Shorelines are determined by contouring a surface interpolated from [[DGPS]] surveys at the MHW elevation and older historical shorelines are taken from interpretations of the high-water line (HWL)
+	- Uncertainty ranges from 10.8m (1933) to 1.2m (2014)
+	- The mean shoreline position is calculated and then subtracted from each shoreline position. Produces
+
+=== Statistical analysis ===
+* "The analysis does not include the very eastern and western portions of the island, 2 and 4 km from the inlets, respectively, in order to exclude the large signals of accretion associated with the construction of the inlet jetties and associated inlet bypassing in the case of Moriches Inlet. (p.46)"
+* Define three alongshore zones based on erosion rates and link these to offshore geological formations
+
+==== Empirical Orthogonal Function analysis ====
+* [[EOF]] is used to decompose the time-series of shoreline movement into temporal and spatial modes
+	* The data is first demeaned and put into a regular matrix
+	* Gaps in the data are filled with interpolation that uses a smoothing filter eg [[Plant et al. (2002)]]
+* EOF1 has the same sign throughout the entire shoreline and is interpreted to represent cross-shore seasonal and storm behavior where the entire island responds to an alongshore uniform hydrodynamic forcing 

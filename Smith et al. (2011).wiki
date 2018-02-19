@@ -1,0 +1,34 @@
+= Synopsis = 
+[[WAM]], [[STWAVE]], and [[ADCIRC]] are used to model waves in wetlands during hurricane Gustav (2008). [[CHL]] and the Andrew Kennedy gauges were used to verify the model. Wave height spatial distribution is shown and compared with the gauges. Detailed wave fields are given from Biloxi marsh, LA and Terrebonne Bay, LA (the STWAVE domains)
+
+= Conclusions =
+The models somewhat show the large wave attenuation created by the wave field and surge entering the back-barrier basin and marshes. Wave re-generation was observed and modeled behind the barrier islands and the wave dissipated to $H_{m0} = O(10cm)$ with peak periods of 2s.
+	- "The implication of these results is the confirmation of the importance of barrier islands and marshes in reducing nearshore wave energy in southeast Louisiana and the validation of numerical models for estimating these nearshore processes. (p.9)"
+
+= Criticisms =
+
+
+= Notes =
+== General ==
+* Peak period in the shallow marsh waters appear to be poorly simulated.
+
+== Methods ==
+=== Observations ===
+* Data from the Corps of Engineers, Coastal and Hydraulics Laboratory ([[CHL]]) were used to assess the modeling framework.
+	* The [[CHL]] gauges were placed in Biloxi marsh and Terrebonne in 0.5m - 1.2m depth
+==== Analysis ====
+* The wave peak period in the wetlands was around 2s, which is near the high-frequency cutoff. The data above this frequency was retained, though this is contrary to common practice, because it show valuable data in this frequency range.
+	- "The measurements show that large, longer-period waves are not present in the wetlands (waves with periods of 10-15 sec and wave heights of one to several meters that exist outside the wetlands). (p.3)"
+
+=== Modeling ===
+==== Domain ====
+===== WAM =====
+* Gulf-scale model with 0.05° resolution
+
+===== STWAVE =====
+* 200-m resolution
+* Nearshore wave transformations and friction term employs the Manning's coefficient
+* Coupled with [[ADCIRC]]
+==== Inputs ====
+* Winds were derived from [[H*wind]]
+* 
