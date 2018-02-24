@@ -14,3 +14,5 @@
 	- scales of turbulence
 	- wall layer model for turbulence flow
 [[diary:2018-02-06]]
+[[diary:2018-02-20]]
+[[diary:2018-02-22]]

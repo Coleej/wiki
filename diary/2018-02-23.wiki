@@ -1,0 +1,15 @@
+= File = 
+[[file:~/Documents/05_meetings/00_individual/2018-02-23/draft.odp]]
+[[file:~/Documents/05_meetings/00_individual/2018-02-23/report.pdf]]
+
+= Notes =
+* 
+
+= TODO =
+1. [ ]
+
+= CoastalSEES =
+* Julio Marriotti has a paper coming out that criticizes coastal Wind forcings near land.
+	- His issue is that closest might not be the best.
+	- For Wax Lake delta, the presence of channels may distort the wind fields.
+* The group considers the USGS 2012 lidar a good set of data (at least for the Wax Lake Delta)
