@@ -4,3 +4,82 @@
 	* These are used to define new observation points to verify the [[Delft3D]] output for [[XBeach]]
 
 = Notes =
+== Replication of Ke Liu's results ==
+* *When comparing the output of the two run below, it appears that no waves are being generated in the regional domain or that they are not being specified on the boundary correctly, though the regional winds are similar for both the wind fields both with and without the hurricane*
+	- before Gustav enters the domain, there is only energy on the boundary which quickly disappears
+	- once Gustav enters the domain, the shape of the wave field is a lot different and the magnitudes are only about half what they should be.
+
+
+=== t133_profile_wave ===
+* *This is the model which Ke said had the most recent and correct wave model*
+* He used *gu_veg.mdw* based on the config_d_hydro file, though there is a second *.mdw* file
+* The results from this simulation (the actual NEFIS output) looks a lot better
+	- The Tp ~ [15s - 20s] as seen is AK's data
+	- Hm0 looks better
+* Ke Liu moved AK's wave gauge to (-90.215, 29.075) which is grid point (M=325, N=476)
+
+==== Inputs ====
+===== mdf =====
+* hurricane_mesh14.grd and .enc files are the same
+* mesh14_08.dep is used in Ke Liu's and mesh14_09_c.dep is used in mine
+* GU_mesh14_95.wnd (flow wind) are the same
+* my run contains test5_082800.ini Filic file (no mentioned in FLOW manual)
+* Ke's model contains a Restid value of tst.20080828.000000 (no mentioned in FLOW manual)
+* Ke Liu was Waqmod = N set, while mine does not (seems like the water quality module)
+* time_series_ride_river.bnd
+* ts_tide_wind_0801to0905_fiver02.bct are identical
+* mesh14_fri07.rgh are identical
+* the veg2007_def files are slightly different (copied to inputs/veg2007_def_kliu)
+* veg_for_m14_08_{u,v} are identical
+* m14_07.2dw are identical
+
+===== mdw =====
+* it seems the new02b.grd are the same, but the mdw file doesn't point exactly to the file
+* it also seems that new02b.dep are the same
+* GU_n02b_95{x,y}.wnd are identical
+* hurricane_mesh14.{grd,enc} are identical
+* For bed level, Ke Liu's uses the mesh14_08.dep while mine uses mesh14_08_c.dep
+* regional winds (GU_mesh14_95{x,y}.wnd) are different
+	- Copied Ke Liu's to gustav/inputs/GU_mesh14_95_kliu{x,y}.wnd
+
+=== t152 ===
+==== Relevant AK gauges ====
+*Note: that there might be different datums. I think Ke's is in NAVD88 (at least the figures in his manuscript are, which appear to correspond to the results I have made with his model) and AK's raw data is just surge above MSL. NAVD88 is around 30cm below MSL for th 2007 - 2011 epoch for GEOID09 for LA*
+
+* [.] AK_1
+	1. [X] Water level
+		- These seem ok. Maybe off by 10cm
+	2. [ ] Hm0
+		- Ke results under predict by 1 m.
+		- His manuscript looks closer than the output
+		- It looks like the bathy is too shallow at the actual location
+		- Making some obs at deeper points as it looks a little better here
+	3. [ ] Tp
+		- Tp are way off. Ke's max Tp = 5s, while AK's is 16s
+		- In deeper water Tp is still way off
+* [.] AK_8
+	1. [X] Water level
+		- Water levels look ok
+	2. [ ] Hm0
+		- At AK location, $Hm0$ under predicts by $> 2m$
+		- His manuscript makes it look bigger than the results I have
+		- points in deeper water still underestimate wave height
+		- Moving points offshore
+	3. [ ] Tp
+		- Under estimate by 10s
+* [.] AK_9
+	1. [X] Water level
+		- Water levels look ok, if Ke's results are in NAVD88
+	2. [ ] Hm0
+		- Hs at AK location is way off, but the bathy input here is only ~0.5m deep where AK reported is as 6.9m deep
+		- Moving deeper, past the sharp (erroneous) gradient in the DEM, the wave heights are closer , but overestimate the wave heights by 0.5m
+		- This appears different than in his manuscript
+		- Moving points deeper, just past the gradient
+	3. [ ] Tp
+* [.] AK_11
+	1. [X] Water level
+		- Looks OK. Maybe under estimates a little, but the hydrograph has the right signal (and it is complicated)
+	2. [ ] Hm0
+		- Underestimates by ~75cm at the AK location. The depth here seems too small (actually a dry point prior to surge)
+		- Moving the point to the west, to a wet point, make the estimation better, but it probably overestimates a little
+	3. [ ] Tp
