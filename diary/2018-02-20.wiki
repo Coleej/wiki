@@ -1,0 +1,15 @@
+= Files = 
+
+= Notes =
+== Source code ==
+domain = (rlenx, rleny) (pi, 2*pi)
+	- this is in initial.F
+
+resolution = nx,ny,nz
+	- found in globals.inc
+	- Keep these resolution a power of two, i.e. nx = 2**i
+
+executable = chnl.x
+
+= TODO =
+1. [ ] 

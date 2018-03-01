@@ -11,6 +11,8 @@ presentation time: Dec. 12th 1:40PM - 6:00PM
 [[file:~/Documents/04_conferences/Fall_AGU_2017/AGU_fall_abstract_draft.pdf|abstract draft (pdf)]]
 [[file:~/Documents/04_conferences/Fall_AGU_2017/AGU_fall_abstract.pdf|abstract]]
 [[file:~/Documents/04_conferences/Fall_AGU_2017/poster.odp|poster draft]]
+[[file:~/Documents/04_conferences/Fall_AGU_2017/poster_presentation.pdf|poster]]
+
 = Links =
 [[http://fallmeeting.agu.org/2017/abstract-submissions/|abstract submission portal]]
 [[https://eos.org/agu-news/a-guide-to-writing-an-agu-abstract|How to write an AGU abstract]]
