@@ -53,6 +53,8 @@
 = Model setup =
 == General ==
 A 2D depth averaged model
+=== different from defaults ===
+* depth output for flow is specified with _Mor_ rather than _Center_
 
 == Grids ==
 === Gulf of Mexico (GoM) mesh ===
