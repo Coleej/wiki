@@ -95,3 +95,9 @@ A 2D depth averaged model
 
 === Coupling ===
 * Ke Liu used the default _dioconfig.ini_ file
+
+= Results =
+* The vertical datum appears to be MSL.
+	- He shifts to NAVD88 by adding 0.234 m, which is close to vdatum's results
+* His matlab code calc_loc_val.m, can be used to output values from [[Delft3D]] map files at arbitrary locations with [[IDW]] interpolation from nearby grid points
+	* He uses this to shift AK gauge 9 to a little deeper place
