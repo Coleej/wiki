@@ -43,4 +43,3 @@
 [[diary:2018-03-02]]
 	- Notes from meeting with Oz
 	- No slides
-
