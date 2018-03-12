@@ -1,4 +1,16 @@
 = General concept =
-Defined as the one-sided width of a 2D wave spectrum's directional distribution as a function of frequency (where the peak frequency is a special case).
+* Defined as the one-sided width of a 2D wave spectrum's directional distribution as a function of frequency (where the peak frequency is a special case).
+* It is related to the standard deviation of the directional distribution and is usually represented by $σ_θ$ in reference to this.
 
-It is related to the standard deviation of the directional distribution and is usually represented by $σ_θ$ in reference to this.
+= Directional distribution =
+* The shape of the directional distribution ($D(\theta)$) is not well known, even in idealized cases
+* A few distributions are used in practice:
+	1.  The $\cos^2(\theta)$ model [[Pierson et al. (1952)]]
+		- $D(\theta) = \frac{2}{\pi}\cos^2(\theta)$ for $\abs(\theta) \lt 90\deg$
+		- $\theta$ is the off-mean wave direction
+		- This is generalized the $\cos^m(\theta)$ model
+	2. A similar model proposed by [[Longuet-Higgins et al. (1963)]]
+		- $D(\theta) = A_2 \cos^{2s}(\dfrac{1}{2} \theta)$
+		- $A_2$ is a complex function of $s$ involving the gamma function and designed to normalize the distribution
+		- $s$ is the width parameter used in [[XBeach|XBeach's]] [[JONSWAP]] boundary condition generation
+			* It is related to the directional width by: $\sigma_\theta = \sqrt{ \frac{2}{s + 1} }$ (in radians)
