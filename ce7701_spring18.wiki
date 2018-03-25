@@ -16,3 +16,5 @@
 [[diary:2018-02-06]]
 [[diary:2018-02-20]]
 [[diary:2018-02-22]]
+[[diary:2018-03-22]]
+	- Notes on refined simulations
