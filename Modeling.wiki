@@ -5,7 +5,10 @@
 == Delft3d ==
 	* [[Delft3D]]
 		* [[klie_delft3d_gustav_model|Ke's Gustav model files]]
+		* [[ke_liu_test|Testing to get Ke Liu's model running]]
 		* [[gustav_xbch_BC_d3d|The modified Ke Liu Gustav D3D model]]
+			* The vertical datum appears to be MSL.
+			* He shifts to NAVD88 by adding 0.234 m
 	* See Hopkins et. al (2017) for example model setup parameters.
 		- No validation section
 

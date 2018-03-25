@@ -1,6 +1,6 @@
 = Files =
-[[file:~/Documents/17_manuscripts/00_my_work/05_xbeach_lit_review/outline.docx]]
-[[file:~/Documents/17_manuscripts/00_my_work/05_xbeach_lit_review/draft.odt]]
+[[file:~/Documents/17_manuscripts/01_my_work/05_xbeach_lit_review/outline.docx]]
+[[file:~/Documents/17_manuscripts/01_my_work/05_xbeach_lit_review/draft.odt]]
 [[file:~/Phd/20_literature_review/XBeach_review_synopses.ods]]
 
 = Reviewed publications =

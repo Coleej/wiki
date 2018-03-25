@@ -1,0 +1,30 @@
+= Rules of thumb for drafting publication =
+== Order of drafting sections ==
+=== Regular form ===
+1. Background
+2. Methodology
+3. Results
+4. Discussion
+	- loops back to results if more (results) are necessary
+5. Conclusions
+
+=== Alternate ===
+* Conclusions first
+
+== Notes ==
+* Begin to target journals during latter stages of drafting
+
+= Notes for CE7701 =
+== Figures ==
+1. Isolate phases to evaluate TKE
+2. Do this for $\Phi = \frac{2\pi}{n}$
+3. Time average at each phase
+4. Plot $U_{avg}$ for a few phases (eg n = 8)
+
+== Stationary checks ==
+1. Check velocity through time
+2. TKE (profile of velocity fluctuations) through time
+3. Check new flux (phase averaged, depth integrated velocity) through time
+	- Use the Chebyshev weight to integrate the phase and spatially averaged $u$
+	- There will be fluctuations even once it reaches stationarity (depends of $Re_{\del}$) and probably a lot for my case
+4. Check 2nd-order moments of quantities

@@ -1,0 +1,19 @@
+new sim dimensions
+nz = 193
+nx = 192
+ny = 256
+
+* domain size
+Lz = 40 * del
+Ly = 60 * del
+Lx = 30 * del
+
+* to prepare new simulations
+	- change the nxf, nyf, nzf
+	- start new sim at phase = 0
+	- Lx = 1.5
+	- Ly = 3 
+	  
+	- change grid points in the global.inc 
+	- change lengths in initial.f 
+

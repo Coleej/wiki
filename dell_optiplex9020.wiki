@@ -8,6 +8,13 @@
 
 == Memory ==
 8GB (2 x 4 GB) of DDR3 SDRAM non-ECC (sold by Micron)
+	- [[https://www.newegg.com/Product/Product.aspx?Item=N82E16820363015]]
+	- DDR3 1600 (PC3 12800)
+	- speed = 1600 MHz
+	- CAS Latency 11
+	- 1.5 V
+	- 11-11-A1
+	- bandwidth/channel = 12.b Gbps
 	- item code: 4 GB 1Rx8 PC3-12800U-11-12-A1
 	- product code: MT8JTF51264AZ-1G6E1
 
