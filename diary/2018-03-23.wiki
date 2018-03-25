@@ -1,0 +1,12 @@
+= File = 
+[[file:~/Documents/05_meetings/10_research_group/2018-03-23/draft.odp]]
+[[file:~/Documents/05_meetings/10_research_group/2018-03-23/report.pdf]]
+
+= Notes =
+* Wave direction contours
+* the water level boundary conditions in XBeach specify the mean water level in the [[NLSW|NLSW equations]] (i.e. $h$ in the water level variable)
+* April 25th is deadline for ICCE detailed abstract
+* May is deadline for [[SoC]] results for Dr. Chen
+
+= TODO =
+1. [ ] 
