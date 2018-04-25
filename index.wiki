@@ -1,21 +1,21 @@
-= Knowledge Base =
+= knowledge base =
 	* [[Projects]] -- PhD et al.
 	* [[Courses]] -- LSU course work et al.
 	* [[Scrathpad]] -- Various temporary stuff
 	* [[Miscellaneous information]] -- Confirmation numbers, etc.
 	* [[Documentation]] -- Self documentation for admin, devel, etc.
 
-= Meetings =
+= meetings =
 	* [[Individual]]
 	* [[Research Group]]
 	* [[CoastalSEES]]
 	* [[Other Meetings]]
 
-= Events =
+= events =
 	* [[Workshops]] -- The output and details of workshops
 	* [[Conferences]] -- Details, dates, and associated files
 	* [[Webinars]] -- Notes from webinars
 	* [[Seminars]] -- Notes from seminars
 
-= Personal =
+= personal =
 	* [[Finances]]
